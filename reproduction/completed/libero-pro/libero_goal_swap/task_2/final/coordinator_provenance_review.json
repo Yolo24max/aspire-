@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "source_sha256": "3629cae5274b16d6dbc704540d35c014084e29decb8fcc9eb5410fb5d190e78f",
+  "records_reviewed": [
+    "provenance_notes.md",
+    "findings.md",
+    "skill_report.json",
+    "coordinator_handoff_audit.json"
+  ],
+  "frozen_source_review": {
+    "status": "PASS",
+    "source": "code/v04_terminal_release.py",
+    "scope": "Reviewed complete frozen source for public API access, geometry provenance, bounded control and absence of seed branches or private evaluator access.",
+    "public_calls": [
+      "get_task_context",
+      "get_robot_state",
+      "localize_object",
+      "Pose",
+      "open_gripper",
+      "move_to_pose",
+      "close_gripper",
+      "step",
+      "RobotAction",
+      "ArmCommand"
+    ],
+    "notes": [
+      "No imports, filesystem, network, native simulator state, evaluator/reward/success access, seed lookup, or fixed object world poses.",
+      "Bottle and cabinet targets come from public point-cloud quantiles; remaining scalar distances, fractions, motion caps and tolerances are relative policy parameters.",
+      "The release path accepts terminal completion without masking a nonterminal command error."
+    ],
+    "selected_and_fix_source_byte_identical": true
+  },
+  "final_coverage": "15 development and 15 exact-once unseen runs, 60 camera videos, selected source identity and capture settings audited PASS",
+  "skill_proposal_status": "pending independent verification; not promoted"
+}

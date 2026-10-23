@@ -1,0 +1,940 @@
+{
+  "benchmark": "libero-pro",
+  "suite": "libero_goal_swap",
+  "task_id": 0,
+  "selected_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+  "selected_version": "code/v08_late_tilt.py",
+  "fix_code": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/fix_code.py",
+  "runs": [
+    {
+      "split": "development",
+      "seed": 51,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0051/run-20261019T094900.810957Z-d3efb466",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0051/run-20261019T094900.810957Z-d3efb466",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0051/run-20261019T094900.810957Z-d3efb466/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0051/run-20261019T094900.810957Z-d3efb466/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 561,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "development",
+          "seed": 51,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0051/run-20261019T094900.810957Z-d3efb466/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0051/run-20261019T094900.810957Z-d3efb466/media/videos/agentview.mp4",
+          "bytes": 459795
+        },
+        "robot0_eye_in_hand": {
+          "split": "development",
+          "seed": 51,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0051/run-20261019T094900.810957Z-d3efb466/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0051/run-20261019T094900.810957Z-d3efb466/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1147884
+        }
+      }
+    },
+    {
+      "split": "development",
+      "seed": 52,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0052/run-20261019T094900.867829Z-8ea75a79",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0052/run-20261019T094900.867829Z-8ea75a79",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0052/run-20261019T094900.867829Z-8ea75a79/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0052/run-20261019T094900.867829Z-8ea75a79/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 561,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "development",
+          "seed": 52,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0052/run-20261019T094900.867829Z-8ea75a79/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0052/run-20261019T094900.867829Z-8ea75a79/media/videos/agentview.mp4",
+          "bytes": 464543
+        },
+        "robot0_eye_in_hand": {
+          "split": "development",
+          "seed": 52,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0052/run-20261019T094900.867829Z-8ea75a79/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0052/run-20261019T094900.867829Z-8ea75a79/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1207732
+        }
+      }
+    },
+    {
+      "split": "development",
+      "seed": 53,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0053/run-20261019T094900.857472Z-895d99fb",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0053/run-20261019T094900.857472Z-895d99fb",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0053/run-20261019T094900.857472Z-895d99fb/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0053/run-20261019T094900.857472Z-895d99fb/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 594,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "development",
+          "seed": 53,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0053/run-20261019T094900.857472Z-895d99fb/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0053/run-20261019T094900.857472Z-895d99fb/media/videos/agentview.mp4",
+          "bytes": 465666
+        },
+        "robot0_eye_in_hand": {
+          "split": "development",
+          "seed": 53,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0053/run-20261019T094900.857472Z-895d99fb/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0053/run-20261019T094900.857472Z-895d99fb/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1213544
+        }
+      }
+    },
+    {
+      "split": "development",
+      "seed": 54,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0054/run-20261019T094900.849845Z-efc51e35",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0054/run-20261019T094900.849845Z-efc51e35",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0054/run-20261019T094900.849845Z-efc51e35/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0054/run-20261019T094900.849845Z-efc51e35/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 562,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "development",
+          "seed": 54,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0054/run-20261019T094900.849845Z-efc51e35/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0054/run-20261019T094900.849845Z-efc51e35/media/videos/agentview.mp4",
+          "bytes": 463137
+        },
+        "robot0_eye_in_hand": {
+          "split": "development",
+          "seed": 54,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0054/run-20261019T094900.849845Z-efc51e35/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0054/run-20261019T094900.849845Z-efc51e35/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1207327
+        }
+      }
+    },
+    {
+      "split": "development",
+      "seed": 55,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0055/run-20261019T094946.936916Z-cea826aa",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0055/run-20261019T094946.936916Z-cea826aa",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0055/run-20261019T094946.936916Z-cea826aa/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0055/run-20261019T094946.936916Z-cea826aa/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 559,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "development",
+          "seed": 55,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0055/run-20261019T094946.936916Z-cea826aa/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0055/run-20261019T094946.936916Z-cea826aa/media/videos/agentview.mp4",
+          "bytes": 462606
+        },
+        "robot0_eye_in_hand": {
+          "split": "development",
+          "seed": 55,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0055/run-20261019T094946.936916Z-cea826aa/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0055/run-20261019T094946.936916Z-cea826aa/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1142967
+        }
+      }
+    },
+    {
+      "split": "development",
+      "seed": 56,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0056/run-20261019T094945.828363Z-35a0515d",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0056/run-20261019T094945.828363Z-35a0515d",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0056/run-20261019T094945.828363Z-35a0515d/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0056/run-20261019T094945.828363Z-35a0515d/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 601,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "development",
+          "seed": 56,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0056/run-20261019T094945.828363Z-35a0515d/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0056/run-20261019T094945.828363Z-35a0515d/media/videos/agentview.mp4",
+          "bytes": 460004
+        },
+        "robot0_eye_in_hand": {
+          "split": "development",
+          "seed": 56,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0056/run-20261019T094945.828363Z-35a0515d/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0056/run-20261019T094945.828363Z-35a0515d/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1171762
+        }
+      }
+    },
+    {
+      "split": "development",
+      "seed": 57,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0057/run-20261019T094950.901964Z-723d5ccf",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0057/run-20261019T094950.901964Z-723d5ccf",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0057/run-20261019T094950.901964Z-723d5ccf/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0057/run-20261019T094950.901964Z-723d5ccf/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 562,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "development",
+          "seed": 57,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0057/run-20261019T094950.901964Z-723d5ccf/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0057/run-20261019T094950.901964Z-723d5ccf/media/videos/agentview.mp4",
+          "bytes": 460961
+        },
+        "robot0_eye_in_hand": {
+          "split": "development",
+          "seed": 57,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0057/run-20261019T094950.901964Z-723d5ccf/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0057/run-20261019T094950.901964Z-723d5ccf/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1153125
+        }
+      }
+    },
+    {
+      "split": "development",
+      "seed": 58,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0058/run-20261019T094944.221158Z-23ca5fec",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0058/run-20261019T094944.221158Z-23ca5fec",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0058/run-20261019T094944.221158Z-23ca5fec/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0058/run-20261019T094944.221158Z-23ca5fec/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 604,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "development",
+          "seed": 58,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0058/run-20261019T094944.221158Z-23ca5fec/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0058/run-20261019T094944.221158Z-23ca5fec/media/videos/agentview.mp4",
+          "bytes": 466602
+        },
+        "robot0_eye_in_hand": {
+          "split": "development",
+          "seed": 58,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0058/run-20261019T094944.221158Z-23ca5fec/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0058/run-20261019T094944.221158Z-23ca5fec/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1195152
+        }
+      }
+    },
+    {
+      "split": "development",
+      "seed": 59,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0059/run-20261019T095027.961917Z-5a17acdb",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0059/run-20261019T095027.961917Z-5a17acdb",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0059/run-20261019T095027.961917Z-5a17acdb/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0059/run-20261019T095027.961917Z-5a17acdb/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 565,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "development",
+          "seed": 59,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0059/run-20261019T095027.961917Z-5a17acdb/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0059/run-20261019T095027.961917Z-5a17acdb/media/videos/agentview.mp4",
+          "bytes": 445850
+        },
+        "robot0_eye_in_hand": {
+          "split": "development",
+          "seed": 59,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0059/run-20261019T095027.961917Z-5a17acdb/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0059/run-20261019T095027.961917Z-5a17acdb/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1134980
+        }
+      }
+    },
+    {
+      "split": "development",
+      "seed": 60,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0060/run-20261019T095034.217989Z-1c8717e4",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0060/run-20261019T095034.217989Z-1c8717e4",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0060/run-20261019T095034.217989Z-1c8717e4/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0060/run-20261019T095034.217989Z-1c8717e4/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 565,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "development",
+          "seed": 60,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0060/run-20261019T095034.217989Z-1c8717e4/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0060/run-20261019T095034.217989Z-1c8717e4/media/videos/agentview.mp4",
+          "bytes": 453580
+        },
+        "robot0_eye_in_hand": {
+          "split": "development",
+          "seed": 60,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0060/run-20261019T095034.217989Z-1c8717e4/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0060/run-20261019T095034.217989Z-1c8717e4/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1155704
+        }
+      }
+    },
+    {
+      "split": "development",
+      "seed": 61,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0061/run-20261019T095032.543393Z-aa5bb6bf",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0061/run-20261019T095032.543393Z-aa5bb6bf",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0061/run-20261019T095032.543393Z-aa5bb6bf/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0061/run-20261019T095032.543393Z-aa5bb6bf/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 600,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "development",
+          "seed": 61,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0061/run-20261019T095032.543393Z-aa5bb6bf/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0061/run-20261019T095032.543393Z-aa5bb6bf/media/videos/agentview.mp4",
+          "bytes": 462910
+        },
+        "robot0_eye_in_hand": {
+          "split": "development",
+          "seed": 61,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0061/run-20261019T095032.543393Z-aa5bb6bf/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0061/run-20261019T095032.543393Z-aa5bb6bf/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1226020
+        }
+      }
+    },
+    {
+      "split": "development",
+      "seed": 62,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0062/run-20261019T095031.155579Z-1bf1e96d",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0062/run-20261019T095031.155579Z-1bf1e96d",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0062/run-20261019T095031.155579Z-1bf1e96d/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0062/run-20261019T095031.155579Z-1bf1e96d/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 562,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "development",
+          "seed": 62,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0062/run-20261019T095031.155579Z-1bf1e96d/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0062/run-20261019T095031.155579Z-1bf1e96d/media/videos/agentview.mp4",
+          "bytes": 459404
+        },
+        "robot0_eye_in_hand": {
+          "split": "development",
+          "seed": 62,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0062/run-20261019T095031.155579Z-1bf1e96d/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0062/run-20261019T095031.155579Z-1bf1e96d/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1165114
+        }
+      }
+    },
+    {
+      "split": "development",
+      "seed": 63,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0063/run-20261019T095107.793640Z-7be5b69b",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0063/run-20261019T095107.793640Z-7be5b69b",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0063/run-20261019T095107.793640Z-7be5b69b/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0063/run-20261019T095107.793640Z-7be5b69b/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 559,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "development",
+          "seed": 63,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0063/run-20261019T095107.793640Z-7be5b69b/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0063/run-20261019T095107.793640Z-7be5b69b/media/videos/agentview.mp4",
+          "bytes": 474294
+        },
+        "robot0_eye_in_hand": {
+          "split": "development",
+          "seed": 63,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0063/run-20261019T095107.793640Z-7be5b69b/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0063/run-20261019T095107.793640Z-7be5b69b/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1233513
+        }
+      }
+    },
+    {
+      "split": "development",
+      "seed": 64,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0064/run-20261019T095115.099625Z-c5246ecf",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0064/run-20261019T095115.099625Z-c5246ecf",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0064/run-20261019T095115.099625Z-c5246ecf/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0064/run-20261019T095115.099625Z-c5246ecf/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 596,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "development",
+          "seed": 64,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0064/run-20261019T095115.099625Z-c5246ecf/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0064/run-20261019T095115.099625Z-c5246ecf/media/videos/agentview.mp4",
+          "bytes": 465413
+        },
+        "robot0_eye_in_hand": {
+          "split": "development",
+          "seed": 64,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0064/run-20261019T095115.099625Z-c5246ecf/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0064/run-20261019T095115.099625Z-c5246ecf/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1239213
+        }
+      }
+    },
+    {
+      "split": "development",
+      "seed": 65,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0065/run-20261019T095117.484213Z-a8182c15",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0065/run-20261019T095117.484213Z-a8182c15",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0065/run-20261019T095117.484213Z-a8182c15/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0065/run-20261019T095117.484213Z-a8182c15/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 590,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "development",
+          "seed": 65,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0065/run-20261019T095117.484213Z-a8182c15/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0065/run-20261019T095117.484213Z-a8182c15/media/videos/agentview.mp4",
+          "bytes": 457992
+        },
+        "robot0_eye_in_hand": {
+          "split": "development",
+          "seed": 65,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0065/run-20261019T095117.484213Z-a8182c15/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/attempts/v08/0065/run-20261019T095117.484213Z-a8182c15/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1245471
+        }
+      }
+    },
+    {
+      "split": "unseen",
+      "seed": 66,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0066/run-20261019T095554.335326Z-8637d226",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0066/run-20261019T095554.335326Z-8637d226",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0066/run-20261019T095554.335326Z-8637d226/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0066/run-20261019T095554.335326Z-8637d226/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 593,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "unseen",
+          "seed": 66,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0066/run-20261019T095554.335326Z-8637d226/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0066/run-20261019T095554.335326Z-8637d226/media/videos/agentview.mp4",
+          "bytes": 459725
+        },
+        "robot0_eye_in_hand": {
+          "split": "unseen",
+          "seed": 66,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0066/run-20261019T095554.335326Z-8637d226/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0066/run-20261019T095554.335326Z-8637d226/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1214532
+        }
+      }
+    },
+    {
+      "split": "unseen",
+      "seed": 67,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0067/run-20261019T095554.369950Z-eb25a726",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0067/run-20261019T095554.369950Z-eb25a726",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0067/run-20261019T095554.369950Z-eb25a726/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0067/run-20261019T095554.369950Z-eb25a726/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 564,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "unseen",
+          "seed": 67,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0067/run-20261019T095554.369950Z-eb25a726/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0067/run-20261019T095554.369950Z-eb25a726/media/videos/agentview.mp4",
+          "bytes": 452609
+        },
+        "robot0_eye_in_hand": {
+          "split": "unseen",
+          "seed": 67,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0067/run-20261019T095554.369950Z-eb25a726/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0067/run-20261019T095554.369950Z-eb25a726/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1124198
+        }
+      }
+    },
+    {
+      "split": "unseen",
+      "seed": 68,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0068/run-20261019T095554.299363Z-44bcd817",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0068/run-20261019T095554.299363Z-44bcd817",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0068/run-20261019T095554.299363Z-44bcd817/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0068/run-20261019T095554.299363Z-44bcd817/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 592,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "unseen",
+          "seed": 68,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0068/run-20261019T095554.299363Z-44bcd817/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0068/run-20261019T095554.299363Z-44bcd817/media/videos/agentview.mp4",
+          "bytes": 461943
+        },
+        "robot0_eye_in_hand": {
+          "split": "unseen",
+          "seed": 68,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0068/run-20261019T095554.299363Z-44bcd817/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0068/run-20261019T095554.299363Z-44bcd817/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1275103
+        }
+      }
+    },
+    {
+      "split": "unseen",
+      "seed": 69,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0069/run-20261019T095554.287163Z-9fa3dee6",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0069/run-20261019T095554.287163Z-9fa3dee6",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0069/run-20261019T095554.287163Z-9fa3dee6/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0069/run-20261019T095554.287163Z-9fa3dee6/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 555,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "unseen",
+          "seed": 69,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0069/run-20261019T095554.287163Z-9fa3dee6/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0069/run-20261019T095554.287163Z-9fa3dee6/media/videos/agentview.mp4",
+          "bytes": 474180
+        },
+        "robot0_eye_in_hand": {
+          "split": "unseen",
+          "seed": 69,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0069/run-20261019T095554.287163Z-9fa3dee6/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0069/run-20261019T095554.287163Z-9fa3dee6/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1160503
+        }
+      }
+    },
+    {
+      "split": "unseen",
+      "seed": 70,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0070/run-20261019T095641.035993Z-263bab8e",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0070/run-20261019T095641.035993Z-263bab8e",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0070/run-20261019T095641.035993Z-263bab8e/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0070/run-20261019T095641.035993Z-263bab8e/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 562,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "unseen",
+          "seed": 70,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0070/run-20261019T095641.035993Z-263bab8e/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0070/run-20261019T095641.035993Z-263bab8e/media/videos/agentview.mp4",
+          "bytes": 465741
+        },
+        "robot0_eye_in_hand": {
+          "split": "unseen",
+          "seed": 70,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0070/run-20261019T095641.035993Z-263bab8e/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0070/run-20261019T095641.035993Z-263bab8e/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1166899
+        }
+      }
+    },
+    {
+      "split": "unseen",
+      "seed": 71,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0071/run-20261019T095638.947771Z-5c35aeab",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0071/run-20261019T095638.947771Z-5c35aeab",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0071/run-20261019T095638.947771Z-5c35aeab/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0071/run-20261019T095638.947771Z-5c35aeab/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 633,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "unseen",
+          "seed": 71,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0071/run-20261019T095638.947771Z-5c35aeab/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0071/run-20261019T095638.947771Z-5c35aeab/media/videos/agentview.mp4",
+          "bytes": 484836
+        },
+        "robot0_eye_in_hand": {
+          "split": "unseen",
+          "seed": 71,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0071/run-20261019T095638.947771Z-5c35aeab/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0071/run-20261019T095638.947771Z-5c35aeab/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1352443
+        }
+      }
+    },
+    {
+      "split": "unseen",
+      "seed": 72,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0072/run-20261019T095643.678995Z-771f37bb",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0072/run-20261019T095643.678995Z-771f37bb",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0072/run-20261019T095643.678995Z-771f37bb/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0072/run-20261019T095643.678995Z-771f37bb/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 565,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "unseen",
+          "seed": 72,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0072/run-20261019T095643.678995Z-771f37bb/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0072/run-20261019T095643.678995Z-771f37bb/media/videos/agentview.mp4",
+          "bytes": 465317
+        },
+        "robot0_eye_in_hand": {
+          "split": "unseen",
+          "seed": 72,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0072/run-20261019T095643.678995Z-771f37bb/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0072/run-20261019T095643.678995Z-771f37bb/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1196293
+        }
+      }
+    },
+    {
+      "split": "unseen",
+      "seed": 73,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0073/run-20261019T095638.216370Z-d777c3a4",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0073/run-20261019T095638.216370Z-d777c3a4",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0073/run-20261019T095638.216370Z-d777c3a4/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0073/run-20261019T095638.216370Z-d777c3a4/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": false,
+      "steps_executed": 699,
+      "termination_reason": "program_completed",
+      "videos": {
+        "agentview": {
+          "split": "unseen",
+          "seed": 73,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0073/run-20261019T095638.216370Z-d777c3a4/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0073/run-20261019T095638.216370Z-d777c3a4/media/videos/agentview.mp4",
+          "bytes": 539265
+        },
+        "robot0_eye_in_hand": {
+          "split": "unseen",
+          "seed": 73,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0073/run-20261019T095638.216370Z-d777c3a4/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0073/run-20261019T095638.216370Z-d777c3a4/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1392651
+        }
+      }
+    },
+    {
+      "split": "unseen",
+      "seed": 74,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0074/run-20261019T095719.687210Z-79ef7405",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0074/run-20261019T095719.687210Z-79ef7405",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0074/run-20261019T095719.687210Z-79ef7405/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0074/run-20261019T095719.687210Z-79ef7405/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": false,
+      "task_success": false,
+      "steps_executed": 782,
+      "termination_reason": "program_error",
+      "videos": {
+        "agentview": {
+          "split": "unseen",
+          "seed": 74,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0074/run-20261019T095719.687210Z-79ef7405/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0074/run-20261019T095719.687210Z-79ef7405/media/videos/agentview.mp4",
+          "bytes": 491156
+        },
+        "robot0_eye_in_hand": {
+          "split": "unseen",
+          "seed": 74,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0074/run-20261019T095719.687210Z-79ef7405/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0074/run-20261019T095719.687210Z-79ef7405/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1121999
+        }
+      }
+    },
+    {
+      "split": "unseen",
+      "seed": 75,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0075/run-20261019T095721.035674Z-12445a12",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0075/run-20261019T095721.035674Z-12445a12",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0075/run-20261019T095721.035674Z-12445a12/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0075/run-20261019T095721.035674Z-12445a12/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 595,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "unseen",
+          "seed": 75,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0075/run-20261019T095721.035674Z-12445a12/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0075/run-20261019T095721.035674Z-12445a12/media/videos/agentview.mp4",
+          "bytes": 455775
+        },
+        "robot0_eye_in_hand": {
+          "split": "unseen",
+          "seed": 75,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0075/run-20261019T095721.035674Z-12445a12/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0075/run-20261019T095721.035674Z-12445a12/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1199400
+        }
+      }
+    },
+    {
+      "split": "unseen",
+      "seed": 76,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0076/run-20261019T095722.589346Z-638c4462",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0076/run-20261019T095722.589346Z-638c4462",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0076/run-20261019T095722.589346Z-638c4462/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0076/run-20261019T095722.589346Z-638c4462/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 591,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "unseen",
+          "seed": 76,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0076/run-20261019T095722.589346Z-638c4462/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0076/run-20261019T095722.589346Z-638c4462/media/videos/agentview.mp4",
+          "bytes": 474554
+        },
+        "robot0_eye_in_hand": {
+          "split": "unseen",
+          "seed": 76,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0076/run-20261019T095722.589346Z-638c4462/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0076/run-20261019T095722.589346Z-638c4462/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1356272
+        }
+      }
+    },
+    {
+      "split": "unseen",
+      "seed": 77,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0077/run-20261019T095722.420929Z-48e65a04",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0077/run-20261019T095722.420929Z-48e65a04",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0077/run-20261019T095722.420929Z-48e65a04/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0077/run-20261019T095722.420929Z-48e65a04/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": false,
+      "task_success": false,
+      "steps_executed": 783,
+      "termination_reason": "program_error",
+      "videos": {
+        "agentview": {
+          "split": "unseen",
+          "seed": 77,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0077/run-20261019T095722.420929Z-48e65a04/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0077/run-20261019T095722.420929Z-48e65a04/media/videos/agentview.mp4",
+          "bytes": 486165
+        },
+        "robot0_eye_in_hand": {
+          "split": "unseen",
+          "seed": 77,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0077/run-20261019T095722.420929Z-48e65a04/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0077/run-20261019T095722.420929Z-48e65a04/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1132061
+        }
+      }
+    },
+    {
+      "split": "unseen",
+      "seed": 78,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0078/run-20261019T095807.976013Z-47b477f2",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0078/run-20261019T095807.976013Z-47b477f2",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0078/run-20261019T095807.976013Z-47b477f2/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0078/run-20261019T095807.976013Z-47b477f2/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 593,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "unseen",
+          "seed": 78,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0078/run-20261019T095807.976013Z-47b477f2/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0078/run-20261019T095807.976013Z-47b477f2/media/videos/agentview.mp4",
+          "bytes": 459055
+        },
+        "robot0_eye_in_hand": {
+          "split": "unseen",
+          "seed": 78,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0078/run-20261019T095807.976013Z-47b477f2/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0078/run-20261019T095807.976013Z-47b477f2/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1282228
+        }
+      }
+    },
+    {
+      "split": "unseen",
+      "seed": 79,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0079/run-20261019T095805.117129Z-c5198bb4",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0079/run-20261019T095805.117129Z-c5198bb4",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0079/run-20261019T095805.117129Z-c5198bb4/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0079/run-20261019T095805.117129Z-c5198bb4/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 590,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "unseen",
+          "seed": 79,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0079/run-20261019T095805.117129Z-c5198bb4/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0079/run-20261019T095805.117129Z-c5198bb4/media/videos/agentview.mp4",
+          "bytes": 454208
+        },
+        "robot0_eye_in_hand": {
+          "split": "unseen",
+          "seed": 79,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0079/run-20261019T095805.117129Z-c5198bb4/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0079/run-20261019T095805.117129Z-c5198bb4/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1183974
+        }
+      }
+    },
+    {
+      "split": "unseen",
+      "seed": 80,
+      "run_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0080/run-20261019T095807.804028Z-746fc039",
+      "server_run_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0080/run-20261019T095807.804028Z-746fc039",
+      "outcome": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0080/run-20261019T095807.804028Z-746fc039/outcome.json",
+      "program_source": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0080/run-20261019T095807.804028Z-746fc039/source/program.py",
+      "source_sha256": "f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+      "program_ok": true,
+      "task_success": true,
+      "steps_executed": 563,
+      "termination_reason": "task_succeeded",
+      "videos": {
+        "agentview": {
+          "split": "unseen",
+          "seed": 80,
+          "camera": "agentview",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0080/run-20261019T095807.804028Z-746fc039/media/videos/agentview.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0080/run-20261019T095807.804028Z-746fc039/media/videos/agentview.mp4",
+          "bytes": 462863
+        },
+        "robot0_eye_in_hand": {
+          "split": "unseen",
+          "seed": 80,
+          "camera": "robot0_eye_in_hand",
+          "path": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0080/run-20261019T095807.804028Z-746fc039/media/videos/robot0_eye_in_hand.mp4",
+          "server_path": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/0080/run-20261019T095807.804028Z-746fc039/media/videos/robot0_eye_in_hand.mp4",
+          "bytes": 1126616
+        }
+      }
+    }
+  ]
+}

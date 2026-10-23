@@ -1,0 +1,1818 @@
+{
+  "status": "PASS",
+  "suite": "cube_restack",
+  "run_id": "4ebe635cc1756480",
+  "source_sha256": "eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742",
+  "checked_at": 1792664608.240058,
+  "unique_claims": 100,
+  "unique_guard_process_identities": 100,
+  "original_timeout_seconds": 900,
+  "original_resource_reserve_bytes": 3221225472,
+  "science_settings": "saved/1000steps/800x512/fresh_per_seed/workers1",
+  "state_sha256": "30b838f38eb25c7b3f697e60ffefacdafaaf15c5a44e388281319bfc8a171af0",
+  "manifest_sha256": "d673dbd3e37abbb39ddb892ba15242ea27118f1e6b25a493ef8d78ddfb4a3eb1",
+  "formal_task_success": 100,
+  "formal_program_ok": 100,
+  "claims": [
+    {
+      "seed": 1,
+      "guard_identity": {
+        "pid": 123579,
+        "start_ticks": "119115655",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 1 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "28ed46926fe88749e5d2cd1a1cb1fb03b104b22a8908bda8ee35fb1bb822fe78",
+      "admission_sha256": "1b076c25715237370b2d9fa707e3b454d967075379e8140525eeb16e5e54398d",
+      "admission": {
+        "disk_free_bytes": 31881334784,
+        "memory_headroom_bytes": 6204497920,
+        "phase": "admitted",
+        "checked_at": 1792659464.890496
+      }
+    },
+    {
+      "seed": 2,
+      "guard_identity": {
+        "pid": 123924,
+        "start_ticks": "119119803",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 2 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "83eeaff497536872a8d29eb964cd17e6dee013d3f08c195132502da7956eeab6",
+      "admission_sha256": "bba5a9e87a0157d79228090857c13c57494627d3ce5eb3c65e9b164d850e013b",
+      "admission": {
+        "disk_free_bytes": 31819186176,
+        "memory_headroom_bytes": 6137892864,
+        "phase": "admitted",
+        "checked_at": 1792659506.3701468
+      }
+    },
+    {
+      "seed": 3,
+      "guard_identity": {
+        "pid": 124275,
+        "start_ticks": "119124065",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 3 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "706162b3569e35bc8da17172d4b286e7da36d0dd6fe81c3209b9efc4bcbfca24",
+      "admission_sha256": "805f8ff6c3980e077fd4a433fe515f92f76f11a41af360db328490455a32e89b",
+      "admission": {
+        "disk_free_bytes": 31757242368,
+        "memory_headroom_bytes": 6072786944,
+        "phase": "admitted",
+        "checked_at": 1792659548.985115
+      }
+    },
+    {
+      "seed": 4,
+      "guard_identity": {
+        "pid": 124655,
+        "start_ticks": "119128174",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 4 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "21a1e60b0e000e8ccfe9a0c3445c7db40eb7020dae48e0ebf7db2fdddd0279b4",
+      "admission_sha256": "7aef0067ce1e3620c81c28e5811692d923fa64d5bccb99f57fce44406b18dfa8",
+      "admission": {
+        "disk_free_bytes": 31639719936,
+        "memory_headroom_bytes": 5945241600,
+        "phase": "admitted",
+        "checked_at": 1792659590.0734947
+      }
+    },
+    {
+      "seed": 5,
+      "guard_identity": {
+        "pid": 125006,
+        "start_ticks": "119132281",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 5 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "c5a7a2822244550146a1fa1d451998564c5a3f876ba4477a3850c45d6565d423",
+      "admission_sha256": "7a8efe4c467925cfa67b15d3e4dacd10ad580215d5eff091bba3f56358779b94",
+      "admission": {
+        "disk_free_bytes": 31639199744,
+        "memory_headroom_bytes": 5945024512,
+        "phase": "admitted",
+        "checked_at": 1792659631.1474473
+      }
+    },
+    {
+      "seed": 6,
+      "guard_identity": {
+        "pid": 125359,
+        "start_ticks": "119136361",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 6 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "10d445f463c3365cde8abc364887ba18a7f6b06831f6e148a55f0a2bf1c8950f",
+      "admission_sha256": "b8cd4f6f346a1f8d6d42e01a674c2d31d91bc1965cf9825353301f496e6a38eb",
+      "admission": {
+        "disk_free_bytes": 31637364736,
+        "memory_headroom_bytes": 5938524160,
+        "phase": "admitted",
+        "checked_at": 1792659671.9448566
+      }
+    },
+    {
+      "seed": 7,
+      "guard_identity": {
+        "pid": 125710,
+        "start_ticks": "119140600",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 7 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "349a722d6e04ba3501c1d4e649de4edb1bb25f0dc8d7a77f66cb22fdd5fc204c",
+      "admission_sha256": "43f6e38d70a7d297905f14cc04cc8914fb0f0e94d1e035730738366a15d1c391",
+      "admission": {
+        "disk_free_bytes": 31636897792,
+        "memory_headroom_bytes": 5940535296,
+        "phase": "admitted",
+        "checked_at": 1792659714.3442547
+      }
+    },
+    {
+      "seed": 8,
+      "guard_identity": {
+        "pid": 126059,
+        "start_ticks": "119144803",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 8 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "4654fbb1183061c878b11457a7ed19ba9904f7def5f0f88703815e1c31bc9bc2",
+      "admission_sha256": "53a1391bd7167a6632199a355a4c63b0823476a933c9d30eba88701b14595b73",
+      "admission": {
+        "disk_free_bytes": 31690874880,
+        "memory_headroom_bytes": 5999484928,
+        "phase": "admitted",
+        "checked_at": 1792659756.36852
+      }
+    },
+    {
+      "seed": 9,
+      "guard_identity": {
+        "pid": 126412,
+        "start_ticks": "119149044",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 9 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "a19ee2780ca79278061c777945b03bfd38234bb9d0ae0398a446e2abf1da3b99",
+      "admission_sha256": "e6f8d951dd14206281bde54ac8e55f501b0567dc59c83e42f821fc8a3042293d",
+      "admission": {
+        "disk_free_bytes": 31573336064,
+        "memory_headroom_bytes": 5871702016,
+        "phase": "admitted",
+        "checked_at": 1792659798.7766364
+      }
+    },
+    {
+      "seed": 10,
+      "guard_identity": {
+        "pid": 126763,
+        "start_ticks": "119153184",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 10 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "0caf2179f49555d6feaf64825546514e310cc0caac6fba82db72453c50870eb2",
+      "admission_sha256": "5df62ca8cfff3e6dd1d43517f0b256bd4fa087073f8f3714acfab623dee09bb4",
+      "admission": {
+        "disk_free_bytes": 31574986752,
+        "memory_headroom_bytes": 5873635328,
+        "phase": "admitted",
+        "checked_at": 1792659840.1736004
+      }
+    },
+    {
+      "seed": 11,
+      "guard_identity": {
+        "pid": 127115,
+        "start_ticks": "119157464",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 11 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "a19e8b2c3162735f5684e38ca0a571c1b7b1edd12585277d20c06259720cb7f5",
+      "admission_sha256": "0a459628c7c065509aa4859a8b2af9e729599193d3de2a5b78c1b26d4bd4551f",
+      "admission": {
+        "disk_free_bytes": 31572414464,
+        "memory_headroom_bytes": 5870198784,
+        "phase": "admitted",
+        "checked_at": 1792659882.9831934
+      }
+    },
+    {
+      "seed": 12,
+      "guard_identity": {
+        "pid": 127462,
+        "start_ticks": "119161702",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 12 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "c8d4cdd6ff6fc71f62cfdd6d9cdf700ec6994baf073b80fdae805c48845c53a6",
+      "admission_sha256": "2d2badac3dbeb5b476929f34dd67aaa7d8ef974bf8b7b107bc9a34ab7731b0b0",
+      "admission": {
+        "disk_free_bytes": 31627456512,
+        "memory_headroom_bytes": 5930561536,
+        "phase": "admitted",
+        "checked_at": 1792659925.3623948
+      }
+    },
+    {
+      "seed": 13,
+      "guard_identity": {
+        "pid": 127813,
+        "start_ticks": "119165783",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 13 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "27691312c0b1d9b3b59c362d02d76b0003e1e86d19c102f586f2d1edf443b0da",
+      "admission_sha256": "567c4fc0911fd61c08a9af4317ee215d454f8f974100e25785019150ca9b38b4",
+      "admission": {
+        "disk_free_bytes": 31510437888,
+        "memory_headroom_bytes": 5805420544,
+        "phase": "admitted",
+        "checked_at": 1792659966.1735373
+      }
+    },
+    {
+      "seed": 14,
+      "guard_identity": {
+        "pid": 128165,
+        "start_ticks": "119170001",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 14 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "0c48e9b93f199048b0e851fbc07a89a7eb63f3d86c54351a3a2aa3357f61bece",
+      "admission_sha256": "e73b74f42d0442a5fda01741fb5f43267ae8d0c06e13a08c96069a34d45985ab",
+      "admission": {
+        "disk_free_bytes": 31508189184,
+        "memory_headroom_bytes": 5802622976,
+        "phase": "admitted",
+        "checked_at": 1792660008.3498926
+      }
+    },
+    {
+      "seed": 15,
+      "guard_identity": {
+        "pid": 128516,
+        "start_ticks": "119174287",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 15 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "bc3ca93e42f80b646edad8d769662b47b101aec924dd6fa391f3458a9288b283",
+      "admission_sha256": "3b70cbe7a8e12ad1f0b8b863bf2893e4545d6887c9e84df37d8b2a255c4b4cd6",
+      "admission": {
+        "disk_free_bytes": 31505391616,
+        "memory_headroom_bytes": 5798891520,
+        "phase": "admitted",
+        "checked_at": 1792660051.2134643
+      }
+    },
+    {
+      "seed": 16,
+      "guard_identity": {
+        "pid": 128882,
+        "start_ticks": "119178547",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 16 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "384b260e1c2de782baa609824c51e5c76d3495fff933161110c692b3e2aa3bcf",
+      "admission_sha256": "e5cad0e35a7abfbd98b31effe15ca80b9543c511c996fa495b1735ec2a477be4",
+      "admission": {
+        "disk_free_bytes": 31442153472,
+        "memory_headroom_bytes": 5732175872,
+        "phase": "admitted",
+        "checked_at": 1792660093.8138049
+      }
+    },
+    {
+      "seed": 17,
+      "guard_identity": {
+        "pid": 129234,
+        "start_ticks": "119182837",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 17 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "5b19c22d4dd1a5b3e44b91dfc1e59ee46e24cd45d9ed27e75297999fedd027e9",
+      "admission_sha256": "7465d9c623178c5acba198b9a1aa5f947a953a304dd0218ba977913e4aa97578",
+      "admission": {
+        "disk_free_bytes": 31441518592,
+        "memory_headroom_bytes": 5731225600,
+        "phase": "admitted",
+        "checked_at": 1792660136.706119
+      }
+    },
+    {
+      "seed": 18,
+      "guard_identity": {
+        "pid": 129585,
+        "start_ticks": "119187132",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 18 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "5aed111333f3e6d2ffc507506a20cf6b7ff9af6155768bf6d7fad2b3b16a783c",
+      "admission_sha256": "edb1af2275c20acde858811d94691fc9c41955ac4bca8db31f496ddb7d777def",
+      "admission": {
+        "disk_free_bytes": 31495229440,
+        "memory_headroom_bytes": 5791862784,
+        "phase": "admitted",
+        "checked_at": 1792660179.6576886
+      }
+    },
+    {
+      "seed": 19,
+      "guard_identity": {
+        "pid": 129933,
+        "start_ticks": "119191218",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 19 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "0cb88e496d4ef3e9a062062173ea8c72a30f06e57bd5c2f687263e82eb5a0c9c",
+      "admission_sha256": "4491aacfa1a784b03ffb09f471eeecb3ac0bb1de4f6ad7d204bc3364b6b20f10",
+      "admission": {
+        "disk_free_bytes": 31377272832,
+        "memory_headroom_bytes": 5665947648,
+        "phase": "admitted",
+        "checked_at": 1792660220.52167
+      }
+    },
+    {
+      "seed": 20,
+      "guard_identity": {
+        "pid": 130285,
+        "start_ticks": "119195602",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 20 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "53b20f2adfa292a706127542fcc756146c23c33ed7a94b77648438166b7c196a",
+      "admission_sha256": "7736ee25590b8013da4d1d7cab961a97e5cec635811d2c6790b6eb6ab10261aa",
+      "admission": {
+        "disk_free_bytes": 31376351232,
+        "memory_headroom_bytes": 5662543872,
+        "phase": "admitted",
+        "checked_at": 1792660264.3613598
+      }
+    },
+    {
+      "seed": 21,
+      "guard_identity": {
+        "pid": 130636,
+        "start_ticks": "119199801",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 21 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "1ae19b14f6ac883e21ac9f3aa04781bbbf0e7cc5ab374c3c1f1b0e9bc078b81e",
+      "admission_sha256": "3cd6296da870a99c20b44b0945d26c679ff25738eb0da399a7fb72173917a26b",
+      "admission": {
+        "disk_free_bytes": 31422570496,
+        "memory_headroom_bytes": 5675745280,
+        "phase": "admitted",
+        "checked_at": 1792660306.3453567
+      }
+    },
+    {
+      "seed": 22,
+      "guard_identity": {
+        "pid": 130985,
+        "start_ticks": "119204035",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 22 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "1513af8890cf4ba81e6c944fae41a051d2528a1dffb4685a451e54c5b02a676b",
+      "admission_sha256": "59c7e98f256da90c953312cdbd9dd6cc70a901844509e26ee6711a6f5110cd20",
+      "admission": {
+        "disk_free_bytes": 31314698240,
+        "memory_headroom_bytes": 5603487744,
+        "phase": "admitted",
+        "checked_at": 1792660348.6865838
+      }
+    },
+    {
+      "seed": 23,
+      "guard_identity": {
+        "pid": 131337,
+        "start_ticks": "119208354",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 23 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "64f855e89c73593ccea763de2d6cee2bca65c0a0cb3cc64859eeb1b43887cf96",
+      "admission_sha256": "45bf2397a4b070e915ea3b3a0707db92882cca3c85e4556042dcc5e6dbc54a7f",
+      "admission": {
+        "disk_free_bytes": 31312842752,
+        "memory_headroom_bytes": 5595013120,
+        "phase": "admitted",
+        "checked_at": 1792660391.8761334
+      }
+    },
+    {
+      "seed": 24,
+      "guard_identity": {
+        "pid": 131688,
+        "start_ticks": "119212515",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 24 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "caa8f9071ab490e2476f5e7393cdbeb0359836f944072ec180efefd776a600f9",
+      "admission_sha256": "6772edc8cc1deab07e69d8687cad15c82fdc7c887f063c1bfbe9b70d2b9d9ef7",
+      "admission": {
+        "disk_free_bytes": 31314378752,
+        "memory_headroom_bytes": 5596643328,
+        "phase": "admitted",
+        "checked_at": 1792660433.4919508
+      }
+    },
+    {
+      "seed": 25,
+      "guard_identity": {
+        "pid": 132050,
+        "start_ticks": "119216779",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 25 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "a64bb6ad4be5a3529a5cac9dc2a70172bbc22b8105a672af0bee3d55d237565f",
+      "admission_sha256": "f43448d862e7926cfca2317f378760ce796027291fb3738b1a679a0498548411",
+      "admission": {
+        "disk_free_bytes": 31251898368,
+        "memory_headroom_bytes": 5536268288,
+        "phase": "admitted",
+        "checked_at": 1792660476.1319003
+      }
+    },
+    {
+      "seed": 26,
+      "guard_identity": {
+        "pid": 132402,
+        "start_ticks": "119220987",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 26 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "7ca4112e186c877ccc102aeb534b7c35293da088af86f8f0468b0a275ffe7741",
+      "admission_sha256": "0a67e8ca210beafc6e19ce894769ea373aea4fa4116320eabd5b35ea261c5b97",
+      "admission": {
+        "disk_free_bytes": 31251169280,
+        "memory_headroom_bytes": 5530603520,
+        "phase": "admitted",
+        "checked_at": 1792660518.2099037
+      }
+    },
+    {
+      "seed": 27,
+      "guard_identity": {
+        "pid": 132801,
+        "start_ticks": "119225158",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 27 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "99f785c047ecf6edd8d9de1fab2b53e97fda7fe9e57d81686ac54eed504ead33",
+      "admission_sha256": "2799e54be8d5b2fed425bfd932b365a85bd4d61d9976574862f230ee2560f889",
+      "admission": {
+        "disk_free_bytes": 31304355840,
+        "memory_headroom_bytes": 5584560128,
+        "phase": "admitted",
+        "checked_at": 1792660559.9241886
+      }
+    },
+    {
+      "seed": 28,
+      "guard_identity": {
+        "pid": 133166,
+        "start_ticks": "119229486",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 28 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "9404e15e626e8651f8386bd3d040f326a9c1d3db179c54954624464d85cd1431",
+      "admission_sha256": "9fb87bfcb8b343affd1df733b9bd9d5cc1775ad86a05cdb22746bf44578314c2",
+      "admission": {
+        "disk_free_bytes": 31187279872,
+        "memory_headroom_bytes": 5463875584,
+        "phase": "admitted",
+        "checked_at": 1792660603.2004275
+      }
+    },
+    {
+      "seed": 29,
+      "guard_identity": {
+        "pid": 133519,
+        "start_ticks": "119233752",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 29 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "a2743f210959e0a00aa8d57f4d7a465929a8d2820a849c22d888fc114870b51b",
+      "admission_sha256": "d431d6c2df3743fdf42bd185b6a1d9356a75900e36ae4b6ac92585c64171de65",
+      "admission": {
+        "disk_free_bytes": 31186644992,
+        "memory_headroom_bytes": 5446107136,
+        "phase": "admitted",
+        "checked_at": 1792660645.8625681
+      }
+    },
+    {
+      "seed": 30,
+      "guard_identity": {
+        "pid": 133868,
+        "start_ticks": "119237871",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 30 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "1ca216c30aab14feb0f215cdb0680b0ceb94fb0ec30dd9a833538351984ca65e",
+      "admission_sha256": "30479ef7f682c563136c4ce25dd055d56b8a4d1ab566ea1a739dcc84b7258f40",
+      "admission": {
+        "disk_free_bytes": 31184592896,
+        "memory_headroom_bytes": 5454315520,
+        "phase": "admitted",
+        "checked_at": 1792660687.0482938
+      }
+    },
+    {
+      "seed": 31,
+      "guard_identity": {
+        "pid": 134218,
+        "start_ticks": "119242022",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 31 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "330facbd292a0f00dff91cb9ca3ab8fa9bd89d5c7ac1251ec9e746b425a9f24b",
+      "admission_sha256": "9e991962a51b607c12e1aaf2dac0bfe0a7512d7fb3339521766160753b58f79c",
+      "admission": {
+        "disk_free_bytes": 31122378752,
+        "memory_headroom_bytes": 5390368768,
+        "phase": "admitted",
+        "checked_at": 1792660728.5577114
+      }
+    },
+    {
+      "seed": 32,
+      "guard_identity": {
+        "pid": 134571,
+        "start_ticks": "119246370",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 32 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "f0d045c5eeb46630d02f5c6077f2d9d7bab569d1175681792393f3df7b566412",
+      "admission_sha256": "5f2a81bdf0b2f25db4c32bb0219c4aa3700774465d2742e06366c9f48b8170d4",
+      "admission": {
+        "disk_free_bytes": 31120072704,
+        "memory_headroom_bytes": 5385797632,
+        "phase": "admitted",
+        "checked_at": 1792660772.0349123
+      }
+    },
+    {
+      "seed": 33,
+      "guard_identity": {
+        "pid": 134919,
+        "start_ticks": "119250510",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 33 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "aab7a1c984f08248bab891bb9f8c91561fe95a2b5dc4ceea39258b853514f500",
+      "admission_sha256": "4dfe72a4ae9d55a7984c1c3518852b662713184c98de66a9f8dfb8a29af18b74",
+      "admission": {
+        "disk_free_bytes": 31058190336,
+        "memory_headroom_bytes": 5325099008,
+        "phase": "admitted",
+        "checked_at": 1792660813.4430525
+      }
+    },
+    {
+      "seed": 34,
+      "guard_identity": {
+        "pid": 135272,
+        "start_ticks": "119254747",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 34 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "ae2c0f2f36092db2bb9357e914b2396ea6e0e1ecb4ae0414cec16260823d57f1",
+      "admission_sha256": "ae6954ded7439036615c783901d37e52be48374a4eab4ec85b7c3ff084583660",
+      "admission": {
+        "disk_free_bytes": 31057883136,
+        "memory_headroom_bytes": 5322530816,
+        "phase": "admitted",
+        "checked_at": 1792660855.8124666
+      }
+    },
+    {
+      "seed": 35,
+      "guard_identity": {
+        "pid": 135625,
+        "start_ticks": "119259123",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 35 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "2e817206efb47561d0f9aa9af20f546f000c778f69c4b70217ae5546aebb73c4",
+      "admission_sha256": "a600de54b69a549f59ed1e619af10cf25d17f9cd2d88aaea1fa55a17e008fb9b",
+      "admission": {
+        "disk_free_bytes": 31057485824,
+        "memory_headroom_bytes": 5319659520,
+        "phase": "admitted",
+        "checked_at": 1792660899.5717824
+      }
+    },
+    {
+      "seed": 36,
+      "guard_identity": {
+        "pid": 135996,
+        "start_ticks": "119263312",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 36 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "762fa6271577dccb8a8adf5a5610950f18d8cb2904c5e78780e9110b29cb6020",
+      "admission_sha256": "17a3235f6d0d9e527121b0a0654cdafe86f65fde11f69a49bbddf1d57bd909f1",
+      "admission": {
+        "disk_free_bytes": 31055851520,
+        "memory_headroom_bytes": 5316730880,
+        "phase": "admitted",
+        "checked_at": 1792660941.4588964
+      }
+    },
+    {
+      "seed": 37,
+      "guard_identity": {
+        "pid": 136345,
+        "start_ticks": "119267600",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 37 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "2079aea7eabc4db6bade7e992382b5f8a46a2568f533003e807dd51211064921",
+      "admission_sha256": "bee7dc712d150bb1f6192064c46667264d7886e6d89abdafd54562228d415f84",
+      "admission": {
+        "disk_free_bytes": 31110627328,
+        "memory_headroom_bytes": 5373747200,
+        "phase": "admitted",
+        "checked_at": 1792660984.3416197
+      }
+    },
+    {
+      "seed": 38,
+      "guard_identity": {
+        "pid": 136709,
+        "start_ticks": "119271834",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 38 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "6197f3d90d64020d3ea1cd51bdc080e9baf558dc2d15986fc4ee4ad0219a071c",
+      "admission_sha256": "e4e61acc4461f0ec93d16e5e00492d17855295a39b9ff3cda48bf2570da9a96f",
+      "admission": {
+        "disk_free_bytes": 30992801792,
+        "memory_headroom_bytes": 5249568768,
+        "phase": "admitted",
+        "checked_at": 1792661026.6818721
+      }
+    },
+    {
+      "seed": 39,
+      "guard_identity": {
+        "pid": 137060,
+        "start_ticks": "119275940",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 39 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "e941f388c8a6a0799691a8e16e8ee70bef2e2f296c94c454ec8d2133c5104185",
+      "admission_sha256": "298a68c0a1a48d3a0c86e12b67c27aa648e3274ad4ff6ad6e83b888ffd185132",
+      "admission": {
+        "disk_free_bytes": 30989742080,
+        "memory_headroom_bytes": 5246980096,
+        "phase": "admitted",
+        "checked_at": 1792661067.7396421
+      }
+    },
+    {
+      "seed": 40,
+      "guard_identity": {
+        "pid": 137409,
+        "start_ticks": "119280112",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 40 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "36ee69488c2541233384678be7420a0c781f28ee9f03275577cc3eedffd0bc17",
+      "admission_sha256": "442d03b1b8c0b5cda3a49725728dacd1ec4320575bfa4d47aa37e336eacb6033",
+      "admission": {
+        "disk_free_bytes": 30927310848,
+        "memory_headroom_bytes": 5182828544,
+        "phase": "admitted",
+        "checked_at": 1792661109.4571345
+      }
+    },
+    {
+      "seed": 41,
+      "guard_identity": {
+        "pid": 137763,
+        "start_ticks": "119284298",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 41 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "d52f5ccbc59cf5dde108ee4d197e8b43da6cde0f912d199fcefd3eff1031868c",
+      "admission_sha256": "956f394eb66797ed4370c62e625cbb4e02032b4b979838bf312fc8b26aac00cf",
+      "admission": {
+        "disk_free_bytes": 30958215168,
+        "memory_headroom_bytes": 5178433536,
+        "phase": "admitted",
+        "checked_at": 1792661151.323268
+      }
+    },
+    {
+      "seed": 42,
+      "guard_identity": {
+        "pid": 138112,
+        "start_ticks": "119288384",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 42 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "3844abd34e6bef7b07476970077dfe4b1020d363950f5c063f747d6aa96534fc",
+      "admission_sha256": "53ec770695f9adad03b9889d5081371b997e75734211ea8b23eb8782aab9f290",
+      "admission": {
+        "disk_free_bytes": 30867279872,
+        "memory_headroom_bytes": 5117763584,
+        "phase": "admitted",
+        "checked_at": 1792661192.1740162
+      }
+    },
+    {
+      "seed": 43,
+      "guard_identity": {
+        "pid": 138465,
+        "start_ticks": "119292668",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 43 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "ad0ad31a03eb6544dda3da57b862e8e230fb3f225df394c00aac0f81b54581c7",
+      "admission_sha256": "8d206a56cf0ca4756a3c1edef4717d18bbed9d696d4c0d84c74128a304443dfa",
+      "admission": {
+        "disk_free_bytes": 30865059840,
+        "memory_headroom_bytes": 5115297792,
+        "phase": "admitted",
+        "checked_at": 1792661235.0171292
+      }
+    },
+    {
+      "seed": 44,
+      "guard_identity": {
+        "pid": 138816,
+        "start_ticks": "119297042",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 44 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "24fe772ef739122931b7a34674b5ff188b0904f2c0393920b63f23498e90019d",
+      "admission_sha256": "a52f72db44e06c0795a98e5a84fca236953578aeefc5c674851789597ce8755d",
+      "admission": {
+        "disk_free_bytes": 30803550208,
+        "memory_headroom_bytes": 5052379136,
+        "phase": "admitted",
+        "checked_at": 1792661278.760901
+      }
+    },
+    {
+      "seed": 45,
+      "guard_identity": {
+        "pid": 139168,
+        "start_ticks": "119301318",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 45 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "550a33433ce905f03bad5f229811c6883cb99a2e86a2e69dc4e80bc0c29851bb",
+      "admission_sha256": "f83437ca101cca131f579d037f56c7b2bd7fc4e72c1a1a3fd5621247c2193115",
+      "admission": {
+        "disk_free_bytes": 30804451328,
+        "memory_headroom_bytes": 5042020352,
+        "phase": "admitted",
+        "checked_at": 1792661321.5186903
+      }
+    },
+    {
+      "seed": 46,
+      "guard_identity": {
+        "pid": 139517,
+        "start_ticks": "119305461",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 46 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "9df5440655505f1b7304c579bed5532741114c1fc38c42b48ddda43833233070",
+      "admission_sha256": "1cac903d1cc25eeb9fb41843ff057ce6d122b40b2fe0bb6af5b0366f7cb407eb",
+      "admission": {
+        "disk_free_bytes": 30803124224,
+        "memory_headroom_bytes": 5050789888,
+        "phase": "admitted",
+        "checked_at": 1792661362.9463897
+      }
+    },
+    {
+      "seed": 47,
+      "guard_identity": {
+        "pid": 139866,
+        "start_ticks": "119309600",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 47 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "ffff275e79e41b8df129f2a295d7fbb249f44104f92b6124a3a560c448d1f224",
+      "admission_sha256": "24626a6039f0952d1f6cdb834f82a5dd86e80b22f033dc68b451fdefad63b050",
+      "admission": {
+        "disk_free_bytes": 30740340736,
+        "memory_headroom_bytes": 4983218176,
+        "phase": "admitted",
+        "checked_at": 1792661404.3442945
+      }
+    },
+    {
+      "seed": 48,
+      "guard_identity": {
+        "pid": 140215,
+        "start_ticks": "119313680",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 48 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "a60f75f1f6cdb13f0fc5731993bd9d00cc1809d551b34c9cb46bec296157f6a4",
+      "admission_sha256": "8aeb49f0ff4ceba2b686b198959b8167f580030436b1bb3000e7a64220bcbbdc",
+      "admission": {
+        "disk_free_bytes": 30677864448,
+        "memory_headroom_bytes": 4922871808,
+        "phase": "admitted",
+        "checked_at": 1792661445.1429613
+      }
+    },
+    {
+      "seed": 49,
+      "guard_identity": {
+        "pid": 140567,
+        "start_ticks": "119317821",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 49 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "a5e383e2f11ecbb14044ad914877f453848a77a137152a9b0cd01d8400cfbd66",
+      "admission_sha256": "4cfa1623626f91ef1122a06b8efb4a783c5d881c9cfbf2ed60484f018ff172d9",
+      "admission": {
+        "disk_free_bytes": 30676164608,
+        "memory_headroom_bytes": 4916502528,
+        "phase": "admitted",
+        "checked_at": 1792661486.551604
+      }
+    },
+    {
+      "seed": 50,
+      "guard_identity": {
+        "pid": 140924,
+        "start_ticks": "119322028",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 50 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "8e3a4179ab5c35a8c2858c315e3a28502c914253187bdcb35a0a2a98554dfbbc",
+      "admission_sha256": "e16f31f08d41bd4409f6a55d04b014aa6980825cb4ebe27a121d91e96df63a0f",
+      "admission": {
+        "disk_free_bytes": 30676537344,
+        "memory_headroom_bytes": 4916981760,
+        "phase": "admitted",
+        "checked_at": 1792661528.6199555
+      }
+    },
+    {
+      "seed": 51,
+      "guard_identity": {
+        "pid": 141276,
+        "start_ticks": "119326349",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 51 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "f5dd140cbcba455451229c57ada6a2c854789cc31458b9ae9118275bf0955d31",
+      "admission_sha256": "7678783b9578d2d2b3230995c2845e330d8d5515cb2553128b0547da1675e480",
+      "admission": {
+        "disk_free_bytes": 30614966272,
+        "memory_headroom_bytes": 4856037376,
+        "phase": "admitted",
+        "checked_at": 1792661571.8335228
+      }
+    },
+    {
+      "seed": 52,
+      "guard_identity": {
+        "pid": 141645,
+        "start_ticks": "119330468",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 52 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "bf87ea994f71152f064f09a0eb865ee77ddd564d4fefd4a592abfad77cf3827d",
+      "admission_sha256": "c57f29148f96aaa4408d3e83c2da3d1ed617fa927ebe481fbb42b160fdaab494",
+      "admission": {
+        "disk_free_bytes": 30613508096,
+        "memory_headroom_bytes": 4849758208,
+        "phase": "admitted",
+        "checked_at": 1792661613.0166042
+      }
+    },
+    {
+      "seed": 53,
+      "guard_identity": {
+        "pid": 141991,
+        "start_ticks": "119334732",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 53 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "9ee076e79a84b411089d5738a5b7aee2d2dad8705703cbf9fc45884875746abb",
+      "admission_sha256": "15f361f4bf8d84abd2987e811a0d7054c3d28bf06624b0316dd59639c7f03460",
+      "admission": {
+        "disk_free_bytes": 30551007232,
+        "memory_headroom_bytes": 4783575040,
+        "phase": "admitted",
+        "checked_at": 1792661655.6570609
+      }
+    },
+    {
+      "seed": 54,
+      "guard_identity": {
+        "pid": 142344,
+        "start_ticks": "119338962",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 54 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "b7961ac342b4497c5a6799ae2fd2ade73cbaaa0965922fa3c1062b8dd72d3601",
+      "admission_sha256": "295e27da8d868888e5703d01f7239b05e048f12044315efc50512957c70a2364",
+      "admission": {
+        "disk_free_bytes": 30547570688,
+        "memory_headroom_bytes": 4782342144,
+        "phase": "admitted",
+        "checked_at": 1792661697.9585702
+      }
+    },
+    {
+      "seed": 55,
+      "guard_identity": {
+        "pid": 142737,
+        "start_ticks": "119343220",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 55 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "7f842dbd64c33a112163d3e4c2961fe54c7177eecd48b36d5b8266f16faae437",
+      "admission_sha256": "a7ddcf1520402d960983b6cdb8f0d435c389f346ae48e3d8d4bc6aa7147f0c2c",
+      "admission": {
+        "disk_free_bytes": 30485901312,
+        "memory_headroom_bytes": 4715610112,
+        "phase": "admitted",
+        "checked_at": 1792661740.534834
+      }
+    },
+    {
+      "seed": 56,
+      "guard_identity": {
+        "pid": 143088,
+        "start_ticks": "119347453",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 56 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "dc1bdccc9bc66cc8fbda3a8d4c330fc13bf5c1d889fee95c515aa1c48b915fdc",
+      "admission_sha256": "543134aaa6308fd98700c640c342b3d36bd021e5a0d08bc96c20e07444bb3777",
+      "admission": {
+        "disk_free_bytes": 30424002560,
+        "memory_headroom_bytes": 4650287104,
+        "phase": "admitted",
+        "checked_at": 1792661782.869816
+      }
+    },
+    {
+      "seed": 57,
+      "guard_identity": {
+        "pid": 143440,
+        "start_ticks": "119351689",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 57 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "7e8f75732e009c2987bf232e93fc7195a7637329f420fe5f8b99723bbb2a5753",
+      "admission_sha256": "0b108b619f68b61d625b6ae0741b44b9fe908eb99e3d62ca42fce7b54690134d",
+      "admission": {
+        "disk_free_bytes": 30422671360,
+        "memory_headroom_bytes": 4649537536,
+        "phase": "admitted",
+        "checked_at": 1792661825.2318316
+      }
+    },
+    {
+      "seed": 58,
+      "guard_identity": {
+        "pid": 143789,
+        "start_ticks": "119355885",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 58 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "a2c17ab0c16540141e8678646f779c87b2bc93e7638e4fa14a7f36fc96921add",
+      "admission_sha256": "e8fc52e96801c9e410984685b4a241b103e606f625af91915b14ee4f7bdbd9ce",
+      "admission": {
+        "disk_free_bytes": 30360276992,
+        "memory_headroom_bytes": 4588281856,
+        "phase": "admitted",
+        "checked_at": 1792661867.1857529
+      }
+    },
+    {
+      "seed": 59,
+      "guard_identity": {
+        "pid": 144141,
+        "start_ticks": "119359933",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 59 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "a69e2feb6c9c424a1a0c7a79a94ed06abd1a7e61ccf032c6b2b973964778c1e7",
+      "admission_sha256": "dd39ab0d9d6ffd70a96013c1b60b4efce6100328cd6921e91db15a3a0571f44d",
+      "admission": {
+        "disk_free_bytes": 30358130688,
+        "memory_headroom_bytes": 4570230784,
+        "phase": "admitted",
+        "checked_at": 1792661907.6690128
+      }
+    },
+    {
+      "seed": 60,
+      "guard_identity": {
+        "pid": 144486,
+        "start_ticks": "119364036",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 60 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "6dd8ec81512e8fa900341544cc489803163f32bc01974c6e4188a7d0f7eacabd",
+      "admission_sha256": "53f0a1ae49b9c7ceb8ec29276ee3c049124bbe6571008d2bf4db76cd32b0a90a",
+      "admission": {
+        "disk_free_bytes": 30295322624,
+        "memory_headroom_bytes": 4520140800,
+        "phase": "admitted",
+        "checked_at": 1792661948.7007344
+      }
+    },
+    {
+      "seed": 61,
+      "guard_identity": {
+        "pid": 144838,
+        "start_ticks": "119368200",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 61 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "fe5e8dea2675fce4362a409a01c99f3c3b68dab9aae85c256e65db9578c9c856",
+      "admission_sha256": "5b9403922eca82386dff962f6e5d30a459435306cbae381a91e59da470535a54",
+      "admission": {
+        "disk_free_bytes": 30294269952,
+        "memory_headroom_bytes": 4515065856,
+        "phase": "admitted",
+        "checked_at": 1792661990.341716
+      }
+    },
+    {
+      "seed": 62,
+      "guard_identity": {
+        "pid": 145188,
+        "start_ticks": "119372446",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 62 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "c1bc61804c16ae3d00345750936095288ec028ba8bdb35b07c837932e7b4b504",
+      "admission_sha256": "965519a77ed35ae792374904571c7a78be8cf8ad2b12ec834778cd64b38edfc0",
+      "admission": {
+        "disk_free_bytes": 30231830528,
+        "memory_headroom_bytes": 4447920128,
+        "phase": "admitted",
+        "checked_at": 1792662032.798542
+      }
+    },
+    {
+      "seed": 63,
+      "guard_identity": {
+        "pid": 145537,
+        "start_ticks": "119376622",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 63 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "f7feb35c4bb4e5c34c2331efd747dde9f23a5e94f80a82d708c23d3e7f18d6ea",
+      "admission_sha256": "19d8d3bdc8c22c11801ae528f351473f4c10de2101bdef8360f8d06cf64fb921",
+      "admission": {
+        "disk_free_bytes": 30170034176,
+        "memory_headroom_bytes": 4389830656,
+        "phase": "admitted",
+        "checked_at": 1792662074.5573606
+      }
+    },
+    {
+      "seed": 64,
+      "guard_identity": {
+        "pid": 145890,
+        "start_ticks": "119380749",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 64 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "faf9c187ebe9858057bdaeca4e06961dd1838ef66345e1b38d46ae4b81c652a1",
+      "admission_sha256": "bf52d9f075d41ef50f8ea460a021d3af4a9e6adcb13d37ea6954e866d0828100",
+      "admission": {
+        "disk_free_bytes": 30169587712,
+        "memory_headroom_bytes": 4386832384,
+        "phase": "admitted",
+        "checked_at": 1792662115.8261576
+      }
+    },
+    {
+      "seed": 65,
+      "guard_identity": {
+        "pid": 146242,
+        "start_ticks": "119385023",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 65 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "88ff4e3c62554fe6e5996ad742f872b0ee779328b82fdafbb5330028ead21863",
+      "admission_sha256": "402374ced6b8a234787fb6b34b0a3540cb90123373377d9b35df0752fd3c9e30",
+      "admission": {
+        "disk_free_bytes": 30168428544,
+        "memory_headroom_bytes": 4380815360,
+        "phase": "admitted",
+        "checked_at": 1792662158.5701447
+      }
+    },
+    {
+      "seed": 66,
+      "guard_identity": {
+        "pid": 146598,
+        "start_ticks": "119389335",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 66 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "7d92e19dbeaf0ca6cc5a737377fa46390e01b08d9cfaf0cd91a9f77a6c186c1b",
+      "admission_sha256": "2ae656e68c1cdce3a8c84f8b904c6837bb015ed4a358b6c62948c37ecded323b",
+      "admission": {
+        "disk_free_bytes": 30169235456,
+        "memory_headroom_bytes": 4382003200,
+        "phase": "admitted",
+        "checked_at": 1792662201.6902287
+      }
+    },
+    {
+      "seed": 67,
+      "guard_identity": {
+        "pid": 146952,
+        "start_ticks": "119393733",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 67 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "d417c33ecc1e0b19f31c280d5a988ad3b410d2ab84a3218dd173cc1a829a3906",
+      "admission_sha256": "ee060d20cd66646861d1611704168cdf6c174abdcb61109e7c986d49aaca990c",
+      "admission": {
+        "disk_free_bytes": 30167891968,
+        "memory_headroom_bytes": 4379459584,
+        "phase": "admitted",
+        "checked_at": 1792662245.6631167
+      }
+    },
+    {
+      "seed": 68,
+      "guard_identity": {
+        "pid": 147304,
+        "start_ticks": "119397945",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 68 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "c7a857f87c8a666407de66d2ece015849e3a4674a570c221ae2b75133390e509",
+      "admission_sha256": "bc40ca25d715ad9d4a7ddbcc42860486ffe47ecf57eb3a326814515b611f0f7b",
+      "admission": {
+        "disk_free_bytes": 30167425024,
+        "memory_headroom_bytes": 4367568896,
+        "phase": "admitted",
+        "checked_at": 1792662287.7891533
+      }
+    },
+    {
+      "seed": 69,
+      "guard_identity": {
+        "pid": 147653,
+        "start_ticks": "119402040",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 69 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "fc9e7a7fc47cd90bef178a13b3021e716c946184659b98f61dc01a4edcdbc9f4",
+      "admission_sha256": "f79bc7c966efc4bae05329ae77adbea845c82ea2fd2705c64257638513264e84",
+      "admission": {
+        "disk_free_bytes": 30165127168,
+        "memory_headroom_bytes": 4375785472,
+        "phase": "admitted",
+        "checked_at": 1792662328.7375748
+      }
+    },
+    {
+      "seed": 70,
+      "guard_identity": {
+        "pid": 148006,
+        "start_ticks": "119406432",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 70 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "4deda2eea61eabd20a3b102fd0451e13ecdf68d1c876a3634e9ed589a4a019b2",
+      "admission_sha256": "b45d8b490a0e74aca79eabe24bb48a2083ba1323b635ce161672a387442d71d4",
+      "admission": {
+        "disk_free_bytes": 30164373504,
+        "memory_headroom_bytes": 4376018944,
+        "phase": "admitted",
+        "checked_at": 1792662372.6654067
+      }
+    },
+    {
+      "seed": 71,
+      "guard_identity": {
+        "pid": 148358,
+        "start_ticks": "119410689",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 71 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "e9e8bcf10a998b5f49ce70bb70000a2c243de74e75d564aa240ca749b4f7e836",
+      "admission_sha256": "0554644ff4d0eedd757f995bbe0631fc653db008bf7da5d3df76dfa87e2c0b04",
+      "admission": {
+        "disk_free_bytes": 30162022400,
+        "memory_headroom_bytes": 4373069824,
+        "phase": "admitted",
+        "checked_at": 1792662415.2265778
+      }
+    },
+    {
+      "seed": 72,
+      "guard_identity": {
+        "pid": 148711,
+        "start_ticks": "119414838",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 72 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "84fbc062b16cc7f7f06937933027fb183e670b73a7ed9c1e5c77d7b053b35310",
+      "admission_sha256": "53e1e97ebc841116c2c643f9f7e68aa75486e87a4a6bbf7bc2bd507ba657f22c",
+      "admission": {
+        "disk_free_bytes": 30161326080,
+        "memory_headroom_bytes": 4371251200,
+        "phase": "admitted",
+        "checked_at": 1792662456.7188993
+      }
+    },
+    {
+      "seed": 73,
+      "guard_identity": {
+        "pid": 149063,
+        "start_ticks": "119419087",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 73 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "a64854c65f417b3de703c41e4461914b81c315f340a12e6290b970f82e284587",
+      "admission_sha256": "d1a05900fd9dc99014273b852d626d34e017c022f8cdf26045e51930c8f7c8e9",
+      "admission": {
+        "disk_free_bytes": 30160826368,
+        "memory_headroom_bytes": 4369887232,
+        "phase": "admitted",
+        "checked_at": 1792662499.205364
+      }
+    },
+    {
+      "seed": 74,
+      "guard_identity": {
+        "pid": 149417,
+        "start_ticks": "119423327",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 74 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "5c8095bec399634e4d000d52baab8f506c63f9d2ad9fc81fa4ec88c390f5fc58",
+      "admission_sha256": "3a4fa69cc1ea76bf5bfc551619560e29794195a10801b613d0630724e2f1afc6",
+      "admission": {
+        "disk_free_bytes": 30160142336,
+        "memory_headroom_bytes": 4368248832,
+        "phase": "admitted",
+        "checked_at": 1792662541.606
+      }
+    },
+    {
+      "seed": 75,
+      "guard_identity": {
+        "pid": 149770,
+        "start_ticks": "119427621",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 75 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "154a16b103467e6174515de0aad4877d861793c12672546cf13d19628bea64ed",
+      "admission_sha256": "de09b3bd5be6827741dc471cb17135dc6b6ebcb76415afcf59bc88fbca8793ba",
+      "admission": {
+        "disk_free_bytes": 30160478208,
+        "memory_headroom_bytes": 4369981440,
+        "phase": "admitted",
+        "checked_at": 1792662584.548412
+      }
+    },
+    {
+      "seed": 76,
+      "guard_identity": {
+        "pid": 150122,
+        "start_ticks": "119431862",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 76 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "e76fa52cad80ce59ea57dd975ca403fd745bc31e8fdd52ad99bbf3861fee5868",
+      "admission_sha256": "6b0b7b6fdef2bcb1936a7a39a664791bbfe17957a8da7d9b436a756641f6254d",
+      "admission": {
+        "disk_free_bytes": 30160629760,
+        "memory_headroom_bytes": 4368158720,
+        "phase": "admitted",
+        "checked_at": 1792662626.9653254
+      }
+    },
+    {
+      "seed": 77,
+      "guard_identity": {
+        "pid": 150476,
+        "start_ticks": "119436144",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 77 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "ae31793c387204fe2941a5205683af4541771eeba78f5070a092e32ef65f7a30",
+      "admission_sha256": "38e3527bc6c06a632735254c7c40ff5adbf37492e47a92e9232ef09d78fb3fe9",
+      "admission": {
+        "disk_free_bytes": 30158131200,
+        "memory_headroom_bytes": 4365557760,
+        "phase": "admitted",
+        "checked_at": 1792662669.773922
+      }
+    },
+    {
+      "seed": 78,
+      "guard_identity": {
+        "pid": 150828,
+        "start_ticks": "119440354",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 78 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "ffd44e229e71854163a3d31579675fab0057e2056715fc5c866503bf5c219f83",
+      "admission_sha256": "031a20e6a41174cea829f83b1e66225c7a6de21100c672214abff94920c69c0f",
+      "admission": {
+        "disk_free_bytes": 30158405632,
+        "memory_headroom_bytes": 4365352960,
+        "phase": "admitted",
+        "checked_at": 1792662711.87725
+      }
+    },
+    {
+      "seed": 79,
+      "guard_identity": {
+        "pid": 151180,
+        "start_ticks": "119444536",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 79 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "f6e040c02505cbfa8bcaf426517fdc4f5a25c552b0f01f519a7c6523be59fc9c",
+      "admission_sha256": "a966a08aea6869583646ec7bf9a44a5e0815e5fe1db3fc52f78d2a0879e8e5a8",
+      "admission": {
+        "disk_free_bytes": 30157762560,
+        "memory_headroom_bytes": 4366045184,
+        "phase": "admitted",
+        "checked_at": 1792662753.7071428
+      }
+    },
+    {
+      "seed": 80,
+      "guard_identity": {
+        "pid": 151533,
+        "start_ticks": "119448797",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 80 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "ea504de1d2e956fd6554fc0ea839e37eb032601d3846e9ca6b7f1bc09b974279",
+      "admission_sha256": "f3108a620462f15768833ecb72a6568bd3df863b4dde0c262526b23f20a8c5ca",
+      "admission": {
+        "disk_free_bytes": 30158127104,
+        "memory_headroom_bytes": 4357505024,
+        "phase": "admitted",
+        "checked_at": 1792662796.3065815
+      }
+    },
+    {
+      "seed": 81,
+      "guard_identity": {
+        "pid": 151881,
+        "start_ticks": "119452925",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 81 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "48153c9d29b5c954169b1a90f373fe7a8c8e6f918537de38de343d13ac063b1e",
+      "admission_sha256": "929845259af3d97d3a1b4ba2306204e72e41da3897b1395a95462131762632d0",
+      "admission": {
+        "disk_free_bytes": 30155517952,
+        "memory_headroom_bytes": 4365246464,
+        "phase": "admitted",
+        "checked_at": 1792662837.5836124
+      }
+    },
+    {
+      "seed": 82,
+      "guard_identity": {
+        "pid": 152234,
+        "start_ticks": "119457073",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 82 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "e1e1cc5e191ec5f755c59d0722023c35dd8c9575a9ac4ec469f2e574e2cded91",
+      "admission_sha256": "b92ba55c66727ba136df17089e5079b8614e5b189861108ae3f7d8cd053d9f26",
+      "admission": {
+        "disk_free_bytes": 30152093696,
+        "memory_headroom_bytes": 4361826304,
+        "phase": "admitted",
+        "checked_at": 1792662879.0725942
+      }
+    },
+    {
+      "seed": 83,
+      "guard_identity": {
+        "pid": 152586,
+        "start_ticks": "119461345",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 83 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "481b6452c9670f4b0e47f8503729db54f212a3a920bf5a861e02333ef8999538",
+      "admission_sha256": "064d4e66610d2ec3a485597598f73a0fdb8c87ab15f631546e1e801e20b3d848",
+      "admission": {
+        "disk_free_bytes": 30153273344,
+        "memory_headroom_bytes": 4362358784,
+        "phase": "admitted",
+        "checked_at": 1792662921.7878044
+      }
+    },
+    {
+      "seed": 84,
+      "guard_identity": {
+        "pid": 152940,
+        "start_ticks": "119465586",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 84 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "c714c355890da6f1693e338843d6aeb094f5d37668176b8865b0ead0192037da",
+      "admission_sha256": "f170cbf028b7602f55586471d7a24b9b3e950baff50e7fd36d96158e698dd461",
+      "admission": {
+        "disk_free_bytes": 30152966144,
+        "memory_headroom_bytes": 4362690560,
+        "phase": "admitted",
+        "checked_at": 1792662964.2018275
+      }
+    },
+    {
+      "seed": 85,
+      "guard_identity": {
+        "pid": 153292,
+        "start_ticks": "119469790",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 85 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "895b47655b2f1877da0c3f4f8cfefda52db9320ada3dd00cba5de63feaece120",
+      "admission_sha256": "f565e0865fc1c20a419f0cd6be25d9fff93cf62696eebaf47c32b582f383b4a7",
+      "admission": {
+        "disk_free_bytes": 30153351168,
+        "memory_headroom_bytes": 4362366976,
+        "phase": "admitted",
+        "checked_at": 1792663006.2416725
+      }
+    },
+    {
+      "seed": 86,
+      "guard_identity": {
+        "pid": 153643,
+        "start_ticks": "119473874",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 86 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "38240a05ff928377e65d6395eb80b6138cb92bfe694806213ecab4b7af5529f2",
+      "admission_sha256": "b62aac8957076006a4c26b62b60b5b08f039c0d85b763d34cc43b19314c44daa",
+      "admission": {
+        "disk_free_bytes": 30153920512,
+        "memory_headroom_bytes": 4362784768,
+        "phase": "admitted",
+        "checked_at": 1792663047.0762866
+      }
+    },
+    {
+      "seed": 87,
+      "guard_identity": {
+        "pid": 153997,
+        "start_ticks": "119478090",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 87 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "57caecf27d7d6f8868978b6b597af00dcbe71acbf16806188b4118c2b7620bfe",
+      "admission_sha256": "de99198073693c8c21a0591188f12fdead2df217e9a692d0ef4cd6d6fee5ebc1",
+      "admission": {
+        "disk_free_bytes": 30152630272,
+        "memory_headroom_bytes": 4361138176,
+        "phase": "admitted",
+        "checked_at": 1792663089.236417
+      }
+    },
+    {
+      "seed": 88,
+      "guard_identity": {
+        "pid": 154349,
+        "start_ticks": "119482297",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 88 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "c370bd8be2884ece650f9caf3f9a3d5bc1c25046e49ded8146953cbcb00c3cc3",
+      "admission_sha256": "e86625695880a8dba05fef57428cff03aed8d4fe5838fb9d4aede30e3949b2a9",
+      "admission": {
+        "disk_free_bytes": 30152486912,
+        "memory_headroom_bytes": 4360257536,
+        "phase": "admitted",
+        "checked_at": 1792663131.3120656
+      }
+    },
+    {
+      "seed": 89,
+      "guard_identity": {
+        "pid": 154708,
+        "start_ticks": "119486590",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 89 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "3e624d9ecc70f7a865b55fe55b7b7ad375bf4905e60f3f6c4e36da463bd7ab2c",
+      "admission_sha256": "a4e04cc738aac848e2962fd3e50692a447bad69bd9a1bfb81baad2622e73b60e",
+      "admission": {
+        "disk_free_bytes": 30149791744,
+        "memory_headroom_bytes": 4353347584,
+        "phase": "admitted",
+        "checked_at": 1792663174.244295
+      }
+    },
+    {
+      "seed": 90,
+      "guard_identity": {
+        "pid": 155053,
+        "start_ticks": "119490715",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 90 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "bbf9a327a439199594a011f798a1125d8f22ce216c0fb7ce1a0413dd766c3b37",
+      "admission_sha256": "4373e0e7e0c3c124843ecd1c2310cf52aa6d4b4c3a59b0c11489af105615b2bb",
+      "admission": {
+        "disk_free_bytes": 30087266304,
+        "memory_headroom_bytes": 4288552960,
+        "phase": "admitted",
+        "checked_at": 1792663215.485072
+      }
+    },
+    {
+      "seed": 91,
+      "guard_identity": {
+        "pid": 155405,
+        "start_ticks": "119494958",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 91 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "34c5c2a5bdb3f1e65aa433eb6cdbc03b11a6e0a4e4117230665b1411807ccd8f",
+      "admission_sha256": "272070939abdc7643b12b945638cf36576c29e7829edf85c0cb2c3adc9f47dca",
+      "admission": {
+        "disk_free_bytes": 30086815744,
+        "memory_headroom_bytes": 4288016384,
+        "phase": "admitted",
+        "checked_at": 1792663257.9147973
+      }
+    },
+    {
+      "seed": 92,
+      "guard_identity": {
+        "pid": 155757,
+        "start_ticks": "119499236",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 92 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "7dff1de82552f0be2f5a11d757d0b06a2711221ae2446632077bc3b4733953ce",
+      "admission_sha256": "fbf914c982a87f5fae2f828661f69d248c869a424e23df90f50547c6d817c238",
+      "admission": {
+        "disk_free_bytes": 30142390272,
+        "memory_headroom_bytes": 4348194816,
+        "phase": "admitted",
+        "checked_at": 1792663300.7021785
+      }
+    },
+    {
+      "seed": 93,
+      "guard_identity": {
+        "pid": 156110,
+        "start_ticks": "119503504",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 93 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "361f8993da69e24dfb52131910f0e9254f89ea6bd313d8324a1d5b7ad43c8a5a",
+      "admission_sha256": "37ab9885fb92d7262b38faecab8d93137403c2c7b12d55bcdc8ab6c595eb3513",
+      "admission": {
+        "disk_free_bytes": 30025175040,
+        "memory_headroom_bytes": 4226105344,
+        "phase": "admitted",
+        "checked_at": 1792663343.374415
+      }
+    },
+    {
+      "seed": 94,
+      "guard_identity": {
+        "pid": 156463,
+        "start_ticks": "119507653",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 94 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "14219587e220e24cef360c6b93e28f6595e7380fafd263eb500dc9d9efde5521",
+      "admission_sha256": "2d0933ed81dfbd8f7ddc4aa76a6212a6ec07555bb104c98c731691e94ec9fe17",
+      "admission": {
+        "disk_free_bytes": 30024794112,
+        "memory_headroom_bytes": 4222124032,
+        "phase": "admitted",
+        "checked_at": 1792663384.875254
+      }
+    },
+    {
+      "seed": 95,
+      "guard_identity": {
+        "pid": 156811,
+        "start_ticks": "119511740",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 95 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "8bf42f52c1ee0ce46eff6c874feeaa37d47c76fe76d810efc05c43460b130a89",
+      "admission_sha256": "18b49836c374a857dd0073ad30dc67ca7c805a87b894fbab2bc6beccd9dc7420",
+      "admission": {
+        "disk_free_bytes": 29962272768,
+        "memory_headroom_bytes": 4154535936,
+        "phase": "admitted",
+        "checked_at": 1792663425.7442565
+      }
+    },
+    {
+      "seed": 96,
+      "guard_identity": {
+        "pid": 157163,
+        "start_ticks": "119515938",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 96 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "009874a8f11c629f20a0371b5533679d2700b79dcb4e2044477e65bae1c0160e",
+      "admission_sha256": "35206c0a950a009444b15d638c7eaf89db2837779152a410274c095a099cf282",
+      "admission": {
+        "disk_free_bytes": 29960851456,
+        "memory_headroom_bytes": 4152680448,
+        "phase": "admitted",
+        "checked_at": 1792663467.7180312
+      }
+    },
+    {
+      "seed": 97,
+      "guard_identity": {
+        "pid": 157513,
+        "start_ticks": "119520153",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 97 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "6a12c538bf9140830204040e05b674ead491931dfbae2958cdaa90221cbb6994",
+      "admission_sha256": "653f6f2fd12f8145ab1ad5dde79e3a1a02cbc901059628bb0388086ff185ed5b",
+      "admission": {
+        "disk_free_bytes": 29898506240,
+        "memory_headroom_bytes": 4088156160,
+        "phase": "admitted",
+        "checked_at": 1792663509.8674264
+      }
+    },
+    {
+      "seed": 98,
+      "guard_identity": {
+        "pid": 157865,
+        "start_ticks": "119524271",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 98 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "1c2b3b6582952447b6c0fcc64d84fe5ea8a172f19281c2596d03e103984f51bb",
+      "admission_sha256": "fba885d7edb5fbbdde1279a5aab8bdfb9ee08e5a1933b109b075df76d667f212",
+      "admission": {
+        "disk_free_bytes": 29896245248,
+        "memory_headroom_bytes": 4074508288,
+        "phase": "admitted",
+        "checked_at": 1792663551.0449033
+      }
+    },
+    {
+      "seed": 99,
+      "guard_identity": {
+        "pid": 158210,
+        "start_ticks": "119528405",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 99 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "78fc384c21d4e212f537a7429319ce38c240a3e027ed262ea8560221b1a75ec8",
+      "admission_sha256": "d98a2d3667006b57b80f12a29f260cd80ce318cfe34391fb3b231607e022759c",
+      "admission": {
+        "disk_free_bytes": 29834174464,
+        "memory_headroom_bytes": 4023177216,
+        "phase": "admitted",
+        "checked_at": 1792663592.386702
+      }
+    },
+    {
+      "seed": 100,
+      "guard_identity": {
+        "pid": 158564,
+        "start_ticks": "119532710",
+        "boot_id": "6d36ffea-fb80-489d-b52e-4720a2790039",
+        "command": "/mnt/aspire-work/ASPIRE/.venv-robosuite/bin/python /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/.infrastructure/validation_job_584c4cea5c2e7b4d.py --guarded-cap --run-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite --suite cube_restack --task-id 0 --source-sha256 eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742 -- run --benchmark robosuite --suite cube_restack --task-id 0 --seed 100 --program /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/fix_code.py --output-root /root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/validation/runs/4ebe635cc1756480/results --max-steps 1000 --camera-width 800 --camera-height 512 --init-mode saved --flat-run-dir "
+      },
+      "exit_code": 0,
+      "claim_sha256": "dda8179351e835befbaf301aa3fe5e3f0492698fa0b0369681c1fa6320badafa",
+      "admission_sha256": "414f06f3f57ae07bb629e7392766924c89c30409d018d61279a1c7e10f2bccff",
+      "admission": {
+        "disk_free_bytes": 29833220096,
+        "memory_headroom_bytes": 4022788096,
+        "phase": "admitted",
+        "checked_at": 1792663635.436247
+      }
+    }
+  ]
+}

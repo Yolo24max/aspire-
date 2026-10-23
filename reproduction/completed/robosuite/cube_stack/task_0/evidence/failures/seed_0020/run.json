@@ -1,0 +1,39 @@
+{
+  "benchmark": "robosuite",
+  "capture": {
+    "camera_height": 512,
+    "camera_width": 800,
+    "max_steps": 1000,
+    "profile": "balanced_evidence",
+    "videos": true
+  },
+  "environment_sha256": null,
+  "finished_at": "2026-10-22T05:07:45.785442Z",
+  "init_mode": "saved",
+  "providers": {
+    "grasping": [
+      "contact-graspnet"
+    ],
+    "ik": [
+      "pyroki",
+      "curobo"
+    ],
+    "pose_planning": [
+      "composed",
+      "curobo-integrated"
+    ],
+    "segmentation": "sam3",
+    "trajectory_planning": [
+      "interpolation",
+      "curobo"
+    ]
+  },
+  "run_id": "run-20261022T050719.133430Z-f8b0d9fa",
+  "schema_version": "1.0",
+  "seed": 20,
+  "started_at": "2026-10-22T05:07:19.134279Z",
+  "status": "finalized",
+  "suite": "cube_stack",
+  "task_id": 0,
+  "task_name": "cube_stack"
+}

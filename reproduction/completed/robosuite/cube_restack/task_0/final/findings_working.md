@@ -1,0 +1,3 @@
+# Development diagnosis
+v00 pilot101:367ticks, program failed during first placement lower. Public call41 target and measured pose differ about0.028m; stationary joints and image show cube contacting table. Shared width-relative grasp recipe transferred to grasp/lift, but using width to estimate held bottom clearance did not support placement. Next candidate should derive actual held-bottom clearance from post-lift public cube cloud and measured end-effector pose, then lower to table surface plus that measured clearance. No executable observed world coordinates will be copied.
+Full25 request rejected by controller gate requiring clean pilot; awaiting root resolution of conflict with mandatory every-version scoring. v00 remains immutable and counts1/8.

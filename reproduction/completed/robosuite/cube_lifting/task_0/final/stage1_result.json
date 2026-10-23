@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "benchmark": "robosuite",
+  "suite": "cube_lifting",
+  "task_id": 0,
+  "gpu": 0,
+  "stage1_status": "complete",
+  "selected_program": "code/v01_deeper_grasp.py",
+  "fix_code": "fix_code.py",
+  "frozen_source_sha256": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912",
+  "development": {
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125
+    ],
+    "task_success": 25,
+    "program_ok": 25,
+    "grasp_verified": 25,
+    "total": 25,
+    "v00_task_success": 24,
+    "v00_program_ok": 25,
+    "source_hashes_verified": 25,
+    "review": "development_v01_review.json"
+  },
+  "unseen": {
+    "seeds": [
+      126,
+      127,
+      128,
+      129,
+      130
+    ],
+    "task_success": 5,
+    "program_ok": 5,
+    "grasp_verified": 5,
+    "total": 5,
+    "source_hashes_verified": 5,
+    "videos": 10,
+    "exactly_once": true,
+    "review": "unseen_review.json"
+  },
+  "unique_policy_versions": 2,
+  "policy_version_budget": 8,
+  "failure_modes_fixed": {
+    "grasp_retention": [
+      124
+    ]
+  },
+  "failure_modes_blocked": [],
+  "api_provenance_audit": "PASS",
+  "findings_written": true,
+  "skill_report_written": true,
+  "skill_report_validation": "OK",
+  "skill_library_sha": "c050e38ea9eff52c",
+  "heldout_started_by_worker": false,
+  "next_stage": "Coordinator-only Stage2 heldout1-100 after handoff/equivalence audit. No more worker requests or policy edits."
+}

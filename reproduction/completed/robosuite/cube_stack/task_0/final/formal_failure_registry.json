@@ -1,0 +1,77 @@
+{
+  "run_id": "36b52071f46795fc",
+  "source_sha256": "7fc56577e5ba890f62f109f65e544664d73fc8448ee9403e1673df040cb518db",
+  "failed_cases": {
+    "20": {
+      "seed": 20,
+      "program_ok": true,
+      "task_success": false,
+      "run_dir": "/root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_stack/task_0/validation/runs/36b52071f46795fc/results/0020/run-20261022T050719.133430Z-f8b0d9fa",
+      "durable_backup": {
+        "archive_sha256": "c98eccf7d1179d294ca147c547726d44313ab3ef8afdf7b2752a6d371c1e2c43",
+        "archive_bytes": 70311532,
+        "videos": 2,
+        "payload_retired": true
+      },
+      "will_rerun": false,
+      "policy_will_change": false
+    },
+    "49": {
+      "seed": 49,
+      "program_ok": true,
+      "task_success": false,
+      "run_dir": "/root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_stack/task_0/validation/runs/36b52071f46795fc/results/0049/run-20261022T052146.633487Z-735ca3d5",
+      "durable_backup": {
+        "archive_sha256": "c31da79a885777c0aa8666b207944defd66ee97b1e677b4e2289212861335e72",
+        "archive_bytes": 69151885,
+        "videos": 2,
+        "payload_retired": true
+      },
+      "will_rerun": false,
+      "policy_will_change": false
+    },
+    "52": {
+      "seed": 52,
+      "program_ok": true,
+      "task_success": false,
+      "run_dir": "/root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_stack/task_0/validation/runs/36b52071f46795fc/results/0052/run-20261022T052314.519055Z-baed32cd",
+      "durable_backup": {
+        "archive_sha256": "6544de2e9d6106c82b48da1c938201acc0dfd7cfc85c67defc0a8ae57dc08086",
+        "archive_bytes": 71735577,
+        "videos": 2,
+        "payload_retired": true
+      },
+      "will_rerun": false,
+      "policy_will_change": false
+    },
+    "73": {
+      "seed": 73,
+      "program_ok": true,
+      "task_success": false,
+      "run_dir": "/root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_stack/task_0/validation/runs/36b52071f46795fc/results/0073/run-20261022T053332.624241Z-4a656d50",
+      "durable_backup": {
+        "archive_sha256": "6a5967d994e558c6b3581612544773a464b7bb3e73e8118c0750a1cfcb092c24",
+        "archive_bytes": 69190285,
+        "videos": 2,
+        "payload_retired": true
+      },
+      "will_rerun": false,
+      "policy_will_change": false
+    },
+    "91": {
+      "seed": 91,
+      "program_ok": true,
+      "task_success": false,
+      "run_dir": "/root/gpufree-data/aspire-goal-swap-20261020/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_stack/task_0/validation/runs/36b52071f46795fc/results/0091/run-20261022T055042.913470Z-22739ff2",
+      "durable_backup": {
+        "archive_sha256": "46639023760cdb5db96c3c13fb7250dc19ef1733377771846693252e680b4959",
+        "archive_bytes": 72549249,
+        "videos": 2,
+        "payload_retired": true
+      },
+      "will_rerun": false,
+      "policy_will_change": false
+    }
+  },
+  "updated_at": "2026-10-22T07:01:32.930489+00:00"
+}

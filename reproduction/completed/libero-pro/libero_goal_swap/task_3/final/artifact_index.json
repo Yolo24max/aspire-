@@ -1,0 +1,887 @@
+{
+  "schema_version": 1,
+  "retry_classification": "user-authorized independent retry_02",
+  "runs": [
+    {
+      "seed": 51,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v01\\0051\\run-20261020T130739.233321Z-a81490a6",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v01\\0051\\run-20261020T130739.233321Z-a81490a6\\outcome.json",
+      "program_ok": true,
+      "task_success": false,
+      "steps": 147,
+      "termination": "program_completed",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v01\\0051\\run-20261020T130739.233321Z-a81490a6\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v01\\0051\\run-20261020T130739.233321Z-a81490a6\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 51,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v02\\0051\\run-20261020T131038.047570Z-c8b7c330",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v02\\0051\\run-20261020T131038.047570Z-c8b7c330\\outcome.json",
+      "program_ok": true,
+      "task_success": false,
+      "steps": 148,
+      "termination": "program_completed",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v02\\0051\\run-20261020T131038.047570Z-c8b7c330\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v02\\0051\\run-20261020T131038.047570Z-c8b7c330\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 51,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v03\\0051\\run-20261020T131235.718078Z-07d3044c",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v03\\0051\\run-20261020T131235.718078Z-07d3044c\\outcome.json",
+      "program_ok": true,
+      "task_success": false,
+      "steps": 365,
+      "termination": "program_completed",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v03\\0051\\run-20261020T131235.718078Z-07d3044c\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v03\\0051\\run-20261020T131235.718078Z-07d3044c\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 51,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v04\\0051\\run-20261020T131547.780689Z-1e307491",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v04\\0051\\run-20261020T131547.780689Z-1e307491\\outcome.json",
+      "program_ok": true,
+      "task_success": false,
+      "steps": 457,
+      "termination": "program_completed",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v04\\0051\\run-20261020T131547.780689Z-1e307491\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v04\\0051\\run-20261020T131547.780689Z-1e307491\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 51,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05\\0051\\run-20261020T131825.855322Z-37181fca",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05\\0051\\run-20261020T131825.855322Z-37181fca\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 822,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05\\0051\\run-20261020T131825.855322Z-37181fca\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05\\0051\\run-20261020T131825.855322Z-37181fca\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 51,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0051\\run-20261020T132249.945232Z-4f6958c3",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0051\\run-20261020T132249.945232Z-4f6958c3\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 822,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0051\\run-20261020T132249.945232Z-4f6958c3\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0051\\run-20261020T132249.945232Z-4f6958c3\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 52,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0052\\run-20261020T132404.553358Z-7f1f04a5",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0052\\run-20261020T132404.553358Z-7f1f04a5\\outcome.json",
+      "program_ok": true,
+      "task_success": false,
+      "steps": 774,
+      "termination": "program_completed",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0052\\run-20261020T132404.553358Z-7f1f04a5\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0052\\run-20261020T132404.553358Z-7f1f04a5\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 53,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0053\\run-20261020T132516.663078Z-54a9e4bf",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0053\\run-20261020T132516.663078Z-54a9e4bf\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 823,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0053\\run-20261020T132516.663078Z-54a9e4bf\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0053\\run-20261020T132516.663078Z-54a9e4bf\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 54,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0054\\run-20261020T132630.984621Z-46640eca",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0054\\run-20261020T132630.984621Z-46640eca\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 832,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0054\\run-20261020T132630.984621Z-46640eca\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0054\\run-20261020T132630.984621Z-46640eca\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 55,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0055\\run-20261020T132740.620921Z-8bec315c",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0055\\run-20261020T132740.620921Z-8bec315c\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 821,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0055\\run-20261020T132740.620921Z-8bec315c\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0055\\run-20261020T132740.620921Z-8bec315c\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 56,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0056\\run-20261020T132853.192258Z-c2ac64e6",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0056\\run-20261020T132853.192258Z-c2ac64e6\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 828,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0056\\run-20261020T132853.192258Z-c2ac64e6\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0056\\run-20261020T132853.192258Z-c2ac64e6\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 57,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0057\\run-20261020T133009.458500Z-0cf59cf1",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0057\\run-20261020T133009.458500Z-0cf59cf1\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 823,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0057\\run-20261020T133009.458500Z-0cf59cf1\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0057\\run-20261020T133009.458500Z-0cf59cf1\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 58,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0058\\run-20261020T133124.219894Z-cdd69047",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0058\\run-20261020T133124.219894Z-cdd69047\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 825,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0058\\run-20261020T133124.219894Z-cdd69047\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0058\\run-20261020T133124.219894Z-cdd69047\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 59,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0059\\run-20261020T133237.942045Z-163963ba",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0059\\run-20261020T133237.942045Z-163963ba\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 822,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0059\\run-20261020T133237.942045Z-163963ba\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0059\\run-20261020T133237.942045Z-163963ba\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 60,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0060\\run-20261020T133347.168002Z-eece948b",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0060\\run-20261020T133347.168002Z-eece948b\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 819,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0060\\run-20261020T133347.168002Z-eece948b\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0060\\run-20261020T133347.168002Z-eece948b\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 61,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0061\\run-20261020T133501.469140Z-5ab910df",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0061\\run-20261020T133501.469140Z-5ab910df\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 823,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0061\\run-20261020T133501.469140Z-5ab910df\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0061\\run-20261020T133501.469140Z-5ab910df\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 62,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0062\\run-20261020T133616.127867Z-475a0e19",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0062\\run-20261020T133616.127867Z-475a0e19\\outcome.json",
+      "program_ok": true,
+      "task_success": false,
+      "steps": 772,
+      "termination": "program_completed",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0062\\run-20261020T133616.127867Z-475a0e19\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0062\\run-20261020T133616.127867Z-475a0e19\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 63,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0063\\run-20261020T133719.443615Z-35a0a66f",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0063\\run-20261020T133719.443615Z-35a0a66f\\outcome.json",
+      "program_ok": true,
+      "task_success": false,
+      "steps": 768,
+      "termination": "program_completed",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0063\\run-20261020T133719.443615Z-35a0a66f\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0063\\run-20261020T133719.443615Z-35a0a66f\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 64,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0064\\run-20261020T133829.354540Z-6e119872",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0064\\run-20261020T133829.354540Z-6e119872\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 825,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0064\\run-20261020T133829.354540Z-6e119872\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0064\\run-20261020T133829.354540Z-6e119872\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 65,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0065\\run-20261020T133937.254099Z-96d7f3e3",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0065\\run-20261020T133937.254099Z-96d7f3e3\\outcome.json",
+      "program_ok": true,
+      "task_success": false,
+      "steps": 455,
+      "termination": "program_completed",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0065\\run-20261020T133937.254099Z-96d7f3e3\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v05_dev\\0065\\run-20261020T133937.254099Z-96d7f3e3\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 51,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0051\\run-20261020T134203.185948Z-39220cbb",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0051\\run-20261020T134203.185948Z-39220cbb\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 826,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0051\\run-20261020T134203.185948Z-39220cbb\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0051\\run-20261020T134203.185948Z-39220cbb\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 52,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0052\\run-20261020T134318.848113Z-b444f857",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0052\\run-20261020T134318.848113Z-b444f857\\outcome.json",
+      "program_ok": true,
+      "task_success": false,
+      "steps": 773,
+      "termination": "program_completed",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0052\\run-20261020T134318.848113Z-b444f857\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0052\\run-20261020T134318.848113Z-b444f857\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 53,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0053\\run-20261020T134430.807273Z-0faf78cb",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0053\\run-20261020T134430.807273Z-0faf78cb\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 824,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0053\\run-20261020T134430.807273Z-0faf78cb\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0053\\run-20261020T134430.807273Z-0faf78cb\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 54,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0054\\run-20261020T134546.122433Z-4b16e59e",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0054\\run-20261020T134546.122433Z-4b16e59e\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 835,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0054\\run-20261020T134546.122433Z-4b16e59e\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0054\\run-20261020T134546.122433Z-4b16e59e\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 55,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0055\\run-20261020T134700.648451Z-3a76707b",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0055\\run-20261020T134700.648451Z-3a76707b\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 823,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0055\\run-20261020T134700.648451Z-3a76707b\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0055\\run-20261020T134700.648451Z-3a76707b\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 56,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0056\\run-20261020T134807.134492Z-9d60cbcf",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0056\\run-20261020T134807.134492Z-9d60cbcf\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 826,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0056\\run-20261020T134807.134492Z-9d60cbcf\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0056\\run-20261020T134807.134492Z-9d60cbcf\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 57,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0057\\run-20261020T134921.153658Z-32351e33",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0057\\run-20261020T134921.153658Z-32351e33\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 827,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0057\\run-20261020T134921.153658Z-32351e33\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0057\\run-20261020T134921.153658Z-32351e33\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 58,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0058\\run-20261020T135038.583133Z-55f672f6",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0058\\run-20261020T135038.583133Z-55f672f6\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 824,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0058\\run-20261020T135038.583133Z-55f672f6\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0058\\run-20261020T135038.583133Z-55f672f6\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 59,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0059\\run-20261020T135154.509977Z-2b9030fa",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0059\\run-20261020T135154.509977Z-2b9030fa\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 822,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0059\\run-20261020T135154.509977Z-2b9030fa\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0059\\run-20261020T135154.509977Z-2b9030fa\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 60,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0060\\run-20261020T135309.242272Z-d36d1ccb",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0060\\run-20261020T135309.242272Z-d36d1ccb\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 820,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0060\\run-20261020T135309.242272Z-d36d1ccb\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0060\\run-20261020T135309.242272Z-d36d1ccb\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 61,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0061\\run-20261020T135420.176749Z-0028967c",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0061\\run-20261020T135420.176749Z-0028967c\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 827,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0061\\run-20261020T135420.176749Z-0028967c\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0061\\run-20261020T135420.176749Z-0028967c\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 62,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0062\\run-20261020T135526.332374Z-958cc71f",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0062\\run-20261020T135526.332374Z-958cc71f\\outcome.json",
+      "program_ok": true,
+      "task_success": false,
+      "steps": 772,
+      "termination": "program_completed",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0062\\run-20261020T135526.332374Z-958cc71f\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0062\\run-20261020T135526.332374Z-958cc71f\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 63,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0063\\run-20261020T135630.424024Z-8cc2d40a",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0063\\run-20261020T135630.424024Z-8cc2d40a\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 843,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0063\\run-20261020T135630.424024Z-8cc2d40a\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0063\\run-20261020T135630.424024Z-8cc2d40a\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 64,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0064\\run-20261020T135737.335733Z-55ae3c7e",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0064\\run-20261020T135737.335733Z-55ae3c7e\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 829,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0064\\run-20261020T135737.335733Z-55ae3c7e\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0064\\run-20261020T135737.335733Z-55ae3c7e\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 65,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0065\\run-20261020T135851.081538Z-287b188a",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0065\\run-20261020T135851.081538Z-287b188a\\outcome.json",
+      "program_ok": true,
+      "task_success": false,
+      "steps": 455,
+      "termination": "program_completed",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0065\\run-20261020T135851.081538Z-287b188a\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v06\\0065\\run-20261020T135851.081538Z-287b188a\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 51,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0051\\run-20261020T140130.660046Z-ef5e50ad",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0051\\run-20261020T140130.660046Z-ef5e50ad\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 843,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0051\\run-20261020T140130.660046Z-ef5e50ad\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0051\\run-20261020T140130.660046Z-ef5e50ad\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 52,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0052\\run-20261020T140246.147517Z-3584b1ad",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0052\\run-20261020T140246.147517Z-3584b1ad\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 849,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0052\\run-20261020T140246.147517Z-3584b1ad\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0052\\run-20261020T140246.147517Z-3584b1ad\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 53,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0053\\run-20261020T140402.027504Z-1ecceff7",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0053\\run-20261020T140402.027504Z-1ecceff7\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 841,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0053\\run-20261020T140402.027504Z-1ecceff7\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0053\\run-20261020T140402.027504Z-1ecceff7\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 54,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0054\\run-20261020T140456.020076Z-aceb3fd3",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0054\\run-20261020T140456.020076Z-aceb3fd3\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 854,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0054\\run-20261020T140456.020076Z-aceb3fd3\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0054\\run-20261020T140456.020076Z-aceb3fd3\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 55,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0055\\run-20261020T140550.821493Z-d67dea21",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0055\\run-20261020T140550.821493Z-d67dea21\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 844,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0055\\run-20261020T140550.821493Z-d67dea21\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0055\\run-20261020T140550.821493Z-d67dea21\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 56,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0056\\run-20261020T140641.323316Z-e4b4879e",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0056\\run-20261020T140641.323316Z-e4b4879e\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 843,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0056\\run-20261020T140641.323316Z-e4b4879e\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0056\\run-20261020T140641.323316Z-e4b4879e\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 57,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0057\\run-20261020T140732.236398Z-07457e20",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0057\\run-20261020T140732.236398Z-07457e20\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 847,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0057\\run-20261020T140732.236398Z-07457e20\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0057\\run-20261020T140732.236398Z-07457e20\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 58,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0058\\run-20261020T140823.563616Z-12b82d4c",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0058\\run-20261020T140823.563616Z-12b82d4c\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 843,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0058\\run-20261020T140823.563616Z-12b82d4c\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0058\\run-20261020T140823.563616Z-12b82d4c\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 59,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0059\\run-20261020T140917.304668Z-6e093685",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0059\\run-20261020T140917.304668Z-6e093685\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 838,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0059\\run-20261020T140917.304668Z-6e093685\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0059\\run-20261020T140917.304668Z-6e093685\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 60,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0060\\run-20261020T141012.872915Z-5b1ab9fb",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0060\\run-20261020T141012.872915Z-5b1ab9fb\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 839,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0060\\run-20261020T141012.872915Z-5b1ab9fb\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0060\\run-20261020T141012.872915Z-5b1ab9fb\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 61,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0061\\run-20261020T141104.862456Z-7d822873",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0061\\run-20261020T141104.862456Z-7d822873\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 844,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0061\\run-20261020T141104.862456Z-7d822873\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0061\\run-20261020T141104.862456Z-7d822873\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 62,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0062\\run-20261020T141155.735122Z-84ff54df",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0062\\run-20261020T141155.735122Z-84ff54df\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 844,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0062\\run-20261020T141155.735122Z-84ff54df\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0062\\run-20261020T141155.735122Z-84ff54df\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 63,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0063\\run-20261020T141247.843231Z-1bba639c",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0063\\run-20261020T141247.843231Z-1bba639c\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 849,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0063\\run-20261020T141247.843231Z-1bba639c\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0063\\run-20261020T141247.843231Z-1bba639c\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 64,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0064\\run-20261020T141341.803993Z-9fcd1647",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0064\\run-20261020T141341.803993Z-9fcd1647\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 847,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0064\\run-20261020T141341.803993Z-9fcd1647\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0064\\run-20261020T141341.803993Z-9fcd1647\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 65,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0065\\run-20261020T141436.851591Z-c71bb2ae",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0065\\run-20261020T141436.851591Z-c71bb2ae\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 849,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0065\\run-20261020T141436.851591Z-c71bb2ae\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\attempts\\v07\\0065\\run-20261020T141436.851591Z-c71bb2ae\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 51,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\explore\\0051\\run-20261020T065040.046204Z-2adcf72b",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\explore\\0051\\run-20261020T065040.046204Z-2adcf72b\\outcome.json",
+      "program_ok": true,
+      "task_success": false,
+      "steps": 0,
+      "termination": "program_completed",
+      "videos": []
+    },
+    {
+      "seed": 51,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\explore\\geometry\\0051\\run-20261020T130349.294975Z-c480f47f",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\explore\\geometry\\0051\\run-20261020T130349.294975Z-c480f47f\\outcome.json",
+      "program_ok": true,
+      "task_success": false,
+      "steps": 0,
+      "termination": "program_completed",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\explore\\geometry\\0051\\run-20261020T130349.294975Z-c480f47f\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\explore\\geometry\\0051\\run-20261020T130349.294975Z-c480f47f\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 66,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0066\\run-20261020T141737.634713Z-4b4e4fc4",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0066\\run-20261020T141737.634713Z-4b4e4fc4\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 842,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0066\\run-20261020T141737.634713Z-4b4e4fc4\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0066\\run-20261020T141737.634713Z-4b4e4fc4\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 67,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0067\\run-20261020T141830.559937Z-d995ff25",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0067\\run-20261020T141830.559937Z-d995ff25\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 840,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0067\\run-20261020T141830.559937Z-d995ff25\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0067\\run-20261020T141830.559937Z-d995ff25\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 68,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0068\\run-20261020T141924.357102Z-f2d1a497",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0068\\run-20261020T141924.357102Z-f2d1a497\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 856,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0068\\run-20261020T141924.357102Z-f2d1a497\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0068\\run-20261020T141924.357102Z-f2d1a497\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 69,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0069\\run-20261020T142020.544762Z-f3cc1ef5",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0069\\run-20261020T142020.544762Z-f3cc1ef5\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 841,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0069\\run-20261020T142020.544762Z-f3cc1ef5\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0069\\run-20261020T142020.544762Z-f3cc1ef5\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 70,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0070\\run-20261020T142112.071698Z-0583e665",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0070\\run-20261020T142112.071698Z-0583e665\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 837,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0070\\run-20261020T142112.071698Z-0583e665\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0070\\run-20261020T142112.071698Z-0583e665\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 71,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0071\\run-20261020T142203.533382Z-59b5a146",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0071\\run-20261020T142203.533382Z-59b5a146\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 852,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0071\\run-20261020T142203.533382Z-59b5a146\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0071\\run-20261020T142203.533382Z-59b5a146\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 72,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0072\\run-20261020T142259.163512Z-e339ee80",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0072\\run-20261020T142259.163512Z-e339ee80\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 853,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0072\\run-20261020T142259.163512Z-e339ee80\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0072\\run-20261020T142259.163512Z-e339ee80\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 73,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0073\\run-20261020T142354.614554Z-fa751fb7",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0073\\run-20261020T142354.614554Z-fa751fb7\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 845,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0073\\run-20261020T142354.614554Z-fa751fb7\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0073\\run-20261020T142354.614554Z-fa751fb7\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 74,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0074\\run-20261020T142450.451945Z-a1ab4c0e",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0074\\run-20261020T142450.451945Z-a1ab4c0e\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 842,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0074\\run-20261020T142450.451945Z-a1ab4c0e\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0074\\run-20261020T142450.451945Z-a1ab4c0e\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 75,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0075\\run-20261020T142544.641331Z-c8f5aa96",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0075\\run-20261020T142544.641331Z-c8f5aa96\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 845,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0075\\run-20261020T142544.641331Z-c8f5aa96\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0075\\run-20261020T142544.641331Z-c8f5aa96\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 76,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0076\\run-20261020T142636.091102Z-fc2917e1",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0076\\run-20261020T142636.091102Z-fc2917e1\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 854,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0076\\run-20261020T142636.091102Z-fc2917e1\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0076\\run-20261020T142636.091102Z-fc2917e1\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 77,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0077\\run-20261020T142730.890266Z-9fbe68a3",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0077\\run-20261020T142730.890266Z-9fbe68a3\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 841,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0077\\run-20261020T142730.890266Z-9fbe68a3\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0077\\run-20261020T142730.890266Z-9fbe68a3\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 78,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0078\\run-20261020T142825.930925Z-95d141a6",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0078\\run-20261020T142825.930925Z-95d141a6\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 855,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0078\\run-20261020T142825.930925Z-95d141a6\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0078\\run-20261020T142825.930925Z-95d141a6\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 79,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0079\\run-20261020T142920.787218Z-75b773de",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0079\\run-20261020T142920.787218Z-75b773de\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 852,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0079\\run-20261020T142920.787218Z-75b773de\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0079\\run-20261020T142920.787218Z-75b773de\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 80,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0080\\run-20261020T143016.344478Z-ebe6b9ba",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0080\\run-20261020T143016.344478Z-ebe6b9ba\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "steps": 837,
+      "termination": "task_succeeded",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0080\\run-20261020T143016.344478Z-ebe6b9ba\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\holdout\\0080\\run-20261020T143016.344478Z-ebe6b9ba\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 51,
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\initial\\0051\\run-20261020T130623.191919Z-25842337",
+      "outcome_path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\initial\\0051\\run-20261020T130623.191919Z-25842337\\outcome.json",
+      "program_ok": false,
+      "task_success": false,
+      "steps": 0,
+      "termination": "program_error",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\initial\\0051\\run-20261020T130623.191919Z-25842337\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\debug\\initial\\0051\\run-20261020T130623.191919Z-25842337\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    }
+  ]
+}

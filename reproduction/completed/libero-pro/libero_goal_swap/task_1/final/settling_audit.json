@@ -1,0 +1,162 @@
+{
+  "policy": "v08",
+  "source_sha256": "6c869cea3ba5bf7de27faa32cac7387dd53da2041d3349733581c907db8f7226",
+  "source_unchanged_after_freeze": true,
+  "attribution": "Own adaptation omitted embodiment=state.embodiment from transport.md Physics Settling recipe, which correctly includes it and warns default robosuite. The abbreviated docs/api-reference.md constructor table was followed during adaptation; the complete skill recipe was not applied. No bad skill/example snippet was copied.",
+  "requested_step_calls": 225,
+  "ok_step_calls": 0,
+  "invalid_request_calls": 225,
+  "actual_settling_ticks": 0,
+  "rows": [
+    {
+      "seed": 51,
+      "requested_step_calls": 15,
+      "ok_step_calls": 0,
+      "invalid_request_calls": 15,
+      "step_span_simulator_times": [
+        34.9
+      ],
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\attempts\\v08_dev\\0051\\run-20261019T120245.447085Z-3b122422"
+    },
+    {
+      "seed": 52,
+      "requested_step_calls": 15,
+      "ok_step_calls": 0,
+      "invalid_request_calls": 15,
+      "step_span_simulator_times": [
+        35.7
+      ],
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\attempts\\v08_dev\\0052\\run-20261019T120345.992758Z-0c42118e"
+    },
+    {
+      "seed": 53,
+      "requested_step_calls": 15,
+      "ok_step_calls": 0,
+      "invalid_request_calls": 15,
+      "step_span_simulator_times": [
+        35.5
+      ],
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\attempts\\v08_dev\\0053\\run-20261019T120447.462939Z-9fda2e09"
+    },
+    {
+      "seed": 54,
+      "requested_step_calls": 15,
+      "ok_step_calls": 0,
+      "invalid_request_calls": 15,
+      "step_span_simulator_times": [
+        34.75
+      ],
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\attempts\\v08_dev\\0054\\run-20261019T120548.554865Z-1da3b6ca"
+    },
+    {
+      "seed": 55,
+      "requested_step_calls": 15,
+      "ok_step_calls": 0,
+      "invalid_request_calls": 15,
+      "step_span_simulator_times": [
+        35.85
+      ],
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\attempts\\v08_dev\\0055\\run-20261019T120648.605711Z-57b5062f"
+    },
+    {
+      "seed": 56,
+      "requested_step_calls": 15,
+      "ok_step_calls": 0,
+      "invalid_request_calls": 15,
+      "step_span_simulator_times": [
+        35.4
+      ],
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\attempts\\v08_dev\\0056\\run-20261019T120743.592505Z-11348b80"
+    },
+    {
+      "seed": 57,
+      "requested_step_calls": 15,
+      "ok_step_calls": 0,
+      "invalid_request_calls": 15,
+      "step_span_simulator_times": [
+        34.7
+      ],
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\attempts\\v08_dev\\0057\\run-20261019T120846.618927Z-cd950f70"
+    },
+    {
+      "seed": 58,
+      "requested_step_calls": 15,
+      "ok_step_calls": 0,
+      "invalid_request_calls": 15,
+      "step_span_simulator_times": [
+        34.8
+      ],
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\attempts\\v08_dev\\0058\\run-20261019T120946.371357Z-dbc87eeb"
+    },
+    {
+      "seed": 59,
+      "requested_step_calls": 15,
+      "ok_step_calls": 0,
+      "invalid_request_calls": 15,
+      "step_span_simulator_times": [
+        34.55
+      ],
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\attempts\\v08_dev\\0059\\run-20261019T121048.836754Z-febe6557"
+    },
+    {
+      "seed": 60,
+      "requested_step_calls": 15,
+      "ok_step_calls": 0,
+      "invalid_request_calls": 15,
+      "step_span_simulator_times": [
+        36.15
+      ],
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\attempts\\v08_dev\\0060\\run-20261019T121150.689667Z-ed4fc89b"
+    },
+    {
+      "seed": 61,
+      "requested_step_calls": 15,
+      "ok_step_calls": 0,
+      "invalid_request_calls": 15,
+      "step_span_simulator_times": [
+        35.15
+      ],
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\attempts\\v08_dev\\0061\\run-20261019T121255.937644Z-b9980ac9"
+    },
+    {
+      "seed": 62,
+      "requested_step_calls": 15,
+      "ok_step_calls": 0,
+      "invalid_request_calls": 15,
+      "step_span_simulator_times": [
+        34.8
+      ],
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\attempts\\v08_dev\\0062\\run-20261019T121356.177284Z-0a0994fb"
+    },
+    {
+      "seed": 63,
+      "requested_step_calls": 15,
+      "ok_step_calls": 0,
+      "invalid_request_calls": 15,
+      "step_span_simulator_times": [
+        35.9
+      ],
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\attempts\\v08_dev\\0063\\run-20261019T121456.935490Z-6f85142d"
+    },
+    {
+      "seed": 64,
+      "requested_step_calls": 15,
+      "ok_step_calls": 0,
+      "invalid_request_calls": 15,
+      "step_span_simulator_times": [
+        35.6
+      ],
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\attempts\\v08_dev\\0064\\run-20261019T121557.629296Z-c0939f53"
+    },
+    {
+      "seed": 65,
+      "requested_step_calls": 15,
+      "ok_step_calls": 0,
+      "invalid_request_calls": 15,
+      "step_span_simulator_times": [
+        36.35
+      ],
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\attempts\\v08_dev\\0065\\run-20261019T121700.425077Z-93a88f65"
+    }
+  ]
+}

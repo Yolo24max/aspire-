@@ -1,0 +1,18 @@
+{
+  "attempt": "retry_02",
+  "classification": "user-authorized independent retry, not original first-attempt result",
+  "task": "libero-pro/libero_goal_swap/task_3",
+  "original_scene_run": "run-20261020T065040.046204Z-2adcf72b",
+  "allowed_initial_evidence": "debug/explore only, copied unchanged",
+  "prior_strategy_transferred": false,
+  "agent_history": "none",
+  "max_policy_versions_including_initial": 8,
+  "max_versions_per_failure_mode": 3,
+  "development_seeds": "51-65; remain51 until clean success",
+  "unseen_seeds": "66-80 exactly once after freeze",
+  "heldout_seeds": "1-50 coordinator-only after audit",
+  "execution_mode": "fresh_per_seed",
+  "gpu": 0,
+  "max_steps": 1000,
+  "workers": 1
+}

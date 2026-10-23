@@ -1,0 +1,552 @@
+[
+  {
+    "seed": 1,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 350,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0001\\run-20261020T055156.375868Z-2a942261",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0001\\run-20261020T055156.375868Z-2a942261\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0001\\run-20261020T055156.375868Z-2a942261\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 2,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 352,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0002\\run-20261020T055603.371226Z-e7d60f0e",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0002\\run-20261020T055603.371226Z-e7d60f0e\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0002\\run-20261020T055603.371226Z-e7d60f0e\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 3,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 350,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0003\\run-20261020T055629.883310Z-d806bd55",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0003\\run-20261020T055629.883310Z-d806bd55\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0003\\run-20261020T055629.883310Z-d806bd55\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 4,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 337,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0004\\run-20261020T055656.207591Z-d34ea89e",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0004\\run-20261020T055656.207591Z-d34ea89e\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0004\\run-20261020T055656.207591Z-d34ea89e\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 5,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 352,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0005\\run-20261020T055722.170946Z-168b4122",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0005\\run-20261020T055722.170946Z-168b4122\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0005\\run-20261020T055722.170946Z-168b4122\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 6,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 342,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0006\\run-20261020T055748.704621Z-ba546e49",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0006\\run-20261020T055748.704621Z-ba546e49\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0006\\run-20261020T055748.704621Z-ba546e49\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 7,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 342,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0007\\run-20261020T055814.872664Z-66a662f6",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0007\\run-20261020T055814.872664Z-66a662f6\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0007\\run-20261020T055814.872664Z-66a662f6\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 8,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 344,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0008\\run-20261020T055840.993406Z-40a36b2b",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0008\\run-20261020T055840.993406Z-40a36b2b\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0008\\run-20261020T055840.993406Z-40a36b2b\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 9,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 352,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0009\\run-20261020T055907.158307Z-7ed2c513",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0009\\run-20261020T055907.158307Z-7ed2c513\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0009\\run-20261020T055907.158307Z-7ed2c513\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 10,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 348,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0010\\run-20261020T055933.342734Z-32c46e56",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0010\\run-20261020T055933.342734Z-32c46e56\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0010\\run-20261020T055933.342734Z-32c46e56\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 11,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 343,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0011\\run-20261020T055959.780043Z-4a8f4dcf",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0011\\run-20261020T055959.780043Z-4a8f4dcf\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0011\\run-20261020T055959.780043Z-4a8f4dcf\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 12,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 341,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0012\\run-20261020T060026.337945Z-17588f3a",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0012\\run-20261020T060026.337945Z-17588f3a\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0012\\run-20261020T060026.337945Z-17588f3a\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 13,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 351,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0013\\run-20261020T060052.602845Z-d0081ee2",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0013\\run-20261020T060052.602845Z-d0081ee2\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0013\\run-20261020T060052.602845Z-d0081ee2\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 14,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 345,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0014\\run-20261020T060119.398668Z-8ecf1292",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0014\\run-20261020T060119.398668Z-8ecf1292\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0014\\run-20261020T060119.398668Z-8ecf1292\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 15,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 347,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0015\\run-20261020T060145.640457Z-2d65532f",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0015\\run-20261020T060145.640457Z-2d65532f\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0015\\run-20261020T060145.640457Z-2d65532f\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 16,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 354,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0016\\run-20261020T060212.690253Z-7ffa238d",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0016\\run-20261020T060212.690253Z-7ffa238d\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0016\\run-20261020T060212.690253Z-7ffa238d\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 17,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 343,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0017\\run-20261020T060239.208787Z-7e823131",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0017\\run-20261020T060239.208787Z-7e823131\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0017\\run-20261020T060239.208787Z-7e823131\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 18,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 346,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0018\\run-20261020T060305.409288Z-5a1fb3ad",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0018\\run-20261020T060305.409288Z-5a1fb3ad\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0018\\run-20261020T060305.409288Z-5a1fb3ad\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 19,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 337,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0019\\run-20261020T060331.231666Z-f96eb79f",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0019\\run-20261020T060331.231666Z-f96eb79f\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0019\\run-20261020T060331.231666Z-f96eb79f\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 20,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 334,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0020\\run-20261020T060357.666930Z-18a63a25",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0020\\run-20261020T060357.666930Z-18a63a25\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0020\\run-20261020T060357.666930Z-18a63a25\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 21,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 345,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0021\\run-20261020T060423.618757Z-327092a3",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0021\\run-20261020T060423.618757Z-327092a3\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0021\\run-20261020T060423.618757Z-327092a3\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 22,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 346,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0022\\run-20261020T060450.396202Z-1e04e8b3",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0022\\run-20261020T060450.396202Z-1e04e8b3\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0022\\run-20261020T060450.396202Z-1e04e8b3\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 23,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 344,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0023\\run-20261020T060517.328665Z-fd3cd660",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0023\\run-20261020T060517.328665Z-fd3cd660\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0023\\run-20261020T060517.328665Z-fd3cd660\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 24,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 347,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0024\\run-20261020T060545.458837Z-36d337bd",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0024\\run-20261020T060545.458837Z-36d337bd\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0024\\run-20261020T060545.458837Z-36d337bd\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 25,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 341,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0025\\run-20261020T060611.588775Z-3bf451c9",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0025\\run-20261020T060611.588775Z-3bf451c9\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0025\\run-20261020T060611.588775Z-3bf451c9\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 26,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 346,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0026\\run-20261020T060638.335419Z-e61f1435",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0026\\run-20261020T060638.335419Z-e61f1435\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0026\\run-20261020T060638.335419Z-e61f1435\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 27,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 340,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0027\\run-20261020T060706.650298Z-c50ab94a",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0027\\run-20261020T060706.650298Z-c50ab94a\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0027\\run-20261020T060706.650298Z-c50ab94a\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 28,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 332,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0028\\run-20261020T060734.025439Z-6750e059",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0028\\run-20261020T060734.025439Z-6750e059\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0028\\run-20261020T060734.025439Z-6750e059\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 29,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 340,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0029\\run-20261020T060759.117024Z-4951f074",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0029\\run-20261020T060759.117024Z-4951f074\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0029\\run-20261020T060759.117024Z-4951f074\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 30,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 354,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0030\\run-20261020T060824.382888Z-533a10da",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0030\\run-20261020T060824.382888Z-533a10da\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0030\\run-20261020T060824.382888Z-533a10da\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 31,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 355,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0031\\run-20261020T060851.685916Z-6176df82",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0031\\run-20261020T060851.685916Z-6176df82\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0031\\run-20261020T060851.685916Z-6176df82\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 32,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 353,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0032\\run-20261020T060918.271168Z-72aa4f8d",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0032\\run-20261020T060918.271168Z-72aa4f8d\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0032\\run-20261020T060918.271168Z-72aa4f8d\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 33,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 344,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0033\\run-20261020T060944.723648Z-5ea78f51",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0033\\run-20261020T060944.723648Z-5ea78f51\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0033\\run-20261020T060944.723648Z-5ea78f51\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 34,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 344,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0034\\run-20261020T061010.374088Z-09bf5d2f",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0034\\run-20261020T061010.374088Z-09bf5d2f\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0034\\run-20261020T061010.374088Z-09bf5d2f\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 35,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 342,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0035\\run-20261020T061036.483012Z-4396bfe1",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0035\\run-20261020T061036.483012Z-4396bfe1\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0035\\run-20261020T061036.483012Z-4396bfe1\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 36,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 336,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0036\\run-20261020T061102.246414Z-e63503b1",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0036\\run-20261020T061102.246414Z-e63503b1\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0036\\run-20261020T061102.246414Z-e63503b1\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 37,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 348,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0037\\run-20261020T061128.034754Z-b4936a0c",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0037\\run-20261020T061128.034754Z-b4936a0c\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0037\\run-20261020T061128.034754Z-b4936a0c\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 38,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 347,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0038\\run-20261020T061153.904760Z-b0ef45a7",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0038\\run-20261020T061153.904760Z-b0ef45a7\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0038\\run-20261020T061153.904760Z-b0ef45a7\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 39,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 340,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0039\\run-20261020T061220.195510Z-1a67c397",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0039\\run-20261020T061220.195510Z-1a67c397\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0039\\run-20261020T061220.195510Z-1a67c397\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 40,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 343,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0040\\run-20261020T061246.176255Z-e9936cc1",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0040\\run-20261020T061246.176255Z-e9936cc1\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0040\\run-20261020T061246.176255Z-e9936cc1\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 41,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 351,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0041\\run-20261020T061313.057577Z-dc6b2772",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0041\\run-20261020T061313.057577Z-dc6b2772\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0041\\run-20261020T061313.057577Z-dc6b2772\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 42,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 353,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0042\\run-20261020T061339.491112Z-57414f7f",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0042\\run-20261020T061339.491112Z-57414f7f\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0042\\run-20261020T061339.491112Z-57414f7f\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 43,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 355,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0043\\run-20261020T061405.652524Z-43097eda",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0043\\run-20261020T061405.652524Z-43097eda\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0043\\run-20261020T061405.652524Z-43097eda\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 44,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 338,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0044\\run-20261020T061431.864901Z-61d343ff",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0044\\run-20261020T061431.864901Z-61d343ff\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0044\\run-20261020T061431.864901Z-61d343ff\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 45,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 336,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0045\\run-20261020T061457.994080Z-82c8aa85",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0045\\run-20261020T061457.994080Z-82c8aa85\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0045\\run-20261020T061457.994080Z-82c8aa85\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 46,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 342,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0046\\run-20261020T061523.556890Z-af21acf9",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0046\\run-20261020T061523.556890Z-af21acf9\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0046\\run-20261020T061523.556890Z-af21acf9\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 47,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 355,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0047\\run-20261020T061550.368344Z-8367c73f",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0047\\run-20261020T061550.368344Z-8367c73f\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0047\\run-20261020T061550.368344Z-8367c73f\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 48,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 350,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0048\\run-20261020T061616.784059Z-130fef4e",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0048\\run-20261020T061616.784059Z-130fef4e\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0048\\run-20261020T061616.784059Z-130fef4e\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 49,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 337,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0049\\run-20261020T061643.155066Z-7c36bfe9",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0049\\run-20261020T061643.155066Z-7c36bfe9\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0049\\run-20261020T061643.155066Z-7c36bfe9\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  },
+  {
+    "seed": 50,
+    "task_success": true,
+    "program_ok": true,
+    "steps": 349,
+    "run": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0050\\run-20261020T061708.702068Z-7565762e",
+    "videos": [
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0050\\run-20261020T061708.702068Z-7565762e\\media\\videos\\agentview.mp4",
+      "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\validation\\runs\\8b228fe273e0b933\\results\\0050\\run-20261020T061708.702068Z-7565762e\\media\\videos\\robot0_eye_in_hand.mp4"
+    ]
+  }
+]

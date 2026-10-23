@@ -1,0 +1,21 @@
+{
+  "benchmark": "robosuite",
+  "suite": "cube_restack",
+  "task_id": 0,
+  "gpu": 0,
+  "init_mode": "saved",
+  "max_steps": 1000,
+  "camera_width": 800,
+  "camera_height": 512,
+  "workers": 1,
+  "seeds": [
+    126,
+    127,
+    128,
+    129,
+    130
+  ],
+  "failure_mode": "placement_clearance",
+  "program": "code/v01_held_clearance.py",
+  "output_root": "debug/holdout"
+}

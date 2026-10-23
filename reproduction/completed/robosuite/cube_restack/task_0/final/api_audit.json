@@ -1,0 +1,48 @@
+{
+  "forbidden_information_used": false,
+  "imports": [],
+  "source_sha256": "eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742",
+  "status": "PASS",
+  "no_seed_branch": true,
+  "constructors": [
+    "Pose",
+    "RobotAction",
+    "ArmCommand"
+  ],
+  "no_native_state": true,
+  "no_external_baseline": true,
+  "quarantined": [],
+  "public_tools": [
+    "get_task_context",
+    "get_robot_state",
+    "localize_object",
+    "move_to_pose",
+    "open_gripper",
+    "close_gripper",
+    "step"
+  ],
+  "provenance": {
+    "placement": "post-lift EEF minus observed held-cloud bottom and XY relation, runtime target surface",
+    "pose_and_dimensions": "every cube runtime cloud quantiles; explicit state.base_frame",
+    "goal": "own public scene101 get_task_context.language",
+    "grasp": "top minus0.65times observed horizontal width per shared cube grasp skill",
+    "object_prompts": "own scene101 red/green overlays; roles selected at runtime by observed top heights",
+    "table": "runtime table cloud0.95quantile",
+    "orientation": "initial public primary EEF quaternion",
+    "adjacent_site": "runtime lower cube XY plus3times observed maximum cube span"
+  },
+  "program": "code/v01_held_clearance.py",
+  "audited_before_fix_code": true,
+  "no_assets": true,
+  "generic_constants": {
+    "motion_caps": "160,180,220",
+    "motion_tolerance": "0.015",
+    "grasp_verification": "0.02m lift",
+    "release_gap": "0.012m",
+    "quantiles": "0.05,0.1,0.5,0.9,0.95 robust observation statistics",
+    "settle": "12public joint-hold ticks",
+    "stand_off": "0.15m grasp/lift;0.12m transit clearance"
+  },
+  "history": "v00 scientifically failed but public-API legal; unchanged and preserved",
+  "schema_version": 1
+}

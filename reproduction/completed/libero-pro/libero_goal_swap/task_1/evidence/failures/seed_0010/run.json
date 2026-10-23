@@ -1,0 +1,39 @@
+{
+  "benchmark": "libero-pro",
+  "capture": {
+    "camera_height": 512,
+    "camera_width": 800,
+    "max_steps": 1000,
+    "profile": "balanced_evidence",
+    "videos": true
+  },
+  "environment_sha256": null,
+  "finished_at": "2026-10-19T14:07:22.656541Z",
+  "init_mode": "seeded",
+  "providers": {
+    "grasping": [
+      "contact-graspnet"
+    ],
+    "ik": [
+      "pyroki",
+      "curobo"
+    ],
+    "pose_planning": [
+      "composed",
+      "curobo-integrated"
+    ],
+    "segmentation": "sam3",
+    "trajectory_planning": [
+      "interpolation",
+      "curobo"
+    ]
+  },
+  "run_id": "run-20261019T140638.543393Z-cc98d060",
+  "schema_version": "1.0",
+  "seed": 10,
+  "started_at": "2026-10-19T14:06:38.543732Z",
+  "status": "finalized",
+  "suite": "libero_goal_swap",
+  "task_id": 1,
+  "task_name": "put_the_bowl_on_the_stove"
+}

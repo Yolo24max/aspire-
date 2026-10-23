@@ -1,0 +1,34 @@
+[
+  {
+    "source": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\code\\v00_independent_initial.py",
+    "sha256": "10224d626415a0a581056f882a8b22f49ef39cd0d651e5820543c365df5341fe"
+  },
+  {
+    "source": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\code\\v01_explicit_scope.py",
+    "sha256": "07f0ea35c16bf1784a1af886d3eb949c19f4dca11905980819ac43bfd310c2b1"
+  },
+  {
+    "source": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\code\\v02_staged_transit.py",
+    "sha256": "a5badbb1abdbdff1fb7f0581ef2a845d3203ba33edb3d8cd57b5cfb5c8307a15"
+  },
+  {
+    "source": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\code\\v03_joint_servo_budget.py",
+    "sha256": "e53152bd0e246cf98b8b2f55ff86cbabfb480e52467d8c60ad532f16dd482874"
+  },
+  {
+    "source": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\code\\v04_bounded_drawer_pull.py",
+    "sha256": "5445e852e54e32cb2671f2a855dc8b2c2628cacf847a30d7b6f111844c42502b"
+  },
+  {
+    "source": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\code\\v05_observed_rim_grasp.py",
+    "sha256": "f2ba4a0ae6174411f44220966d72f0295aaff80754b8cc93b6454b1533d8d6f8"
+  },
+  {
+    "source": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\code\\v06_deeper_rim_contact.py",
+    "sha256": "0811f23fa3a02dc07ee8a26c72e0834d69196a6c00c56e038546b6921ba061de"
+  },
+  {
+    "source": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_3\\retry_02\\code\\v07_staged_lift_confidence.py",
+    "sha256": "11fdfca995faf2c82c7eee9f1174ee2f31c6e9e696ac055ada4dc2fd41fff026"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "source": "code/v01_deeper_grasp.py",
+  "sha256": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912",
+  "public_calls": [
+    "Pose",
+    "close_gripper",
+    "get_observation",
+    "get_robot_state",
+    "get_task_context",
+    "localize_object",
+    "move_to_pose",
+    "open_gripper"
+  ],
+  "issues": [],
+  "manual_provenance_review": {
+    "object_identity": "red cube prompt from official public initial image and runtime task language",
+    "coordinates": "all XYZ from runtime public cloud quantiles; end-effector orientation from public robot state",
+    "dimensions": "robust runtime horizontal span; no asset or snapshot dimensions",
+    "generic_strategy_constants": "quantiles 0.1/0.5/0.9; relative depth0.65; stand-off0.15m; lift0.18m; tolerance0.015m; verification-rise0.03m; public point guard20; caps250/220/250",
+    "hidden_state": "none",
+    "seed_branches": "none",
+    "example_or_sibling_programs": "not accessed"
+  },
+  "skill_library_sha": "c050e38ea9eff52c",
+  "development_status": "SELECTED: v01 exact source25/25 task_success,25/25 program_ok, public grasp_verified25/25; all25 source hashes verified.",
+  "checker_correction": "Initial host checker omitted documented safe builtin min from its allowlist; min is legal. False positive audit retained separately. Source unchanged.",
+  "change_provenance": "Generic relative grasp-depth fix from v00 public retention failure; no task-dependent pose/dimension copied."
+}

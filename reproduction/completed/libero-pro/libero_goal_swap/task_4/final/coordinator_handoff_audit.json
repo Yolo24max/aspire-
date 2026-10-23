@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "gate": "PASS",
+  "task_id": 4,
+  "attempt": "retry_03",
+  "selected": "fix_code.py",
+  "source_sha256": "f60e9cd008601cf483bd4998f9786106f178f9a11c3ef3889c48642c3970cec1",
+  "skill_library_sha": "c050e38ea9eff52c",
+  "settings": {
+    "benchmark": "libero-pro",
+    "suite": "libero_goal_swap",
+    "init_mode": "seeded",
+    "max_steps": 1000,
+    "videos": true
+  },
+  "development": {
+    "seeds": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+    ],
+    "trials": 15,
+    "task_success": 15,
+    "program_ok": 15,
+    "source_sha256": "f60e9cd008601cf483bd4998f9786106f178f9a11c3ef3889c48642c3970cec1"
+  },
+  "unseen_history": {
+    "request_tag": "task4-1e5be6380b88",
+    "one_request": true,
+    "seeds": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "trials": 15,
+    "task_success": 15,
+    "program_ok": 15,
+    "source_sha256": "f60e9cd008601cf483bd4998f9786106f178f9a11c3ef3889c48642c3970cec1",
+    "no_later_tuning_requests": true,
+    "runs": [
+      {
+        "seed": 66,
+        "run": "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0066\\run-20261021T094647.438102Z-378b3bb8",
+        "task_success": true,
+        "program_ok": true,
+        "termination_reason": "task_succeeded",
+        "steps": 934,
+        "videos": [
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0066\\run-20261021T094647.438102Z-378b3bb8\\media\\videos\\agentview.mp4",
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0066\\run-20261021T094647.438102Z-378b3bb8\\media\\videos\\robot0_eye_in_hand.mp4"
+        ]
+      },
+      {
+        "seed": 67,
+        "run": "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0067\\run-20261021T094746.710001Z-8693d83d",
+        "task_success": true,
+        "program_ok": true,
+        "termination_reason": "task_succeeded",
+        "steps": 935,
+        "videos": [
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0067\\run-20261021T094746.710001Z-8693d83d\\media\\videos\\agentview.mp4",
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0067\\run-20261021T094746.710001Z-8693d83d\\media\\videos\\robot0_eye_in_hand.mp4"
+        ]
+      },
+      {
+        "seed": 68,
+        "run": "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0068\\run-20261021T094846.718446Z-cd6b9eb4",
+        "task_success": true,
+        "program_ok": true,
+        "termination_reason": "task_succeeded",
+        "steps": 899,
+        "videos": [
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0068\\run-20261021T094846.718446Z-cd6b9eb4\\media\\videos\\agentview.mp4",
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0068\\run-20261021T094846.718446Z-cd6b9eb4\\media\\videos\\robot0_eye_in_hand.mp4"
+        ]
+      },
+      {
+        "seed": 69,
+        "run": "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0069\\run-20261021T094942.809429Z-90cf3586",
+        "task_success": true,
+        "program_ok": true,
+        "termination_reason": "task_succeeded",
+        "steps": 925,
+        "videos": [
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0069\\run-20261021T094942.809429Z-90cf3586\\media\\videos\\agentview.mp4",
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0069\\run-20261021T094942.809429Z-90cf3586\\media\\videos\\robot0_eye_in_hand.mp4"
+        ]
+      },
+      {
+        "seed": 70,
+        "run": "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0070\\run-20261021T095041.056241Z-c64ceea6",
+        "task_success": true,
+        "program_ok": true,
+        "termination_reason": "task_succeeded",
+        "steps": 931,
+        "videos": [
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0070\\run-20261021T095041.056241Z-c64ceea6\\media\\videos\\agentview.mp4",
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0070\\run-20261021T095041.056241Z-c64ceea6\\media\\videos\\robot0_eye_in_hand.mp4"
+        ]
+      },
+      {
+        "seed": 71,
+        "run": "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0071\\run-20261021T095139.433531Z-d8acd4fe",
+        "task_success": true,
+        "program_ok": true,
+        "termination_reason": "task_succeeded",
+        "steps": 904,
+        "videos": [
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0071\\run-20261021T095139.433531Z-d8acd4fe\\media\\videos\\agentview.mp4",
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0071\\run-20261021T095139.433531Z-d8acd4fe\\media\\videos\\robot0_eye_in_hand.mp4"
+        ]
+      },
+      {
+        "seed": 72,
+        "run": "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0072\\run-20261021T095236.556851Z-2110f5db",
+        "task_success": true,
+        "program_ok": true,
+        "termination_reason": "task_succeeded",
+        "steps": 902,
+        "videos": [
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0072\\run-20261021T095236.556851Z-2110f5db\\media\\videos\\agentview.mp4",
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0072\\run-20261021T095236.556851Z-2110f5db\\media\\videos\\robot0_eye_in_hand.mp4"
+        ]
+      },
+      {
+        "seed": 73,
+        "run": "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0073\\run-20261021T095333.393241Z-75d5d7cf",
+        "task_success": true,
+        "program_ok": true,
+        "termination_reason": "task_succeeded",
+        "steps": 928,
+        "videos": [
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0073\\run-20261021T095333.393241Z-75d5d7cf\\media\\videos\\agentview.mp4",
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0073\\run-20261021T095333.393241Z-75d5d7cf\\media\\videos\\robot0_eye_in_hand.mp4"
+        ]
+      },
+      {
+        "seed": 74,
+        "run": "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0074\\run-20261021T095432.518732Z-0220b0e0",
+        "task_success": true,
+        "program_ok": true,
+        "termination_reason": "task_succeeded",
+        "steps": 930,
+        "videos": [
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0074\\run-20261021T095432.518732Z-0220b0e0\\media\\videos\\agentview.mp4",
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0074\\run-20261021T095432.518732Z-0220b0e0\\media\\videos\\robot0_eye_in_hand.mp4"
+        ]
+      },
+      {
+        "seed": 75,
+        "run": "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0075\\run-20261021T095531.183871Z-667312fe",
+        "task_success": true,
+        "program_ok": true,
+        "termination_reason": "task_succeeded",
+        "steps": 921,
+        "videos": [
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0075\\run-20261021T095531.183871Z-667312fe\\media\\videos\\agentview.mp4",
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0075\\run-20261021T095531.183871Z-667312fe\\media\\videos\\robot0_eye_in_hand.mp4"
+        ]
+      },
+      {
+        "seed": 76,
+        "run": "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0076\\run-20261021T095629.503197Z-4304967f",
+        "task_success": true,
+        "program_ok": true,
+        "termination_reason": "task_succeeded",
+        "steps": 909,
+        "videos": [
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0076\\run-20261021T095629.503197Z-4304967f\\media\\videos\\agentview.mp4",
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0076\\run-20261021T095629.503197Z-4304967f\\media\\videos\\robot0_eye_in_hand.mp4"
+        ]
+      },
+      {
+        "seed": 77,
+        "run": "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0077\\run-20261021T095727.862991Z-dba6d800",
+        "task_success": true,
+        "program_ok": true,
+        "termination_reason": "task_succeeded",
+        "steps": 926,
+        "videos": [
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0077\\run-20261021T095727.862991Z-dba6d800\\media\\videos\\agentview.mp4",
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0077\\run-20261021T095727.862991Z-dba6d800\\media\\videos\\robot0_eye_in_hand.mp4"
+        ]
+      },
+      {
+        "seed": 78,
+        "run": "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0078\\run-20261021T095826.972775Z-1c8ce16b",
+        "task_success": true,
+        "program_ok": true,
+        "termination_reason": "task_succeeded",
+        "steps": 894,
+        "videos": [
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0078\\run-20261021T095826.972775Z-1c8ce16b\\media\\videos\\agentview.mp4",
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0078\\run-20261021T095826.972775Z-1c8ce16b\\media\\videos\\robot0_eye_in_hand.mp4"
+        ]
+      },
+      {
+        "seed": 79,
+        "run": "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0079\\run-20261021T095924.398873Z-1cb87e15",
+        "task_success": true,
+        "program_ok": true,
+        "termination_reason": "task_succeeded",
+        "steps": 900,
+        "videos": [
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0079\\run-20261021T095924.398873Z-1cb87e15\\media\\videos\\agentview.mp4",
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0079\\run-20261021T095924.398873Z-1cb87e15\\media\\videos\\robot0_eye_in_hand.mp4"
+        ]
+      },
+      {
+        "seed": 80,
+        "run": "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0080\\run-20261021T100021.751582Z-f2f8cc44",
+        "task_success": true,
+        "program_ok": true,
+        "termination_reason": "task_succeeded",
+        "steps": 956,
+        "videos": [
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0080\\run-20261021T100021.751582Z-f2f8cc44\\media\\videos\\agentview.mp4",
+          "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\debug\\unseen\\v01_frozen\\0080\\run-20261021T100021.751582Z-f2f8cc44\\media\\videos\\robot0_eye_in_hand.mp4"
+        ]
+      }
+    ]
+  },
+  "backup": {
+    "receipt": "artifact_transfer_1e5be6380b88.json",
+    "copied_seeds": 15,
+    "verified_cases": 15,
+    "verified_files": 18342,
+    "remote_payload_retired_after_verification": true
+  },
+  "heldout_started": false
+}

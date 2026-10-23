@@ -1,0 +1,11 @@
+# Candidate skills under independent verification
+
+[
+  {
+    "skill": "grasp.md",
+    "title": "Visible cube width-relative grasp depth",
+    "trigger": "One red cube on a clear support, empty parallel jaws, and current public end-effector orientation points downward. picked is the valid public LocalizationResult from localize_object(\"red cube\", camera_name=\"agentview\", target_frame=get_robot_state().base_frame), with at least20 points; state=get_robot_state(). Use computed x,y,grasp_z/downward in that state.base_frame. Approach from grasp_z+0.15m, descend to grasp_z, close_gripper, then lift to grasp_z+0.18m without release; move_to_pose tolerance0.015 and caps250/220/250. Entire tested open/approach/contact/close/lift costs221\u2013239 controlticks; gripper empty during approach and carries cube during lift. No collision-aware-planner claim.",
+    "code": "def quantile(values, fraction):\n    ordered = sorted(float(value) for value in values)\n    return ordered[int((len(ordered) - 1) * fraction)]\n\n\npoints = picked.point_cloud.points\nx = quantile((p[0] for p in points), 0.5)\ny = quantile((p[1] for p in points), 0.5)\ntop = quantile((p[2] for p in points), 0.9)\nwidth_x = quantile((p[0] for p in points), 0.9) - quantile((p[0] for p in points), 0.1)\nwidth_y = quantile((p[1] for p in points), 0.9) - quantile((p[1] for p in points), 0.1)\nobserved_width = min(width_x, width_y)\nif observed_width <= 0.0:\n    raise ValueError(\"cube cloud has no horizontal span\")\ngrasp_z = top - 0.65 * observed_width\ndownward = tuple(state.end_effector_poses[\"primary\"].quaternion_wxyz)",
+    "evidence": "v00 depth fraction0.4:24/25 development, seed124 rotated/slipped at lift; v01 only relative-depth fraction changed to0.65:25/25 task_success,25/25program_ok,25/25publicgrasp_verified. Seed124 final keyframe retains the cube. No regressions101-125; Frozen selected v01 exactly-once unseen126-130:5/5task_success,5/5program_ok,5/5publicgrasp_verified; all5 source hashes match. No independent verifier yet."
+  }
+]

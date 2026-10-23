@@ -1,0 +1,191 @@
+{
+  "consulted": [
+    {
+      "section": "Standard Localization Helper",
+      "evidence": "Applied public perception, staged control, or artifact triage to own cube_restack v00/v01. v00 full development0/25 failed placement; v01 full development101-125 passed25/25 at728-792ticks. Whole-policy evidence only, no isolated ablation.",
+      "verdict": "useful",
+      "skill": "localize.md"
+    },
+    {
+      "section": "Prompt Registry",
+      "evidence": "Read before initial scene; skipped because this task is two simple cubes and this section does not supply its needed operation.",
+      "verdict": "not-applicable",
+      "skill": "localize.md"
+    },
+    {
+      "section": "Disambiguation: Two Similar Objects in Scene",
+      "evidence": "Applied public perception, staged control, or artifact triage to own cube_restack v00/v01. v00 full development0/25 failed placement; v01 full development101-125 passed25/25 at728-792ticks. Whole-policy evidence only, no isolated ablation.",
+      "verdict": "useful",
+      "skill": "localize.md"
+    },
+    {
+      "section": "Key Signals",
+      "evidence": "Applied public perception, staged control, or artifact triage to own cube_restack v00/v01. v00 full development0/25 failed placement; v01 full development101-125 passed25/25 at728-792ticks. Whole-policy evidence only, no isolated ablation.",
+      "verdict": "useful",
+      "skill": "localize.md"
+    },
+    {
+      "section": "Prompting Strategy",
+      "evidence": "Applied public perception, staged control, or artifact triage to own cube_restack v00/v01. v00 full development0/25 failed placement; v01 full development101-125 passed25/25 at728-792ticks. Whole-policy evidence only, no isolated ablation.",
+      "verdict": "useful",
+      "skill": "localize.md"
+    },
+    {
+      "section": "Placement Z Notes",
+      "evidence": "Applied public perception, staged control, or artifact triage to own cube_restack v00/v01. v00 full development0/25 failed placement; v01 full development101-125 passed25/25 at728-792ticks. Whole-policy evidence only, no isolated ablation.",
+      "verdict": "useful",
+      "skill": "localize.md"
+    },
+    {
+      "section": "Waypoint Sequences",
+      "evidence": "Read before initial scene; skipped because this task is two simple cubes and this section does not supply its needed operation.",
+      "verdict": "not-applicable",
+      "skill": "transport.md"
+    },
+    {
+      "section": "Bounded public pose convergence after a rotated pregrasp timeout",
+      "evidence": "Read before initial scene; skipped because this task is two simple cubes and this section does not supply its needed operation.",
+      "verdict": "not-applicable",
+      "skill": "transport.md"
+    },
+    {
+      "section": "Pre-Probe IK Conditioning",
+      "evidence": "Read before initial scene; skipped because this task is two simple cubes and this section does not supply its needed operation.",
+      "verdict": "not-applicable",
+      "skill": "transport.md"
+    },
+    {
+      "section": "Safe Transit (Lateral Escape Before Lift)",
+      "evidence": "Read before initial scene; skipped because this task is two simple cubes and this section does not supply its needed operation.",
+      "verdict": "not-applicable",
+      "skill": "transport.md"
+    },
+    {
+      "section": "Placement Approach",
+      "evidence": "Applied public perception, staged control, or artifact triage to own cube_restack v00/v01. v00 full development0/25 failed placement; v01 full development101-125 passed25/25 at728-792ticks. Whole-policy evidence only, no isolated ablation.",
+      "verdict": "useful",
+      "skill": "transport.md"
+    },
+    {
+      "section": "Segmented Fixture Top Placement",
+      "evidence": "Applied public perception, staged control, or artifact triage to own cube_restack v00/v01. v00 full development0/25 failed placement; v01 full development101-125 passed25/25 at728-792ticks. Whole-policy evidence only, no isolated ablation.",
+      "verdict": "useful",
+      "skill": "transport.md"
+    },
+    {
+      "section": "Physics Settling After Release",
+      "evidence": "Applied public perception, staged control, or artifact triage to own cube_restack v00/v01. v00 full development0/25 failed placement; v01 full development101-125 passed25/25 at728-792ticks. Whole-policy evidence only, no isolated ablation.",
+      "verdict": "useful",
+      "skill": "transport.md"
+    },
+    {
+      "section": "Basket / Container Placement",
+      "evidence": "Read before initial scene; skipped because this task is two simple cubes and this section does not supply its needed operation.",
+      "verdict": "not-applicable",
+      "skill": "transport.md"
+    },
+    {
+      "section": "How an entry gets here",
+      "evidence": "Read before initial scene; skipped because this task is two simple cubes and this section does not supply its needed operation.",
+      "verdict": "not-applicable",
+      "skill": "README.md"
+    },
+    {
+      "section": "Standard Pick-and-Place Template",
+      "evidence": "Applied public perception, staged control, or artifact triage to own cube_restack v00/v01. v00 full development0/25 failed placement; v01 full development101-125 passed25/25 at728-792ticks. Whole-policy evidence only, no isolated ablation.",
+      "verdict": "useful",
+      "skill": "grasp.md"
+    },
+    {
+      "section": "Cylindrical Side Grasp (bottles, cans)",
+      "evidence": "Read before initial scene; skipped because this task is two simple cubes and this section does not supply its needed operation.",
+      "verdict": "not-applicable",
+      "skill": "grasp.md"
+    },
+    {
+      "section": "Downward Bottle Neck Grasp",
+      "evidence": "Read before initial scene; skipped because this task is two simple cubes and this section does not supply its needed operation.",
+      "verdict": "not-applicable",
+      "skill": "grasp.md"
+    },
+    {
+      "section": "Key Conventions",
+      "evidence": "Applied public perception, staged control, or artifact triage to own cube_restack v00/v01. v00 full development0/25 failed placement; v01 full development101-125 passed25/25 at728-792ticks. Whole-policy evidence only, no isolated ablation.",
+      "verdict": "useful",
+      "skill": "grasp.md"
+    },
+    {
+      "section": "Visible cube width-relative grasp depth",
+      "evidence": "Applied public perception, staged control, or artifact triage to own cube_restack v00/v01. v00 full development0/25 failed placement; v01 full development101-125 passed25/25 at728-792ticks. Whole-policy evidence only, no isolated ablation.",
+      "verdict": "useful",
+      "skill": "grasp.md"
+    },
+    {
+      "section": "Object Geometry Utilities",
+      "evidence": "Applied public perception, staged control, or artifact triage to own cube_restack v00/v01. v00 full development0/25 failed placement; v01 full development101-125 passed25/25 at728-792ticks. Whole-policy evidence only, no isolated ablation.",
+      "verdict": "useful",
+      "skill": "grasp.md"
+    },
+    {
+      "section": "Knob / Switch Turning",
+      "evidence": "Read before initial scene; skipped because this task is two simple cubes and this section does not supply its needed operation.",
+      "verdict": "not-applicable",
+      "skill": "manipulation.md"
+    },
+    {
+      "section": "Hinged Door Opening / Closing",
+      "evidence": "Read before initial scene; skipped because this task is two simple cubes and this section does not supply its needed operation.",
+      "verdict": "not-applicable",
+      "skill": "manipulation.md"
+    },
+    {
+      "section": "Pushing / Sliding",
+      "evidence": "Read before initial scene; skipped because this task is two simple cubes and this section does not supply its needed operation.",
+      "verdict": "not-applicable",
+      "skill": "manipulation.md"
+    },
+    {
+      "section": "General Notes",
+      "evidence": "Read before initial scene; skipped because this task is two simple cubes and this section does not supply its needed operation.",
+      "verdict": "not-applicable",
+      "skill": "manipulation.md"
+    },
+    {
+      "section": "Triage from disk, not from a `run:` log line",
+      "evidence": "Applied public perception, staged control, or artifact triage to own cube_restack v00/v01. v00 full development0/25 failed placement; v01 full development101-125 passed25/25 at728-792ticks. Whole-policy evidence only, no isolated ablation.",
+      "verdict": "useful",
+      "skill": "task-exploration.md"
+    },
+    {
+      "section": "Wrap every run in `timeout` — orphans starve the GPU",
+      "evidence": "Read before initial scene; skipped because this task is two simple cubes and this section does not supply its needed operation.",
+      "verdict": "not-applicable",
+      "skill": "task-exploration.md"
+    },
+    {
+      "section": "Sandbox constraints when writing probes",
+      "evidence": "Applied public perception, staged control, or artifact triage to own cube_restack v00/v01. v00 full development0/25 failed placement; v01 full development101-125 passed25/25 at728-792ticks. Whole-policy evidence only, no isolated ablation.",
+      "verdict": "useful",
+      "skill": "task-exploration.md"
+    },
+    {
+      "skill": "task-exploration.md",
+      "evidence": "Own single no-motion scene101 supplied authoritative reversal language and red/green overlays; runtime role ordering uses public heights. Scene count1 preserved.",
+      "verdict": "useful",
+      "section": "Initial Scene Analysis"
+    },
+    {
+      "skill": "README.md",
+      "evidence": "Only curated library used as cross-task knowledge; no other task or verifier workspace read. Library SHA139b0f21899063b4 confirmed by official campaign command.",
+      "verdict": "useful",
+      "section": "Shared Robot Skills"
+    }
+  ],
+  "skill_library_sha": "139b0f21899063b4",
+  "schema_version": 1,
+  "proposed_edits": [],
+  "suite": "cube_restack",
+  "benchmark": "robosuite",
+  "task_id": 0,
+  "proposed_new": []
+}

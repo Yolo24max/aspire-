@@ -1,0 +1,804 @@
+{
+  "$type": "ProgramExecutionResult",
+  "calls": [
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.052366793039254844,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 0,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "type": "TaskContext"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "TaskContext",
+      "tool": "get_task_context"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.0007544560357928276,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 1,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "type": "RobotState"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "RobotState",
+      "tool": "get_robot_state"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 2.179831782937981,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 2,
+      "inputs_summary": {
+        "keywords": {
+          "camera_name": {
+            "length": 9,
+            "type": "str"
+          },
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "length": 7,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "camera_name",
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "ok": true,
+        "type": "LocalizationResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "LocalizationResult",
+      "tool": "localize_object"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 2.0788910110713914,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "camera/agentview",
+      "index": 3,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "length": 9,
+            "type": "str"
+          },
+          {
+            "length": 13,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "count": 5,
+        "frame": "camera/agentview",
+        "ok": true,
+        "type": "SegmentationSet"
+      },
+      "positional_count": 2,
+      "provider": "sam3",
+      "result_type": "SegmentationSet",
+      "tool": "segment_text"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.010076918988488615,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 4,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 393,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.008142290986143053,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 5,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 454,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.007983790012076497,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 6,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 419,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.007915215101093054,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 7,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 237,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.00794573500752449,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 8,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 72,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 2.0703590270131826,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "camera/agentview",
+      "index": 9,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "length": 9,
+            "type": "str"
+          },
+          {
+            "length": 19,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "count": 5,
+        "frame": "camera/agentview",
+        "ok": true,
+        "type": "SegmentationSet"
+      },
+      "positional_count": 2,
+      "provider": "sam3",
+      "result_type": "SegmentationSet",
+      "tool": "segment_text"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.012528492021374404,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 10,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 455,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.008234033011831343,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 11,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 383,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.00796662108041346,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 12,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 417,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.00813231198117137,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 13,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 3441,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.007940226001664996,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 14,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 78,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 2.1190523620462045,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "camera/agentview",
+      "index": 15,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "length": 9,
+            "type": "str"
+          },
+          {
+            "length": 14,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "count": 5,
+        "frame": "camera/agentview",
+        "ok": true,
+        "type": "SegmentationSet"
+      },
+      "positional_count": 2,
+      "provider": "sam3",
+      "result_type": "SegmentationSet",
+      "tool": "segment_text"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.011960748001001775,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 16,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 441,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.008563394076190889,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 17,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 382,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.008316865074448287,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 18,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 406,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.007979866000823677,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 19,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 71,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.007966417004354298,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 20,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 236,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    }
+  ],
+  "error": {
+    "$type": "ApiError",
+    "code": "execution_failed",
+    "details": {
+      "exception_type": "ValueError"
+    },
+    "message": "program execution failed: ValueError: need three distinct observed handle heights to identify middle drawer",
+    "recoverable": true
+  },
+  "ok": false,
+  "result": null,
+  "stdout": ""
+}

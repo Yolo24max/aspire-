@@ -1,0 +1,90 @@
+{
+  "started_at": "2026-10-22",
+  "evidence": "Read public shared library before no-motion scene and policy creation; attempt local initial consultation.",
+  "library_sha": "139b0f21899063b4",
+  "consultations": {
+    "localize": [
+      "# Localize — SAM3 Prompting & Object Localization",
+      "## Standard Localization Helper",
+      "## Prompt Registry",
+      "## Disambiguation: Two Similar Objects in Scene",
+      "## Key Signals",
+      "## Prompting Strategy",
+      "## Placement Z Notes"
+    ],
+    "transport": [
+      "# Transport — Motion Patterns",
+      "## Waypoint Sequences",
+      "## Bounded public pose convergence after a rotated pregrasp timeout",
+      "## Pre-Probe IK Conditioning",
+      "# BEFORE grasping, probe the target at decreasing heights:",
+      "# NOW grasp — IK is conditioned for placement",
+      "## Safe Transit (Lateral Escape Before Lift)",
+      "## Placement Approach",
+      "### Segmented Fixture Top Placement",
+      "### Physics Settling After Release",
+      "## Basket / Container Placement"
+    ],
+    "README": [
+      "# Shared Robot Skills",
+      "## How an entry gets here"
+    ],
+    "grasp": [
+      "# Grasp — Code Template",
+      "## Standard Pick-and-Place Template",
+      "# --- Localize pick object ---",
+      "# --- Grasp via grasp backend (preferred for irregular objects) ---",
+      "# --- Staged approach: pre-grasp above, descend, close ---",
+      "# --- Lift, then VERIFY the object actually moved with the gripper ---",
+      "# --- Re-observe for placement target ---",
+      "# --- Transport ---",
+      "# --- Place ---",
+      "## Cylindrical Side Grasp (bottles, cans)",
+      "### Downward Bottle Neck Grasp",
+      "## Key Conventions",
+      "# set_gripper(0.0)                   # WRONG when grasping: times out, leaves stale open command",
+      "## Visible cube width-relative grasp depth",
+      "## Object Geometry Utilities",
+      "# geometry.pose (framed center + orientation), geometry.extents, geometry.point_count",
+      "# Z range (grasp height tuning), pure Python:"
+    ],
+    "manipulation": [
+      "# Manipulation — Articulated Object Patterns",
+      "## Knob / Switch Turning",
+      "## Hinged Door Opening / Closing",
+      "## Pushing / Sliding",
+      "## General Notes"
+    ],
+    "task-exploration": [
+      "# Initial Scene Analysis",
+      "# CAP_HARNESS and INIT_MODE come from this benchmark's profile.",
+      "# Initial Task Analysis",
+      "## Triage from disk, not from a `run:` log line",
+      "## Wrap every run in `timeout` — orphans starve the GPU",
+      "## Sandbox constraints when writing probes"
+    ]
+  },
+  "application_records": [
+    {
+      "evidence": "0/25; grasps/lifts/transports completed but own unvalidated placement clearance failed",
+      "sections": [
+        "grasp.md#Visible cube width-relative grasp depth",
+        "grasp.md#Key Conventions",
+        "grasp.md#Standard Pick-and-Place Template",
+        "localize.md#Standard Localization Helper",
+        "localize.md#Prompting Strategy"
+      ],
+      "policy": "v00"
+    },
+    {
+      "evidence": "25/25 development; measured actual held-bottom and XY offsets, retained cube through both transfers; no skill ablation",
+      "sections": [
+        "localize.md#Placement Z Notes",
+        "transport.md#Segmented Fixture Top Placement",
+        "transport.md#Physics Settling After Release",
+        "grasp.md#Object Geometry Utilities"
+      ],
+      "policy": "v01"
+    }
+  ]
+}

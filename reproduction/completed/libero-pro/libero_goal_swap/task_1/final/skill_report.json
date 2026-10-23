@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "benchmark": "libero-pro",
+  "suite": "libero_goal_swap",
+  "task_id": 1,
+  "skill_library_sha": "4f6964b8ab59e95a",
+  "consulted": [
+    {
+      "skill": "task-exploration.md",
+      "section": "Initial Scene Analysis",
+      "verdict": "useful",
+      "evidence": "Used mirrored public seed51 task language and scene. v07 clean success on51; scene hypotheses were revised from recorded evidence, not copied as executable coordinates."
+    },
+    {
+      "skill": "task-exploration.md",
+      "section": "Triage from disk, not from a run: log line",
+      "verdict": "useful",
+      "evidence": "Read finalized outcome/source/trace/image files for every completed51 trial; distinguished provider OOM from manipulation failures."
+    },
+    {
+      "skill": "task-exploration.md",
+      "section": "Wrap every run in timeout",
+      "verdict": "not-applicable",
+      "evidence": "Root-owned remote queue executes episodes; worker never launches simulator processes."
+    },
+    {
+      "skill": "task-exploration.md",
+      "section": "Sandbox constraints when writing probes",
+      "verdict": "useful",
+      "evidence": "All valid51 policies use math only and documented builtins; no sandbox AST rejection occurred."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Standard Localization Helper",
+      "verdict": "useful",
+      "evidence": "Prompt fallback plus minimum-point guards correctly localized bowl and stove on51. v07 clean success; no isolated helper ablation."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Prompt Registry",
+      "verdict": "not-applicable",
+      "evidence": "The registry has no bowl/stove entry. Prompts came from current language and public scene evidence."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Disambiguation: Two Similar Objects in Scene",
+      "verdict": "not-applicable",
+      "evidence": "The inspected scene has one requested bowl; no multi-object candidate selector was used."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Key Signals",
+      "verdict": "useful",
+      "evidence": "Typed provider failures identified CGN and SAM3 OOM-only51 runs. Candidate ordering in typed JSON corrected an initial misreading of multi-box overlays."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Prompting Strategy",
+      "verdict": "useful",
+      "evidence": "Read authoritative runtime language and localized stove before grasp. grey bowl and stove selected correct masks on51; selected v07 succeeded."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Placement Z Notes",
+      "verdict": "useful",
+      "evidence": "Observed clouds represent visible surfaces. v07 measured held bowl relation rather than assuming initial center offset;51 succeeded, causal contributions not isolated."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Standard Pick-and-Place Template",
+      "verdict": "misleading",
+      "evidence": "The unqualified preference for Contact-GraspNet on irregular objects sent this open bowl to generated top_down candidates. v07 selected them on54/57/60 and all3failed (empty grasp54/60, approach57). One-variable ablation v08 uses the already-tested runtime rim grasp and flips all3, improving11/15 to14/15 with no regressions; remaining65placement is unchanged."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Cylindrical Side Grasp (bottles, cans)",
+      "verdict": "not-applicable",
+      "evidence": "Requested object is an open bowl; used a rim grasp rather than cylindrical side grasp."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Key Conventions",
+      "verdict": "useful",
+      "evidence": "close_gripper contact-stall completion preserved closed command during51 lift/transport. Public motion diagnostics were checked; no home call while holding."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Object Geometry Utilities",
+      "verdict": "useful",
+      "evidence": "Computed bowl/target clearance and held geometry from public point-cloud quantiles. v07 passed51 and provenance audit."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Waypoint Sequences",
+      "verdict": "not-applicable",
+      "evidence": "The section is a structural placeholder; authored Cartesian and joint staging from measured execution failures."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Pre-Probe IK Conditioning",
+      "verdict": "not-applicable",
+      "evidence": "Observed IK solved requested poses; failures were execution/contact, so no before-grasp placement previsit was justified."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Safe Transit (Lateral Escape Before Lift)",
+      "verdict": "not-applicable",
+      "evidence": "The section has no executable recipe, and the selected approach lifts vertically before lateral transport."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Placement Approach",
+      "verdict": "not-applicable",
+      "evidence": "No filled placement approach recipe exists in the section. Measured rack interception motivated runtime held offset and higher clearance."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Physics Settling After Release",
+      "verdict": "not-applicable",
+      "evidence": "Incomplete application, own adaptation defect: omitted embodiment=state.embodiment even though this section correctly includes it and warns default robosuite. All225 intended step calls in selected development runs returned invalid_request and advanced0ticks. The full recipe was not applied; no negative skill-efficacy attribution is justified."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Basket / Container Placement",
+      "verdict": "not-applicable",
+      "evidence": "Goal is a stove surface, not a container. Did not apply generic container release-height rule."
+    },
+    {
+      "skill": "manipulation.md",
+      "section": "Knob / Switch Turning",
+      "verdict": "not-applicable",
+      "evidence": "Task language requests bowl placement; no knob/switch operation needed."
+    },
+    {
+      "skill": "manipulation.md",
+      "section": "Hinged Door Opening / Closing",
+      "verdict": "not-applicable",
+      "evidence": "No requested articulated door action."
+    },
+    {
+      "skill": "manipulation.md",
+      "section": "Pushing / Sliding",
+      "verdict": "not-applicable",
+      "evidence": "Selected policy grasps and transports the bowl; no push technique used."
+    },
+    {
+      "skill": "manipulation.md",
+      "section": "General Notes",
+      "verdict": "not-applicable",
+      "evidence": "Articulated manipulation notes do not determine this bowl pick/place strategy."
+    }
+  ],
+  "proposed_edits": [
+    {
+      "skill": "grasp.md",
+      "section": "Standard Pick-and-Place Template",
+      "change": "Replace the unqualified preferred-for-irregular-objects backend comment with a conditional choice and a measured application record: returned top_down candidates remain contact hypotheses and require observed object-lift verification; public-geometry alternatives can outperform them on open bowls. Record task1 v07 generated-grasp0/3 versus v08 geometry-rim14/15 as task-specific evidence, without a universal backend ranking or an untested selection threshold.",
+      "why": "All3 generated-grasp selections in v07 failed54/57/60; forcing the existing manual rim path in v08 flipped those3 and preserved the other outcomes,11/15 to14/15. This edit qualifies guidance; it does not propose a new untested controller or geometry rule."
+    }
+  ],
+  "proposed_new": []
+}

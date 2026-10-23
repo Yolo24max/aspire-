@@ -1,0 +1,47 @@
+{
+  "phase": "artifacts_ready",
+  "outcomes": [
+    {
+      "seed": 101,
+      "program_ok": true,
+      "task_success": true,
+      "exit_code": 0,
+      "relative_run": "debug/v01/0101/run-20261022T025755.713420Z-533b9bfe"
+    },
+    {
+      "seed": 102,
+      "program_ok": true,
+      "task_success": true,
+      "exit_code": 0,
+      "relative_run": "debug/v01/0102/run-20261022T025810.626616Z-9c0d6855"
+    },
+    {
+      "seed": 103,
+      "program_ok": true,
+      "task_success": true,
+      "exit_code": 0,
+      "relative_run": "debug/v01/0103/run-20261022T025825.023998Z-fdbcc61f"
+    },
+    {
+      "seed": 104,
+      "program_ok": true,
+      "task_success": true,
+      "exit_code": 0,
+      "relative_run": "debug/v01/0104/run-20261022T025839.219159Z-02f2dcc6"
+    },
+    {
+      "seed": 105,
+      "program_ok": true,
+      "task_success": true,
+      "exit_code": 0,
+      "relative_run": "debug/v01/0105/run-20261022T025853.915067Z-7fd7cea0"
+    }
+  ],
+  "request_id": "b3ed574bf953a97ed60590be47d985f41dbd6c4c767e0c67703d026220f96434",
+  "source_sha256": "08c0a1f2a54fdc43f9560c294db41e2304d09775032b3089c7d57a26e66ab609",
+  "local_task": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-21_19-56-17_robosuite\\verification\\robosuite__cube_lifting__task_0\\robosuite\\cube_lifting\\task_0",
+  "stage": "v01",
+  "worker_request_id": "v01_cube",
+  "artifacts_root": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-21_19-56-17_robosuite\\verification\\robosuite__cube_lifting__task_0\\robosuite\\cube_lifting\\task_0\\debug\\v01",
+  "independent_verification": true
+}

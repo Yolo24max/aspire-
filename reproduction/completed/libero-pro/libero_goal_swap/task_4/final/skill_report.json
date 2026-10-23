@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "benchmark": "libero-pro",
+  "suite": "libero_goal_swap",
+  "task_id": 4,
+  "attempt": "retry_03",
+  "skill_library_sha": "c050e38ea9eff52c",
+  "consulted": [],
+  "application_records": [
+    {
+      "skill": "localize.md",
+      "sections": [
+        "Standard Localization Helper",
+        "Prompting Strategy",
+        "Key Signals"
+      ],
+      "status": "artifact-observed; consultation record missing",
+      "evidence_sources": [
+        "code/v01_terminal_release.py",
+        "coordinator_provenance_review.json",
+        "coordinator_validation_audit.json"
+      ],
+      "observed_application": "The frozen program uses ordered fallback prompts for the bowl and drawer target, requires at least 20 localized point-cloud points, and re-localizes the bowl from agentview and robot0_eye_in_hand after lifting. The development, unseen, and heldout evidence passed, but these artifacts do not prove that the library was consulted during retry_03."
+    },
+    {
+      "skill": "grasp.md",
+      "sections": [
+        "Standard Pick-and-Place Template",
+        "Key Conventions",
+        "Object Geometry Utilities"
+      ],
+      "status": "artifact-observed; consultation record missing",
+      "evidence_sources": [
+        "code/v00_geometry_rim.py",
+        "code/v01_terminal_release.py",
+        "code/CHANGELOG.md",
+        "coordinator_validation_audit.json"
+      ],
+      "observed_application": "The retry code derives the rim grasp from runtime bowl geometry, uses close_gripper, and verifies retention from a post-lift bowl localization before transport. The artifacts establish application and outcome, but do not establish a retry_03 consultation record or causal skill attribution."
+    },
+    {
+      "skill": "transport.md",
+      "sections": [
+        "Waypoint Sequences",
+        "Pre-Probe IK Conditioning",
+        "Placement Approach"
+      ],
+      "status": "artifact-observed; consultation record missing",
+      "evidence_sources": [
+        "code/v01_terminal_release.py",
+        "code/CHANGELOG.md",
+        "coordinator_validation_audit.json"
+      ],
+      "observed_application": "The frozen program uses bounded joint staging, IK checks, clearance above the target, and a held-object offset for placement. The formal results show successful execution, but the retry artifacts do not prove which transport guidance was consulted or isolate its contribution."
+    }
+  ],
+  "proposed_edits": [],
+  "proposed_new": [],
+  "reconciliation": {
+    "consultation_records": "missing from retry_03 artifacts",
+    "application_records": "present as artifact observations and explicitly separated from consulted records",
+    "proposal_records": "none attributable to retry_03; task_4/skill_report.json was excluded because it belongs to the parent attempt",
+    "independent_verification_required": false,
+    "independent_verification_reason": "No proposed_edits or proposed_new entries were recorded."
+  }
+}

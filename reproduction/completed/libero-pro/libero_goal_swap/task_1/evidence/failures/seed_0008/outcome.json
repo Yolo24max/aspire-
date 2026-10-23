@@ -1,0 +1,76 @@
+{
+  "cumulative_reward": 0.0,
+  "environment_terminated": false,
+  "environment_truncated": false,
+  "error": {
+    "$type": "ApiError",
+    "code": "execution_failed",
+    "details": {
+      "exception_type": "ValueError"
+    },
+    "message": "program execution failed: ValueError: held bowl geometry unavailable",
+    "recoverable": true
+  },
+  "finalization_errors": [],
+  "program_ok": false,
+  "protocol_success": null,
+  "schema_version": "1.0",
+  "simulator_duration_s": 23.65,
+  "steps_executed": 473,
+  "success_observed_step": null,
+  "task_success": false,
+  "termination_description": "The generated program was rejected or raised an exception.",
+  "termination_reason": "program_error",
+  "timing": {
+    "attributed_s": 36.478241,
+    "buckets": {
+      "adapter_step": {
+        "calls": 473,
+        "seconds": 14.541384
+      },
+      "finalize": {
+        "calls": 1,
+        "seconds": 0.011892
+      },
+      "keyframe": {
+        "calls": 70,
+        "seconds": 4.754278
+      },
+      "overlay": {
+        "calls": 2,
+        "seconds": 2.969122
+      },
+      "provider.pyroki": {
+        "calls": 21,
+        "seconds": 0.091887
+      },
+      "provider.sam3": {
+        "calls": 5,
+        "seconds": 5.19605
+      },
+      "record_step": {
+        "calls": 473,
+        "seconds": 0.159969
+      },
+      "reset": {
+        "calls": 1,
+        "seconds": 7.230967
+      },
+      "setup": {
+        "calls": 1,
+        "seconds": 7.2e-05
+      },
+      "trace_write": {
+        "calls": 676,
+        "seconds": 0.144209
+      },
+      "video_encode": {
+        "calls": 475,
+        "seconds": 1.378411
+      }
+    },
+    "unattributed_s": 0.683433,
+    "wall_s": 37.161674
+  },
+  "wall_duration_s": 37.16167352406774
+}

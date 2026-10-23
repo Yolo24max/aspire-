@@ -1,0 +1,141 @@
+{
+  "request_hash": "6b915c5d26a3946f62630409c40059851437fac81ed99adab895f08a2fe31df4",
+  "source_sha256": "f60e9cd008601cf483bd4998f9786106f178f9a11c3ef3889c48642c3970cec1",
+  "copied_seeds": {
+    "51": {
+      "relative": "debug/development/v01_frozen/0051",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task4-6b915c5d26a3-seed0051.tar.gz",
+      "bytes": 128933123,
+      "sha256": "5ed8be5e23cccf3b081911f9c3aa1a1d7a012c567a73d5c62aa3b4b1354463f7",
+      "verified_bytes": 133740702,
+      "verified_files": 1230,
+      "removed_payload_bytes": 133345712
+    },
+    "52": {
+      "relative": "debug/development/v01_frozen/0052",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task4-6b915c5d26a3-seed0052.tar.gz",
+      "bytes": 128793009,
+      "sha256": "da67a80d16deda5f8fbeb70285c538432085990606e38461518c3c66eb26e44e",
+      "verified_bytes": 133589942,
+      "verified_files": 1230,
+      "removed_payload_bytes": 133194881
+    },
+    "53": {
+      "relative": "debug/development/v01_frozen/0053",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task4-6b915c5d26a3-seed0053.tar.gz",
+      "bytes": 130357057,
+      "sha256": "c2c97b4a7ed228db8f68bed2a7f4515a71dad51bec1d74d3ffd814d847a32049",
+      "verified_bytes": 135197778,
+      "verified_files": 1246,
+      "removed_payload_bytes": 134797590
+    },
+    "54": {
+      "relative": "debug/development/v01_frozen/0054",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task4-6b915c5d26a3-seed0054.tar.gz",
+      "bytes": 125374701,
+      "sha256": "de8a1580a3cc57adaa9cb41bcd54ab8034ed4c0c60f8669d06df69cd5d3823ba",
+      "verified_bytes": 130152150,
+      "verified_files": 1210,
+      "removed_payload_bytes": 129762733
+    },
+    "55": {
+      "relative": "debug/development/v01_frozen/0055",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task4-6b915c5d26a3-seed0055.tar.gz",
+      "bytes": 128625771,
+      "sha256": "5423c64aa353e0c10144ac5d4c37d899271c91ed33954d8e6fe2470a7e213b49",
+      "verified_bytes": 133414695,
+      "verified_files": 1230,
+      "removed_payload_bytes": 133019661
+    },
+    "56": {
+      "relative": "debug/development/v01_frozen/0056",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task4-6b915c5d26a3-seed0056.tar.gz",
+      "bytes": 130512454,
+      "sha256": "80b4b0076399d6657c7b8b3a5205f46b2f0bada28fb444e1a2035d301d45cc31",
+      "verified_bytes": 135346734,
+      "verified_files": 1246,
+      "removed_payload_bytes": 134946593
+    },
+    "57": {
+      "relative": "debug/development/v01_frozen/0057",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task4-6b915c5d26a3-seed0057.tar.gz",
+      "bytes": 130254773,
+      "sha256": "be483df09b6b5fd24910e5187f6c214fcea7d26eed9e835d2e9834914ee49a86",
+      "verified_bytes": 135074982,
+      "verified_files": 1246,
+      "removed_payload_bytes": 134674845
+    },
+    "58": {
+      "relative": "debug/development/v01_frozen/0058",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task4-6b915c5d26a3-seed0058.tar.gz",
+      "bytes": 130387718,
+      "sha256": "ee7f5018ec7dfcb294b4fc919741d0a14efbf29d72a9af51843ff322b119e023",
+      "verified_bytes": 135206571,
+      "verified_files": 1246,
+      "removed_payload_bytes": 134806397
+    },
+    "59": {
+      "relative": "debug/development/v01_frozen/0059",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task4-6b915c5d26a3-seed0059.tar.gz",
+      "bytes": 130427074,
+      "sha256": "5a987006b1c72d757e6acc73dfb8a4e9e17808830682e6be8f1aac3f9b52f3f0",
+      "verified_bytes": 135275138,
+      "verified_files": 1242,
+      "removed_payload_bytes": 134876535
+    },
+    "60": {
+      "relative": "debug/development/v01_frozen/0060",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task4-6b915c5d26a3-seed0060.tar.gz",
+      "bytes": 128710087,
+      "sha256": "5ad4782572c5107886c94903597ee90b9eac95642250f747631dc9ef1607110e",
+      "verified_bytes": 133495228,
+      "verified_files": 1230,
+      "removed_payload_bytes": 133100222
+    },
+    "61": {
+      "relative": "debug/development/v01_frozen/0061",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task4-6b915c5d26a3-seed0061.tar.gz",
+      "bytes": 128728123,
+      "sha256": "9f7db2b2d8586bc96d3eff5725d4c9494b39e3f1024b9bcde74d3c4bf1c0906c",
+      "verified_bytes": 133525868,
+      "verified_files": 1230,
+      "removed_payload_bytes": 133130855
+    },
+    "62": {
+      "relative": "debug/development/v01_frozen/0062",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task4-6b915c5d26a3-seed0062.tar.gz",
+      "bytes": 128707608,
+      "sha256": "e0c36b809ce733159cfcaae125c8b3bcfe0308f315d90044b247275ee6fcfcc7",
+      "verified_bytes": 133522200,
+      "verified_files": 1230,
+      "removed_payload_bytes": 133127187
+    },
+    "63": {
+      "relative": "debug/development/v01_frozen/0063",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task4-6b915c5d26a3-seed0063.tar.gz",
+      "bytes": 128618491,
+      "sha256": "ded5bdc7d83bb56ab1bd9540d6feacc6cb576f191435c4210427bf211fc5a509",
+      "verified_bytes": 133423102,
+      "verified_files": 1230,
+      "removed_payload_bytes": 133028072
+    },
+    "64": {
+      "relative": "debug/development/v01_frozen/0064",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task4-6b915c5d26a3-seed0064.tar.gz",
+      "bytes": 128993082,
+      "sha256": "e404de800fcbd270e3d42a57fda1e72789c1b7b818195fb9f68cca7d7f6d333b",
+      "verified_bytes": 133786262,
+      "verified_files": 1234,
+      "removed_payload_bytes": 133389667
+    },
+    "65": {
+      "relative": "debug/development/v01_frozen/0065",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task4-6b915c5d26a3-seed0065.tar.gz",
+      "bytes": 130312302,
+      "sha256": "445f845bbc6a5583fe37e63141da1a438bb135fe9fd33ff41b109ffcd8c0ed61",
+      "verified_bytes": 135140821,
+      "verified_files": 1246,
+      "removed_payload_bytes": 134740695
+    }
+  }
+}

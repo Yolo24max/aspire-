@@ -1,0 +1,20 @@
+{
+  "versions": [
+    {
+      "mode": "initial_restack",
+      "sha256": "49cd77b0921f5f8efd9a4ee05b8b06d93ee6fff9898898212ea4c463ca789bc8",
+      "status": "full_development_complete_0_of_25",
+      "program": "code/v00_initial.py",
+      "version": "v00"
+    },
+    {
+      "sha256": "eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742",
+      "mode": "placement_clearance",
+      "status": "selected_frozen_development_25_of_25",
+      "program": "code/v01_held_clearance.py",
+      "version": "v01"
+    }
+  ],
+  "max": 8,
+  "used": 2
+}

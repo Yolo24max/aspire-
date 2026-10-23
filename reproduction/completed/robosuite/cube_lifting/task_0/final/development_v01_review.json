@@ -1,0 +1,281 @@
+{
+  "rows": [
+    {
+      "seed": 101,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 227,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0101/run-20261021T130455.613380Z-5b3de53a"
+    },
+    {
+      "seed": 102,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 234,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0102/run-20261021T130909.184657Z-8c9fa6e2"
+    },
+    {
+      "seed": 103,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 230,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0103/run-20261021T130923.434970Z-c15a6c74"
+    },
+    {
+      "seed": 104,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 239,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0104/run-20261021T130938.324246Z-972441e8"
+    },
+    {
+      "seed": 105,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 238,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0105/run-20261021T131032.822974Z-771b335c"
+    },
+    {
+      "seed": 106,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 225,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0106/run-20261021T131047.520574Z-e3fd2e40"
+    },
+    {
+      "seed": 107,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 225,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0107/run-20261021T131121.815983Z-18e3152e"
+    },
+    {
+      "seed": 108,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 224,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0108/run-20261021T131136.032666Z-e232aaaf"
+    },
+    {
+      "seed": 109,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 227,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0109/run-20261021T131150.625832Z-1f0d923f"
+    },
+    {
+      "seed": 110,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 230,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0110/run-20261021T131204.910095Z-4cf77c40"
+    },
+    {
+      "seed": 111,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 221,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0111/run-20261021T131219.320207Z-55aab650"
+    },
+    {
+      "seed": 112,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 234,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0112/run-20261021T131233.713821Z-a5ffdcde"
+    },
+    {
+      "seed": 113,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 225,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0113/run-20261021T131248.315175Z-76a79959"
+    },
+    {
+      "seed": 114,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 223,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0114/run-20261021T131302.619842Z-24d8cd63"
+    },
+    {
+      "seed": 115,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 227,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0115/run-20261021T131316.907748Z-65d71232"
+    },
+    {
+      "seed": 116,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 225,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0116/run-20261021T131411.792805Z-0f773b6f"
+    },
+    {
+      "seed": 117,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 234,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0117/run-20261021T131426.130062Z-83e23dd2"
+    },
+    {
+      "seed": 118,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 226,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0118/run-20261021T131440.822623Z-957d9cb6"
+    },
+    {
+      "seed": 119,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 224,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0119/run-20261021T131515.220456Z-181745c9"
+    },
+    {
+      "seed": 120,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 235,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0120/run-20261021T131529.625980Z-91cf4d80"
+    },
+    {
+      "seed": 121,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 234,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0121/run-20261021T131544.318848Z-be90dc66"
+    },
+    {
+      "seed": 122,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 237,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0122/run-20261021T131619.030019Z-225e5b95"
+    },
+    {
+      "seed": 123,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 232,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0123/run-20261021T131634.117993Z-23e8ff29"
+    },
+    {
+      "seed": 124,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 228,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0124/run-20261021T131708.616596Z-3e5a0467"
+    },
+    {
+      "seed": 125,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 223,
+      "grasp_verified": true,
+      "sources": {
+        "program.py": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912"
+      },
+      "run": "debug/attempts/v01/0125/run-20261021T131723.126175Z-c9717c42"
+    }
+  ],
+  "task_success": 25,
+  "program_ok": 25
+}

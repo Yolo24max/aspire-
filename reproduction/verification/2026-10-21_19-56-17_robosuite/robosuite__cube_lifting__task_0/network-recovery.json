@@ -1,0 +1,8 @@
+{
+  "identity": "robosuite:independent-cube-verifier:root-controller",
+  "connection": "online",
+  "operation": "retire_only_sha_verified_seed_payload",
+  "last_success_at": 1792637979.9516416,
+  "consecutive_failures": 0,
+  "next_retry_seconds": 0
+}

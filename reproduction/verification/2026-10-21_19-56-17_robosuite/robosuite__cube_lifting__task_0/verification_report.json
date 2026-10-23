@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "benchmark": "robosuite",
+  "suite": "cube_lifting",
+  "task_id": 0,
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "attempts_used": 1,
+  "trials": 5,
+  "passes": 5,
+  "verdict": "verified",
+  "skills_applied": [
+    "localize.md#Standard Localization Helper",
+    "grasp.md#Standard Pick-and-Place Template",
+    "grasp.md#Key Conventions",
+    "proposed:grasp.md#Visible cube width-relative grasp depth"
+  ],
+  "proposals": [
+    {
+      "disposition": "sound",
+      "title": "Visible cube width-relative grasp depth",
+      "note": "Literal snippet and prescribed motion sequence produced 5/5 task_success, 5/5 program_ok and 5/5 public grasp_verified. All five final agentview keyframes show the cube held clear of the support; control ticks 227,234,230,239,238."
+    }
+  ],
+  "gaps": [],
+  "reading_rules": {
+    "allowed_sources": "Shared skills, proposed_skills.md, assignment.json, official verifier prompt and permitted API/artifact/Robosuite docs; own returned scene/v01 artifacts only.",
+    "breaches": [],
+    "status": "RESPECTED"
+  },
+  "settings": {
+    "camera_height": 512,
+    "execution_mode": "root GPU controller, fresh_per_seed single worker",
+    "init_mode": "saved",
+    "camera_width": 800,
+    "max_steps": 1000
+  },
+  "source_sha256": "08c0a1f2a54fdc43f9560c294db41e2304d09775032b3089c7d57a26e66ab609",
+  "notes": "Proposal transmitted without repair on attempt v01. This is reproduction on the originating task, not evidence of cross-task generalization. No v02 requested."
+}

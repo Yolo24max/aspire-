@@ -1,0 +1,64 @@
+{
+  "gate": "PASS",
+  "benchmark": "robosuite",
+  "suite": "cube_lifting",
+  "task_id": 0,
+  "source_sha256": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912",
+  "checked_at": 1792594308.6131985,
+  "partitions": {
+    "development": {
+      "request_id": "2a67e9776a29a7ef4e8287ef5e95e8df7a505b650b424c07a12e30bc8d9dd7fc",
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
+      ],
+      "trials": 25,
+      "task_success": 25,
+      "program_ok": 25
+    },
+    "unseen": {
+      "request_id": "90f5ce009d0c04e0116adbb50bc352011c1c0fec2dc0ce65e271a4a29db8a4ba",
+      "seeds": [
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "trials": 5,
+      "task_success": 5,
+      "program_ok": 5
+    }
+  },
+  "unique_policies": 2,
+  "max_policies": 8,
+  "verified_files": 3185,
+  "verified_bytes": 396501797,
+  "videos": 60,
+  "heldout_started": false,
+  "exactly_once_unseen": true,
+  "no_post_unseen_tuning": true
+}

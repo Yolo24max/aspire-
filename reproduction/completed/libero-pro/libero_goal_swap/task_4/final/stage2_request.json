@@ -1,0 +1,15 @@
+{
+  "workers": "equivalence-dependent",
+  "source": "fix_code.py",
+  "source_sha256": "f60e9cd008601cf483bd4998f9786106f178f9a11c3ef3889c48642c3970cec1",
+  "backup": "tmp/aspire_validation_offload.py --task-id 4 --attempt-name retry_03",
+  "task_id": 4,
+  "attempt": "retry_03",
+  "heldout_started": false,
+  "tuning": false,
+  "monitor": "tmp/aspire_validation_monitor.py --task-id 4 --attempt-name retry_03",
+  "seeds": "1-50",
+  "stage": "stage2_heldout_requested",
+  "schema_version": 1,
+  "unseen_repeated": false
+}

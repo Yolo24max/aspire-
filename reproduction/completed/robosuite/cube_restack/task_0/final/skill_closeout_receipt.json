@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "suite": "cube_restack",
+  "run_id": "4ebe635cc1756480",
+  "checked_at": "2026-10-22T11:23:59.624945+00:00",
+  "official_report_schema": "PASS",
+  "skill_report_sha256": "1d056e98aee0d1a90c53040e0153e4a841d09e12b3304b3e1ee307d0c45f087e",
+  "consultation_ledger_sha256": "7240c8dc57f8c133ad16943b5e4b6429c3f2ffb7ecf789cd3c076ec04bd06209",
+  "consulted_sections": 30,
+  "proposed_new": 0,
+  "proposed_edits": 0,
+  "promotions": 0,
+  "independent_verifier_required": false,
+  "reason": "No proposals; no verification experiment required. Generic formal-audit pending_independent_verification field does not create a proposal.",
+  "causal_ablation_claimed": false,
+  "library_sha": "139b0f21899063b4",
+  "formal_audit_sha256": "877fafd41d8bd9ffb73a53901a2802f4c0ab91c85f98d3a11f564cc447037761",
+  "exact_once_audit_sha256": "968c9672c28afd827c84404864483e6487ccbb898c424b06410ffc7b263fd9c4"
+}

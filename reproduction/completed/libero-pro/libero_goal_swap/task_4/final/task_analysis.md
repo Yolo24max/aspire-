@@ -1,0 +1,3 @@
+# ASPIRE task4 retry_03 Stage1
+
+Independent user-authorized retry after task4, retry_01 and retry_02. Prior evidence is immutable and not reused as experiment output. This attempt uses only development seed 51 until the Stage1 handoff gate. The strategy is a public-API geometry-rim grasp with measured held-object verification, adapted from prior audited bowl evidence: use current localization and observed point-cloud quantiles, rotate the live end-effector frame for a lateral rim pinch, stage bounded IK, keep the closed gripper through lift and transit, and derive placement from the measured held bowl and drawer-top geometry. No unseen or heldout seeds may run before handoff.

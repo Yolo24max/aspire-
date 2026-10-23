@@ -1,0 +1,19 @@
+{
+  "benchmark": "libero-pro",
+  "suite": "libero_goal_swap",
+  "task_id": 1,
+  "gpu": 0,
+  "init_mode": "seeded",
+  "max_steps": 1000,
+  "workers": 1,
+  "seeds": [
+    51,
+    52,
+    53,
+    54,
+    55
+  ],
+  "program": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/verification/libero-pro__libero_goal_swap__task_1/code/v02_geometry_rim.py",
+  "output_root": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/verification/libero-pro__libero_goal_swap__task_1/debug/v02",
+  "command": "cap-harness run-batch --log-dir /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/verification/libero-pro__libero_goal_swap__task_1/debug/logs"
+}

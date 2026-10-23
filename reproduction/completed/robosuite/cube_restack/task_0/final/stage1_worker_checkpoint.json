@@ -1,0 +1,27 @@
+{
+  "source_sha256": "eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742",
+  "scene101_runs": 1,
+  "skill_report_validation": "PASS",
+  "heldout_accessed": false,
+  "stage": "handoff",
+  "failure_mode_counts": {
+    "placement_clearance": 1,
+    "initial_restack": 1
+  },
+  "skill_report_written": true,
+  "unseen": "5/5",
+  "unseen_each_seed_runs": 1,
+  "fix_code_written": true,
+  "unique_policies_used": 2,
+  "schema_version": 1,
+  "v00_development": "0/25",
+  "selected": "code/v01_held_clearance.py",
+  "api_audit": "PASS",
+  "status": "complete",
+  "findings_written": true,
+  "proposals_promoted": false,
+  "max_unique_policies": 8,
+  "pending": [],
+  "quarantined": [],
+  "v01_development": "25/25"
+}

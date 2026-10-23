@@ -1,0 +1,15 @@
+{
+  "time": 1792652492.233917,
+  "providers": {
+    "8114": 200,
+    "8115": 200,
+    "8116": 200,
+    "8118": 200
+  },
+  "shared_lock_free": true,
+  "prior_formal_driver_absent": true,
+  "namespace": "pid:[4026536494]",
+  "pid1_start_ticks": "116618285",
+  "memory_headroom_bytes": 6278684672,
+  "disk_free_bytes": 31926550528
+}

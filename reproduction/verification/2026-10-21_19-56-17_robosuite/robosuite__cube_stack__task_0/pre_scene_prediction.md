@@ -1,0 +1,2 @@
+# Pre-scene prediction
+I expect public cloud localization and the visible-cube width-relative grasp recipe to provide the grasp, with staged lift and placement onto the other cube. The candidate bounded convergence wrapper will be copied exactly, using cap250 and a 0.15 m stand-off for the rotated pregrasp. Runtime-derived yaw may come from cube cloud horizontal geometry. Its timeout branch will be sound only if actually exercised, and any incomplete instructions will be recorded.

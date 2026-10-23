@@ -1,0 +1,11 @@
+{
+  "time": "2026-10-22T08:01:00.764772+00:00",
+  "resolved": true,
+  "original_error": "Same frozen source must cleanly pass pilot101 before expansion",
+  "fault_evidence": "ASPIRE\\validation-artifacts\\network-monitoring\\fault-cube-restack-failed-pilot-expansion-20261022",
+  "repair": "Preserved clean-pilot-only prelaunch rejection; repaired completed-failed-pilot full25 scoring gate.27offline tests PASS. Same v00 source, failed101 and budgets retained,101 reused without replay; only102-125 launched. Existing worker resumed; singleton controller30312 replaces quiescent38068.",
+  "planned_request": "e47c90feda12d9ede17b31076b43242e71ad158f1ebc7357bc9facd82d76be4b",
+  "old_failure_preserved": true,
+  "old_pilot_replayed": false,
+  "unique_policy_count": 1
+}

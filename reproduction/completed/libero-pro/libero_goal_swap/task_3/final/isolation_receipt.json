@@ -1,0 +1,58 @@
+{
+  "input_integrity": "PASS",
+  "copies": [
+    {
+      "source": "ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_3/debug/explore",
+      "copy": "ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_3/retry_02/debug/explore",
+      "files": 29,
+      "bytes": 4736457,
+      "sha256_manifest": {
+        "0051/run-20261020T065040.046204Z-2adcf72b/episode/reset.json": "dd05fdcd1063def6eb1d2552455814b0b06e8d630477ba44f02471e391da719e",
+        "0051/run-20261020T065040.046204Z-2adcf72b/episode/steps.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "0051/run-20261020T065040.046204Z-2adcf72b/logs/program.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "0051/run-20261020T065040.046204Z-2adcf72b/logs/program.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "0051/run-20261020T065040.046204Z-2adcf72b/manifest.json": "e71a7b1aba5f81c2ea2371fd659a0ed384dc8f96d96ea3e1ca884f2dfb8a93b1",
+        "0051/run-20261020T065040.046204Z-2adcf72b/media/keyframes/000001-before-open-gripper/agentview-depth.npy": "375d7e670b45451772f8dbb90acd14c699ff0d52b231fb7d40c787cab4b8470a",
+        "0051/run-20261020T065040.046204Z-2adcf72b/media/keyframes/000001-before-open-gripper/agentview.png": "39c8b357a2e408c16d0397f0ceddfb63b96d4a2044062bd948dde8c13054f6d8",
+        "0051/run-20261020T065040.046204Z-2adcf72b/media/keyframes/000001-before-open-gripper/metadata.json": "82c6222d5edc0097a42540ec66cc7b43ec51406fec7bf291e74b84f47ae48d11",
+        "0051/run-20261020T065040.046204Z-2adcf72b/media/keyframes/000001-before-open-gripper/robot0_eye_in_hand.png": "9ab3ce9efcc92b39a5234571e96ff0009fa49e134325862182bf38cdc034474e",
+        "0051/run-20261020T065040.046204Z-2adcf72b/media/keyframes/000002-after-open-gripper/agentview.png": "39c8b357a2e408c16d0397f0ceddfb63b96d4a2044062bd948dde8c13054f6d8",
+        "0051/run-20261020T065040.046204Z-2adcf72b/media/keyframes/000002-after-open-gripper/metadata.json": "939ca9fe0e704abc3e204c61e0a85eff26f22e29971fa46fc1da38c55ea189ad",
+        "0051/run-20261020T065040.046204Z-2adcf72b/media/keyframes/000002-after-open-gripper/robot0_eye_in_hand.png": "9ab3ce9efcc92b39a5234571e96ff0009fa49e134325862182bf38cdc034474e",
+        "0051/run-20261020T065040.046204Z-2adcf72b/media/video-index.json": "155c376af08b74850e1208a216047436e2d702f3cdf829cee3a997cca93a780f",
+        "0051/run-20261020T065040.046204Z-2adcf72b/outcome.json": "bc09c14df2f5e286f9f125c601f9ab710f30dba7cc703d5a70a02e2cfa7b4061",
+        "0051/run-20261020T065040.046204Z-2adcf72b/run.json": "ebd7db403f6ec1a5dbab92d5c910780bc111a3608c038d5f622095cda6f33f3d",
+        "0051/run-20261020T065040.046204Z-2adcf72b/source/dependency-lock.json": "05b40506c2622cb0e875b14b77d2f9e684ca0243cda4b2e92bc78bc23323fc5d",
+        "0051/run-20261020T065040.046204Z-2adcf72b/source/program-result.json": "891a9dd883af767ca08a955e87ebd0e8bd6e0ee92a25e993720f879db8b6d884",
+        "0051/run-20261020T065040.046204Z-2adcf72b/source/program.py": "e1bbb3dd72048298a1e719e460f4f7ba3e954642dad6a22228499f6bfd4230ef",
+        "0051/run-20261020T065040.046204Z-2adcf72b/source/provenance.json": "4493dc6ccab1effda6608bd934c7237b6fcfb10994e7763656441490e00720e8",
+        "0051/run-20261020T065040.046204Z-2adcf72b/trace/calls/call-000001-get-task-context/input.json": "b8b4a376559533979f540061846f9c2cb4840cbf8004d2de3108777e85f5915e",
+        "0051/run-20261020T065040.046204Z-2adcf72b/trace/calls/call-000001-get-task-context/output.json": "5ec6f5310f72e0ca16bacdeb1b79cc3734c97b1b3b45d9ee9f31facd10c4f08a",
+        "0051/run-20261020T065040.046204Z-2adcf72b/trace/calls/call-000002-get-robot-state/input.json": "b8b4a376559533979f540061846f9c2cb4840cbf8004d2de3108777e85f5915e",
+        "0051/run-20261020T065040.046204Z-2adcf72b/trace/calls/call-000002-get-robot-state/output.json": "e0efb033d8cc3c7dba21e7e960207fa7cd957f78d1fadfd45659431f7e8203b5",
+        "0051/run-20261020T065040.046204Z-2adcf72b/trace/calls/call-000003-get-observation/input.json": "b8b4a376559533979f540061846f9c2cb4840cbf8004d2de3108777e85f5915e",
+        "0051/run-20261020T065040.046204Z-2adcf72b/trace/calls/call-000003-get-observation/output.json": "0b3eaa3cf63d6b54730aa127dcc1b3eb7d441df2ab9c4439f63dadcf86efc9e0",
+        "0051/run-20261020T065040.046204Z-2adcf72b/trace/calls/call-000004-open-gripper/input.json": "b8b4a376559533979f540061846f9c2cb4840cbf8004d2de3108777e85f5915e",
+        "0051/run-20261020T065040.046204Z-2adcf72b/trace/calls/call-000004-open-gripper/output.json": "3febf7b2332251db5d3f59fce4ead8f569a088ba53f49b7fd069729ce738e6d2",
+        "0051/run-20261020T065040.046204Z-2adcf72b/trace/events.jsonl": "feeb0b02ef3dc2384677a48d413c291c4878a689392f2809765552dc5363b276",
+        "0051/run-20261020T065040.046204Z-2adcf72b/trace/model/turns.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "status": "identical"
+    },
+    {
+      "source": "ASPIRE/.claude/skills/iterative-debugging/skills",
+      "copy": "ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_3/retry_02/shared_skills",
+      "files": 6,
+      "bytes": 39005,
+      "sha256_manifest": {
+        "grasp.md": "f431bc91ff88e780c8b0f328646a316f53f6cd5ebb2a0eb7ff10ea8e0cb2bc97",
+        "localize.md": "dde211c39e173eda80299d5768977f401d29438bd5c356216494df440706ea72",
+        "manipulation.md": "8702f69acc758aafc8592726ae58be681607bbeb5c02cd69de7932e36831e836",
+        "README.md": "a3188000bad237de00757053c4acad1da80197be0c7e06b99aa8141b3bd2c7b8",
+        "task-exploration.md": "e70f250064ba1cd7d546cb05b7f65bbfaf907edd9645b20ba9177b6e8059591c",
+        "transport.md": "8ada797288b238944ab89d3842db4490bcf96d46cbe057cc2ed9a8d01d141e95"
+      },
+      "status": "identical"
+    }
+  ]
+}

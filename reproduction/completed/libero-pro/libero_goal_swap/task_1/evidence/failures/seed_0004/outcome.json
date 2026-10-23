@@ -1,0 +1,76 @@
+{
+  "cumulative_reward": 11.0,
+  "environment_terminated": true,
+  "environment_truncated": false,
+  "error": {
+    "$type": "ApiError",
+    "code": "execution_failed",
+    "details": {
+      "exception_type": "ValueError"
+    },
+    "message": "program execution failed: ValueError: bounded joint staging failed: retract",
+    "recoverable": true
+  },
+  "finalization_errors": [],
+  "program_ok": false,
+  "protocol_success": null,
+  "schema_version": "1.0",
+  "simulator_duration_s": 32.9,
+  "steps_executed": 658,
+  "success_observed_step": null,
+  "task_success": true,
+  "termination_description": "The environment ended after benchmark success.",
+  "termination_reason": "task_succeeded",
+  "timing": {
+    "attributed_s": 44.666802,
+    "buckets": {
+      "adapter_step": {
+        "calls": 658,
+        "seconds": 19.162689
+      },
+      "finalize": {
+        "calls": 1,
+        "seconds": 0.023564
+      },
+      "keyframe": {
+        "calls": 140,
+        "seconds": 9.393638
+      },
+      "overlay": {
+        "calls": 3,
+        "seconds": 4.516797
+      },
+      "provider.pyroki": {
+        "calls": 37,
+        "seconds": 0.16041
+      },
+      "provider.sam3": {
+        "calls": 3,
+        "seconds": 1.888501
+      },
+      "record_step": {
+        "calls": 658,
+        "seconds": 0.221167
+      },
+      "reset": {
+        "calls": 1,
+        "seconds": 7.215077
+      },
+      "setup": {
+        "calls": 1,
+        "seconds": 7.3e-05
+      },
+      "trace_write": {
+        "calls": 1212,
+        "seconds": 0.259345
+      },
+      "video_encode": {
+        "calls": 660,
+        "seconds": 1.825541
+      }
+    },
+    "unattributed_s": 0.909559,
+    "wall_s": 45.576362
+  },
+  "wall_duration_s": 45.576361584011465
+}

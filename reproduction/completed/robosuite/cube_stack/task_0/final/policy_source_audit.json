@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "sha256": "7fc56577e5ba890f62f109f65e544664d73fc8448ee9403e1673df040cb518db",
+  "issues": [],
+  "checked_at": 1792644762.2059402,
+  "benchmark": "robosuite",
+  "suite": "cube_stack",
+  "task_id": 0,
+  "root_review": "independent AST static provenance gate; no individual debugging evidence read"
+}

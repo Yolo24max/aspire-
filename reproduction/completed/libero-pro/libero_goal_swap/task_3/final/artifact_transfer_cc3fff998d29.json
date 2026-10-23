@@ -1,0 +1,15 @@
+{
+  "request_hash": "cc3fff998d2938545fab948295e98374a767d9add04fc2fe16e002ede2f8136b",
+  "source_sha256": "5445e852e54e32cb2671f2a855dc8b2c2628cacf847a30d7b6f111844c42502b",
+  "copied_seeds": {
+    "51": {
+      "relative": "debug/attempts/v04/0051",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task3-cc3fff998d29-seed0051.tar.gz",
+      "bytes": 17281361,
+      "sha256": "02cb8fe6704cd742934138872ba31d3dddefde628502ca5b097cb9dbf42f792b",
+      "verified_bytes": 20728284,
+      "verified_files": 224,
+      "removed_payload_bytes": 20648588
+    }
+  }
+}

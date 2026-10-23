@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "frozen_utc": "2026-10-19T12:49:10.861532+00:00",
+  "selected_version": "v08",
+  "program_local": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\code\\v08_geometry_rim_only.py",
+  "program_server": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_1/code/v08_geometry_rim_only.py",
+  "source_sha256": "6c869cea3ba5bf7de27faa32cac7387dd53da2041d3349733581c907db8f7226",
+  "development_seeds": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65
+  ],
+  "development_successes": 14,
+  "development_program_ok": 15,
+  "development_summary": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\v08_dev_summary.json",
+  "selection_rule": "Highest full-development task success (v08 14/15 vs v07 11/15), then program_ok; no assembled untested program.",
+  "api_audit": "PASS",
+  "audit_paths": [
+    "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\api_audit_v08.json",
+    "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\constant_audit_v08.md"
+  ],
+  "unseen_seeds": [
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "unseen_protocol": "Exactly one measurement after this freeze; no tuning or later worker policy requests.",
+  "skill_library_sha": "4f6964b8ab59e95a"
+}

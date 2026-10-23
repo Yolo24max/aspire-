@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "benchmark": "libero-pro",
+  "suite": "libero_goal_swap",
+  "task_id": 1,
+  "seeds": [51, 52, 53, 54, 55],
+  "attempts_used": 2,
+  "trials": 10,
+  "passes": 0,
+  "verdict": "refuted",
+  "skills_applied": [
+    "task-exploration.md#Initial Scene Analysis",
+    "localize.md#Prompting Strategy",
+    "grasp.md#Standard Pick-and-Place Template",
+    "grasp.md#Key Conventions",
+    "proposed:grasp.md#Standard Pick-and-Place Template"
+  ],
+  "proposals": [
+    {
+      "title": "Conditional backend choice and observed lift verification for open bowls",
+      "disposition": "untested",
+      "note": "v01 selected a top_down candidate on 2/5 seeds, but both stopped at pre-grasp; the other 3/5 had no top_down candidate and the template's center fallback stalled on descent. v02's observed-geometry rim attempt reached pre-grasp on 5/5 and descended to within 0.010-0.011 m of commanded z on seeds 53-55, but every descent returned timeout before closure. Thus no run exercised object-lift verification or demonstrated a geometry grasp outperforming a backend grasp. The proposal's cited v07/v08 numbers were supplied in the proposal, not independently reproduced here."
+    }
+  ],
+  "gaps": [
+    "The proposal qualifies backend selection but supplies no reproducible open-bowl rim pose, orientation, contact height, or acceptance rule for a near-base descent that reports timeout despite reaching within about 1 cm of commanded z.",
+    "The shared template's fallback aims at the bowl center. On seeds 51-53 it commanded z about 0.029 m and stopped near 0.082 m; retrying a geometry rim target in v02 did not resolve all scenes. A transferable skill needs a measured clearance and motion procedure before grasp/lift verification can be exercised.",
+    "No attempt reached release, so target placement height and landed-pose guidance remained unmeasured."
+  ],
+  "notes": "Reading rules respected. v01 and v02 each passed 0/5; all ten runs completed and produced artifacts. The controller's initial v01 archive path error was repaired by packaging the already completed runs without rerunning them."
+}

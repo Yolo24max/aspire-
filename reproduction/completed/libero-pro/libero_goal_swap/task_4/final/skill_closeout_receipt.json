@@ -1,0 +1,19 @@
+{
+  "status": "reconciled_with_documented_consultation_evidence_gap",
+  "checked_at": "2026-10-21T16:54:05.634635+00:00",
+  "report": "skill_report.json",
+  "report_sha256": "cbf3eb176da9d1f6ffc9fde07a7da6b3ad3ba3a27f025990a2c216b088854aa8",
+  "explanation": "skill_report_reconciliation.md",
+  "official_schema_validation": "PASS",
+  "documented_consultations": 0,
+  "actual_consultation_count": "unknown: attempt-local ledger missing",
+  "artifact_observed_applications": 3,
+  "proposed_edits": 0,
+  "proposed_new": 0,
+  "independent_verification_required": false,
+  "promoted_skills": 0,
+  "source_sha256": "f60e9cd008601cf483bd4998f9786106f178f9a11c3ef3889c48642c3970cec1",
+  "experiments_started": 0,
+  "original_evidence_unchanged": true,
+  "parent_attempt_report_imported": false
+}

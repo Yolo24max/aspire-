@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "benchmark": "libero-pro",
+  "suite": "libero_goal_swap",
+  "task_id": 2,
+  "seeds": [51, 52, 53, 54, 55],
+  "attempts_used": 1,
+  "trials": 5,
+  "passes": 5,
+  "verdict": "verified",
+  "skills_applied": [
+    "grasp.md#Standard Pick-and-Place Template",
+    "grasp.md#Key Conventions",
+    "localize.md#Prompting Strategy",
+    "proposed:grasp.md#Downward Bottle Neck Grasp",
+    "proposed:transport.md#Segmented Fixture Top Placement",
+    "proposed:localize.md#Prompt Registry",
+    "proposed:grasp.md#Cylindrical Side Grasp"
+  ],
+  "proposals": [
+    {
+      "title": "Downward Bottle Neck Grasp",
+      "disposition": "sound",
+      "note": "The prescribed 80%-height neck target, 0.12 m standoff, and retained downward quaternion reached and carried the bottle on seeds 51-55; the complete literal policy passed 5/5. The side-wrist comparison was not retested."
+    },
+    {
+      "title": "Segmented Fixture Top Placement",
+      "disposition": "sound",
+      "note": "The cabinet top slice held 5613-6534 points, and the three lift/translate/lower moves completed on every seed. Release was 0.1270-0.1286 m above the estimated cabinet surface; final keyframes place the bottle over the cabinet top and task success was 5/5. No isolated placement ablation was run."
+    },
+    {
+      "title": "localize.md Prompt Registry: wine bottle and black cabinet",
+      "disposition": "sound",
+      "note": "Both literal prompts localized the intended objects on all 5 seeds: bottle clouds 1581-1638 points with top SAM3 scores 0.918-0.930, cabinet clouds 7054-9014 points with scores 0.365-0.500."
+    },
+    {
+      "title": "grasp.md Cylindrical Side Grasp: downward-neck alternative",
+      "disposition": "sound",
+      "note": "The downward alternative composed with the existing grasp template and carried the bottle through 5/5 placements; this verification did not run a side-grasp counterfactual."
+    }
+  ],
+  "gaps": [],
+  "notes": "The first attempt alone passed all five independent seeded episodes in 345-354 control steps; no second attempt was needed. The first move_to_pose was tried once and succeeded on all five, so retry guidance was not exercised. Reading rules were respected."
+}

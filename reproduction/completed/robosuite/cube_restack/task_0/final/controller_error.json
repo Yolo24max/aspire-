@@ -1,0 +1,7 @@
+{
+  "phase": "prelaunch_rejected",
+  "request_sha256": "9f2d0c86fe27fd15104db7d4de4b01d29dc09062c78d5c6f228fc79892cfab16",
+  "error_type": "ValueError",
+  "error": "Same frozen source must cleanly pass pilot101 before expansion",
+  "time": 1792654523.6054528
+}

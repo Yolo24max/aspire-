@@ -1,0 +1,1 @@
+{"benchmark": "robosuite", "suite": "cube_lifting", "task_id": 0, "dev_seeds": [101, 102, 103, 104, 105], "policy_versions_max": 2, "pass_criterion": 4, "root_gpu_controller": true, "init_mode": "saved", "max_steps": 1000, "camera_width": 800, "camera_height": 512}

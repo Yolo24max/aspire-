@@ -1,0 +1,64 @@
+{
+  "gate": "PASS",
+  "benchmark": "robosuite",
+  "suite": "cube_stack",
+  "task_id": 0,
+  "source_sha256": "7fc56577e5ba890f62f109f65e544664d73fc8448ee9403e1673df040cb518db",
+  "checked_at": 1792644919.6098197,
+  "partitions": {
+    "development": {
+      "request_id": "92bfa9d49e2dd921a0d201a6ed7b3e59308be7c297784f14cd24f3dc819a681a",
+      "seeds": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
+      ],
+      "trials": 25,
+      "task_success": 25,
+      "program_ok": 25
+    },
+    "unseen": {
+      "request_id": "5fd1cb1295d6a8903f845318ef08c00fb66f954404b0b64c3b6dec8143a75e4d",
+      "seeds": [
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "trials": 5,
+      "task_success": 5,
+      "program_ok": 5
+    }
+  },
+  "unique_policies": 3,
+  "max_policies": 8,
+  "verified_files": 13088,
+  "verified_bytes": 2274470133,
+  "videos": 60,
+  "heldout_started": false,
+  "exactly_once_unseen": true,
+  "no_post_unseen_tuning": true
+}

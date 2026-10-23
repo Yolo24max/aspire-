@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "benchmark": "robosuite",
+  "suite": "cube_lifting",
+  "task_id": 0,
+  "seeds": [
+    126,
+    127,
+    128,
+    129,
+    130
+  ],
+  "init_mode": "saved",
+  "gpu": 0,
+  "max_steps": 1000,
+  "camera_width": 800,
+  "camera_height": 512,
+  "workers": 1,
+  "program": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_lifting/task_0/code/v01_deeper_grasp.py",
+  "output_root": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_lifting/task_0/debug/holdout",
+  "failure_mode": "grasp_retention",
+  "purpose": "Exactly-once unseen126-130 measurement of frozen selected v01, byte-identical fix_code.py; full dev25/25 clean, nonprivilegedAPI/provenanceauditPASS. No unseen tuning or rerun."
+}

@@ -1,0 +1,21 @@
+{
+  "camera_width": 800,
+  "camera_height": 512,
+  "seeds": [
+    126,
+    127,
+    128,
+    129,
+    130
+  ],
+  "output_root": "debug/holdout",
+  "gpu": 0,
+  "init_mode": "saved",
+  "failure_mode": "adjacent-cube interference",
+  "suite": "cube_stack",
+  "benchmark": "robosuite",
+  "max_steps": 1000,
+  "workers": 1,
+  "task_id": 0,
+  "program": "code/v02_bounded_convergence.py"
+}

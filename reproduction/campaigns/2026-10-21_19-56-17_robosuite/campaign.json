@@ -1,0 +1,51 @@
+{
+  "heldout_count": 100,
+  "dev_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125
+  ],
+  "unseen_seeds": [
+    126,
+    127,
+    128,
+    129,
+    130
+  ],
+  "benchmark": "robosuite",
+  "init_mode": "saved",
+  "max_steps": 1000,
+  "camera_width": 800,
+  "camera_height": 512,
+  "workers": 1,
+  "budget": {
+    "max_unique_policy_versions": 8,
+    "max_versions_per_failure_mode": 3
+  },
+  "created_at": "2026-10-21T11:56:17.175141+00:00",
+  "execution_mode": "fresh_per_seed",
+  "classification": "user-authorized independent Robosuite iterative-debugging campaign; separate from LIBERO Goal-Swap",
+  "user_authorization": "2026-10-21 user: simultaneously start Robosuite reproduction"
+}

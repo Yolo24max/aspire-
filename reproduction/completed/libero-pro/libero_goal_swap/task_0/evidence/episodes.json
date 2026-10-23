@@ -1,0 +1,452 @@
+[
+  {
+    "seed": 1,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 559,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:09:01.561952+00:00"
+  },
+  {
+    "seed": 2,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 603,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:09:42.453165+00:00"
+  },
+  {
+    "seed": 3,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 601,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:10:24.003085+00:00"
+  },
+  {
+    "seed": 4,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 566,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:11:00.970075+00:00"
+  },
+  {
+    "seed": 5,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 567,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:11:36.192444+00:00"
+  },
+  {
+    "seed": 6,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 594,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:12:17.217926+00:00"
+  },
+  {
+    "seed": 7,
+    "task_success": false,
+    "program_ok": false,
+    "steps_executed": 781,
+    "termination_reason": "program_error",
+    "process_exit_code": 1,
+    "recorded_at": "2026-10-19T10:13:02.589445+00:00"
+  },
+  {
+    "seed": 8,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 565,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:13:38.507855+00:00"
+  },
+  {
+    "seed": 9,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 602,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:14:19.334935+00:00"
+  },
+  {
+    "seed": 10,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 567,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:14:56.298538+00:00"
+  },
+  {
+    "seed": 11,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 605,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:15:38.873430+00:00"
+  },
+  {
+    "seed": 12,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 563,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:16:14.685513+00:00"
+  },
+  {
+    "seed": 13,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 563,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:16:50.090814+00:00"
+  },
+  {
+    "seed": 14,
+    "task_success": false,
+    "program_ok": true,
+    "steps_executed": 498,
+    "termination_reason": "program_completed",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:17:27.231040+00:00"
+  },
+  {
+    "seed": 15,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 561,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:18:03.173443+00:00"
+  },
+  {
+    "seed": 16,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 566,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:18:40.473526+00:00"
+  },
+  {
+    "seed": 17,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 568,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:19:16.333577+00:00"
+  },
+  {
+    "seed": 18,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 599,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:19:56.243706+00:00"
+  },
+  {
+    "seed": 19,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 563,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:20:33.305935+00:00"
+  },
+  {
+    "seed": 20,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 588,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:21:13.863842+00:00"
+  },
+  {
+    "seed": 21,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 563,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:21:50.602168+00:00"
+  },
+  {
+    "seed": 22,
+    "task_success": false,
+    "program_ok": false,
+    "steps_executed": 0,
+    "termination_reason": "program_error",
+    "process_exit_code": 1,
+    "recorded_at": "2026-10-19T10:22:09.598422+00:00"
+  },
+  {
+    "seed": 23,
+    "task_success": false,
+    "program_ok": false,
+    "steps_executed": 0,
+    "termination_reason": "program_error",
+    "process_exit_code": 1,
+    "recorded_at": "2026-10-19T10:22:29.229468+00:00"
+  },
+  {
+    "seed": 24,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 561,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:23:06.144112+00:00"
+  },
+  {
+    "seed": 25,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 561,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:23:43.083066+00:00"
+  },
+  {
+    "seed": 26,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 564,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:24:20.471519+00:00"
+  },
+  {
+    "seed": 27,
+    "task_success": false,
+    "program_ok": false,
+    "steps_executed": 752,
+    "termination_reason": "program_error",
+    "process_exit_code": 1,
+    "recorded_at": "2026-10-19T10:25:01.885465+00:00"
+  },
+  {
+    "seed": 28,
+    "task_success": false,
+    "program_ok": false,
+    "steps_executed": 784,
+    "termination_reason": "program_error",
+    "process_exit_code": 1,
+    "recorded_at": "2026-10-19T10:25:47.973035+00:00"
+  },
+  {
+    "seed": 29,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 562,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:26:24.304872+00:00"
+  },
+  {
+    "seed": 30,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 562,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:27:02.591236+00:00"
+  },
+  {
+    "seed": 31,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 564,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:27:38.911606+00:00"
+  },
+  {
+    "seed": 32,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 558,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:28:14.058976+00:00"
+  },
+  {
+    "seed": 33,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 565,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:28:49.829252+00:00"
+  },
+  {
+    "seed": 34,
+    "task_success": false,
+    "program_ok": true,
+    "steps_executed": 609,
+    "termination_reason": "program_completed",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:29:28.427075+00:00"
+  },
+  {
+    "seed": 35,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 622,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:30:09.923320+00:00"
+  },
+  {
+    "seed": 36,
+    "task_success": false,
+    "program_ok": false,
+    "steps_executed": 0,
+    "termination_reason": "program_error",
+    "process_exit_code": 1,
+    "recorded_at": "2026-10-19T10:30:28.984121+00:00"
+  },
+  {
+    "seed": 37,
+    "task_success": false,
+    "program_ok": false,
+    "steps_executed": 779,
+    "termination_reason": "program_error",
+    "process_exit_code": 1,
+    "recorded_at": "2026-10-19T10:31:16.520983+00:00"
+  },
+  {
+    "seed": 38,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 562,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:31:54.285912+00:00"
+  },
+  {
+    "seed": 39,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 567,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:32:31.701573+00:00"
+  },
+  {
+    "seed": 40,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 563,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:33:08.429189+00:00"
+  },
+  {
+    "seed": 41,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 563,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:33:45.868660+00:00"
+  },
+  {
+    "seed": 42,
+    "task_success": false,
+    "program_ok": false,
+    "steps_executed": 778,
+    "termination_reason": "program_error",
+    "process_exit_code": 1,
+    "recorded_at": "2026-10-19T10:34:32.717215+00:00"
+  },
+  {
+    "seed": 43,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 561,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:35:09.492483+00:00"
+  },
+  {
+    "seed": 44,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 564,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:35:47.392693+00:00"
+  },
+  {
+    "seed": 45,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 592,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:36:30.222036+00:00"
+  },
+  {
+    "seed": 46,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 601,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:37:13.211245+00:00"
+  },
+  {
+    "seed": 47,
+    "task_success": true,
+    "program_ok": true,
+    "steps_executed": 589,
+    "termination_reason": "task_succeeded",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:37:54.599165+00:00"
+  },
+  {
+    "seed": 48,
+    "task_success": false,
+    "program_ok": false,
+    "steps_executed": 752,
+    "termination_reason": "program_error",
+    "process_exit_code": 1,
+    "recorded_at": "2026-10-19T10:38:38.854315+00:00"
+  },
+  {
+    "seed": 49,
+    "task_success": false,
+    "program_ok": true,
+    "steps_executed": 686,
+    "termination_reason": "program_completed",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:39:21.515780+00:00"
+  },
+  {
+    "seed": 50,
+    "task_success": false,
+    "program_ok": true,
+    "steps_executed": 675,
+    "termination_reason": "program_completed",
+    "process_exit_code": 0,
+    "recorded_at": "2026-10-19T10:40:02.690301+00:00"
+  }
+]

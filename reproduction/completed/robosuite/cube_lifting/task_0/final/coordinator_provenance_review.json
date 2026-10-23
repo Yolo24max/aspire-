@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "source_sha256": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912",
+  "benchmark": "robosuite",
+  "suite": "cube_lifting",
+  "task_id": 0,
+  "public_api_static_audit": "PASS",
+  "frozen_source_and_partition_provenance": "PASS",
+  "full_file_backup_audit": "PASS",
+  "skill_library_sha": "c050e38ea9eff52c",
+  "unpromoted_proposals": 1,
+  "heldout_status": "NOT_STARTED; ready for coordinator-owned single seeds1-100 evaluation"
+}

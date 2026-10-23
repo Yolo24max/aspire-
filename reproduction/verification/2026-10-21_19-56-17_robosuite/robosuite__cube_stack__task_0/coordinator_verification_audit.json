@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checked_at": 1792653870.7788725,
+  "suite": "cube_stack",
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "passes": 4,
+  "trials": 5,
+  "unique_policy_versions": 1,
+  "source_sha256": "459a147dce38fdf45f68d0f77ab7be7b187e4848d5dbadf1810daf5525efa948",
+  "verified_files": 1438,
+  "verified_bytes": 244896023,
+  "verified_videos": 10,
+  "proposal_snippet": "EXACT_AST_MATCH",
+  "public_api_static_audit": "PASS",
+  "reading_rules": "RESPECTED",
+  "archive_and_file_size_sha256": "PASS",
+  "actual_camera_coverage": "PASS",
+  "promotion_allowed": true
+}

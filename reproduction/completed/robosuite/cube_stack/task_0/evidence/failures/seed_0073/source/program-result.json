@@ -1,0 +1,3330 @@
+{
+  "$type": "ProgramExecutionResult",
+  "calls": [
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.0007528872229158878,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 0,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "type": "RobotState"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "RobotState",
+      "tool": "get_robot_state"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.00016607390716671944,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 1,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "keys": [
+          "action_dimension",
+          "action_lower_bounds",
+          "action_upper_bounds",
+          "arm_names",
+          "base_frame",
+          "camera_names",
+          "control_frequency_hz",
+          "control_period_s",
+          "controllable_gripper_arms",
+          "controller",
+          "gripper_semantics",
+          "supported_action_modes"
+        ],
+        "type": "mappingproxy"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "mappingproxy",
+      "tool": "robosuite.get_controller_metadata"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 6.5971864387393e-05,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 2,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "type": "TaskContext"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "TaskContext",
+      "tool": "get_task_context"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.0006268809083849192,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 3,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "type": "RobotState"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "RobotState",
+      "tool": "get_robot_state"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 1.8799890580121428,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot0_base",
+      "index": 4,
+      "inputs_summary": {
+        "keywords": {
+          "camera_name": {
+            "length": 9,
+            "type": "str"
+          },
+          "target_frame": {
+            "length": 11,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "length": 8,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "camera_name",
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot0_base",
+        "ok": true,
+        "type": "LocalizationResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "LocalizationResult",
+      "tool": "localize_object"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.0006877111736685038,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 5,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "type": "RobotState"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "RobotState",
+      "tool": "get_robot_state"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 1.905038736993447,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot0_base",
+      "index": 6,
+      "inputs_summary": {
+        "keywords": {
+          "camera_name": {
+            "length": 9,
+            "type": "str"
+          },
+          "target_frame": {
+            "length": 11,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "length": 10,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "camera_name",
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot0_base",
+        "ok": true,
+        "type": "LocalizationResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "LocalizationResult",
+      "tool": "localize_object"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.7636939201038331,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 7,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {},
+        "ok": true,
+        "status": "success",
+        "steps_executed": 30,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "open_gripper"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 1.416759496089071,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 8,
+      "inputs_summary": {
+        "keywords": {
+          "max_steps": {
+            "type": "int",
+            "value": 250
+          },
+          "tolerance": {
+            "type": "float",
+            "value": 0.015
+          }
+        },
+        "positional": [
+          {
+            "frame": "robot0_base",
+            "type": "Pose"
+          }
+        ]
+      },
+      "keyword_names": [
+        "max_steps",
+        "tolerance"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {
+          "primary": 0.004967062951934237
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 59,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "move_to_pose"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 1.2444200951140374,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 9,
+      "inputs_summary": {
+        "keywords": {
+          "max_steps": {
+            "type": "int",
+            "value": 220
+          },
+          "tolerance": {
+            "type": "float",
+            "value": 0.015
+          }
+        },
+        "positional": [
+          {
+            "frame": "robot0_base",
+            "type": "Pose"
+          }
+        ]
+      },
+      "keyword_names": [
+        "max_steps",
+        "tolerance"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {
+          "primary": 0.008841143881365936
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 52,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "move_to_pose"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.8100691959261894,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 10,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {},
+        "ok": true,
+        "status": "success",
+        "steps_executed": 30,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "close_gripper"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 1.586343694012612,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 11,
+      "inputs_summary": {
+        "keywords": {
+          "max_steps": {
+            "type": "int",
+            "value": 250
+          },
+          "tolerance": {
+            "type": "float",
+            "value": 0.015
+          }
+        },
+        "positional": [
+          {
+            "frame": "robot0_base",
+            "type": "Pose"
+          }
+        ]
+      },
+      "keyword_names": [
+        "max_steps",
+        "tolerance"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {
+          "primary": 0.0033769886901557668
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 62,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "move_to_pose"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.0008111218921840191,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 12,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "type": "RobotState"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "RobotState",
+      "tool": "get_robot_state"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 1.7806486659683287,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot0_base",
+      "index": 13,
+      "inputs_summary": {
+        "keywords": {
+          "camera_name": {
+            "length": 9,
+            "type": "str"
+          },
+          "target_frame": {
+            "length": 11,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "length": 8,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "camera_name",
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot0_base",
+        "ok": true,
+        "type": "LocalizationResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "LocalizationResult",
+      "tool": "localize_object"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.7962902849540114,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 14,
+      "inputs_summary": {
+        "keywords": {
+          "max_steps": {
+            "type": "int",
+            "value": 250
+          },
+          "tolerance": {
+            "type": "float",
+            "value": 0.015
+          }
+        },
+        "positional": [
+          {
+            "frame": "robot0_base",
+            "type": "Pose"
+          }
+        ]
+      },
+      "keyword_names": [
+        "max_steps",
+        "tolerance"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {
+          "primary": 0.006711179569619679
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 32,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "move_to_pose"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.8150559109635651,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 15,
+      "inputs_summary": {
+        "keywords": {
+          "max_steps": {
+            "type": "int",
+            "value": 180
+          },
+          "tolerance": {
+            "type": "float",
+            "value": 0.015
+          }
+        },
+        "positional": [
+          {
+            "frame": "robot0_base",
+            "type": "Pose"
+          }
+        ]
+      },
+      "keyword_names": [
+        "max_steps",
+        "tolerance"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {
+          "primary": 0.006926817712736428
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 33,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "move_to_pose"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.4635303309187293,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 16,
+      "inputs_summary": {
+        "keywords": {
+          "max_steps": {
+            "type": "int",
+            "value": 180
+          },
+          "tolerance": {
+            "type": "float",
+            "value": 0.015
+          }
+        },
+        "positional": [
+          {
+            "frame": "robot0_base",
+            "type": "Pose"
+          }
+        ]
+      },
+      "keyword_names": [
+        "max_steps",
+        "tolerance"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {
+          "primary": 0.006812422967321512
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 18,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "move_to_pose"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.7375948389526457,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 17,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {},
+        "ok": true,
+        "status": "success",
+        "steps_executed": 30,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "open_gripper"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 1.1041273870505393,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 18,
+      "inputs_summary": {
+        "keywords": {
+          "max_steps": {
+            "type": "int",
+            "value": 180
+          },
+          "tolerance": {
+            "type": "float",
+            "value": 0.015
+          }
+        },
+        "positional": [
+          {
+            "frame": "robot0_base",
+            "type": "Pose"
+          }
+        ]
+      },
+      "keyword_names": [
+        "max_steps",
+        "tolerance"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {
+          "primary": 0.0022222797855403
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 46,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "move_to_pose"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.000999661162495613,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 19,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "type": "RobotState"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "RobotState",
+      "tool": "get_robot_state"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.024194316007196903,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 20,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.026484756963327527,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 21,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.02391242003068328,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 22,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.0246524540707469,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 23,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.02424631780013442,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 24,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.024245542008429766,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 25,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.023641547886654735,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 26,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.024018957978114486,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 27,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.02438360801897943,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 28,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.024133902974426746,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 29,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.02412831108085811,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 30,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.026372943073511124,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 31,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.023995208088308573,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 32,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.024194214958697557,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 33,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.024424429051578045,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 34,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.02924791001714766,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 35,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.023890624986961484,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 36,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.023856909945607185,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 37,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.02357709687203169,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 38,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.02380497707054019,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 39,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.023756834911182523,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 40,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.023624838097020984,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 41,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.023687254171818495,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 42,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.02345321117900312,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 43,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.023768772138282657,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 44,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.028753591002896428,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 45,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.02428821986541152,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 46,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.02386968396604061,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 47,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.023827495984733105,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 48,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.02408387907780707,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 49,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "arms": [
+              "primary"
+            ],
+            "type": "RobotAction"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "ok": true,
+        "terminated": false,
+        "truncated": false,
+        "type": "StepResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "StepResult",
+      "tool": "step"
+    }
+  ],
+  "error": null,
+  "ok": true,
+  "result": {
+    "geometry": {
+      "bottom": -0.0977042172693996,
+      "pick": [
+        0.5830609896257349,
+        0.015862463212186383,
+        -0.08263585047439158
+      ],
+      "target": [
+        0.5158195064280883,
+        0.0011567736503581103,
+        -0.05125661061573372
+      ],
+      "width": 0.032822593489645224
+    },
+    "grasp_verified": true,
+    "language": "Pick up the red cube and stack it on the green cube.",
+    "motions": [
+      {
+        "$type": "ExecutionResult",
+        "diagnostics": {
+          "joint_target_converged": true,
+          "orientation_error_rad": 0.008846357326952412,
+          "position_error_m": 0.004967062951934237,
+          "trajectory_executed": true
+        },
+        "error": null,
+        "final_errors": {
+          "primary": 0.004967062951934237
+        },
+        "final_observation": {
+          "$type": "Observation",
+          "cameras": {
+            "agentview": {
+              "$type": "CameraObservation",
+              "camera_pose": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    1.06,
+                    0.0,
+                    0.43800000000000006
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.2710406591485372,
+                    -0.6530979720442611,
+                    -0.6530979720442611,
+                    0.2710406591485372
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              },
+              "depth_shape": [
+                512,
+                800
+              ],
+              "frame": "camera/agentview",
+              "intrinsics": [
+                [
+                  618.0386719675123,
+                  0.0,
+                  400.0
+                ],
+                [
+                  0.0,
+                  618.0386719675123,
+                  256.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "rgb_shape": [
+                512,
+                800,
+                3
+              ],
+              "timestamp_s": 4.45
+            },
+            "robot0_eye_in_hand": {
+              "$type": "CameraObservation",
+              "camera_pose": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    0.6154545214002662,
+                    0.023516972581934015,
+                    0.17008393367949537
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.04660216780268955,
+                    -0.7771323699331599,
+                    0.6265376382731781,
+                    -0.036662042840361946
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              },
+              "depth_shape": [
+                512,
+                800
+              ],
+              "frame": "camera/robot0_eye_in_hand",
+              "intrinsics": [
+                [
+                  333.6256954473487,
+                  0.0,
+                  400.0
+                ],
+                [
+                  0.0,
+                  333.6256954473487,
+                  256.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "rgb_shape": [
+                512,
+                800,
+                3
+              ],
+              "timestamp_s": 4.45
+            }
+          },
+          "robot_state": {
+            "$type": "RobotState",
+            "base_frame": "robot0_base",
+            "embodiment": "robosuite",
+            "end_effector_poses": {
+              "primary": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    0.5781268253433239,
+                    0.015558795257991184,
+                    0.06784739167634868
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.036662042840361946,
+                    0.6265376382731781,
+                    0.7771323699331599,
+                    0.04660216780268954
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              }
+            },
+            "gripper_positions": {
+              "primary": 0.9993949171289407
+            },
+            "joint_names": {
+              "primary": [
+                "panda_joint1",
+                "panda_joint2",
+                "panda_joint3",
+                "panda_joint4",
+                "panda_joint5",
+                "panda_joint6",
+                "panda_joint7"
+              ]
+            },
+            "joint_positions": {
+              "primary": {
+                "$array_inline": [
+                  -0.02854333385436814,
+                  0.507422644872905,
+                  0.05057103777534912,
+                  -2.183053196157313,
+                  0.0008602848678925927,
+                  2.806058733861627,
+                  0.5855770870704223
+                ],
+                "dtype": "float64",
+                "shape": [
+                  7
+                ]
+              }
+            },
+            "joint_velocities": {
+              "primary": {
+                "$array_inline": [
+                  -1.1858236996824672e-05,
+                  1.6584102674500205e-05,
+                  4.522193439622509e-05,
+                  0.04328317883815438,
+                  -5.255859125523347e-06,
+                  -5.150597560176603e-06,
+                  -0.00011651236976240318
+                ],
+                "dtype": "float64",
+                "shape": [
+                  7
+                ]
+              }
+            },
+            "timestamp_s": 4.45
+          },
+          "task_context": {
+            "$type": "TaskContext",
+            "family": "robosuite",
+            "language": "Pick up the red cube and stack it on the green cube.",
+            "metadata": {
+              "task_ref": "cube_stack:0"
+            },
+            "suite": "cube_stack",
+            "task_id": 0,
+            "task_name": "cube_stack"
+          },
+          "timestamp_s": 4.45
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 59,
+        "terminated": false,
+        "truncated": false
+      },
+      {
+        "$type": "ExecutionResult",
+        "diagnostics": {
+          "joint_target_converged": true,
+          "orientation_error_rad": 0.008612860554776341,
+          "position_error_m": 0.008841143881365936,
+          "trajectory_executed": true
+        },
+        "error": null,
+        "final_errors": {
+          "primary": 0.008841143881365936
+        },
+        "final_observation": {
+          "$type": "Observation",
+          "cameras": {
+            "agentview": {
+              "$type": "CameraObservation",
+              "camera_pose": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    1.06,
+                    0.0,
+                    0.43800000000000006
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.2710406591485372,
+                    -0.6530979720442611,
+                    -0.6530979720442611,
+                    0.2710406591485372
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              },
+              "depth_shape": [
+                512,
+                800
+              ],
+              "frame": "camera/agentview",
+              "intrinsics": [
+                [
+                  618.0386719675123,
+                  0.0,
+                  400.0
+                ],
+                [
+                  0.0,
+                  618.0386719675123,
+                  256.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "rgb_shape": [
+                512,
+                800,
+                3
+              ],
+              "timestamp_s": 7.050000000000001
+            },
+            "robot0_eye_in_hand": {
+              "$type": "CameraObservation",
+              "camera_pose": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    0.621544537436116,
+                    0.023886133751879056,
+                    0.028572244501250066
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.05239910877760438,
+                    -0.7775636885554268,
+                    0.625138648981276,
+                    -0.04301991619304796
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              },
+              "depth_shape": [
+                512,
+                800
+              ],
+              "frame": "camera/robot0_eye_in_hand",
+              "intrinsics": [
+                [
+                  333.6256954473487,
+                  0.0,
+                  400.0
+                ],
+                [
+                  0.0,
+                  333.6256954473487,
+                  256.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "rgb_shape": [
+                512,
+                800,
+                3
+              ],
+              "timestamp_s": 7.050000000000001
+            }
+          },
+          "robot_state": {
+            "$type": "RobotState",
+            "base_frame": "robot0_base",
+            "embodiment": "robosuite",
+            "end_effector_poses": {
+              "primary": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    0.5860056885472731,
+                    0.01592747846688607,
+                    -0.07429976347813472
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.04301991619304796,
+                    0.625138648981276,
+                    0.7775636885554268,
+                    0.05239910877760438
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              }
+            },
+            "gripper_positions": {
+              "primary": 0.9995220780925417
+            },
+            "joint_names": {
+              "primary": [
+                "panda_joint1",
+                "panda_joint2",
+                "panda_joint3",
+                "panda_joint4",
+                "panda_joint5",
+                "panda_joint6",
+                "panda_joint7"
+              ]
+            },
+            "joint_positions": {
+              "primary": {
+                "$array_inline": [
+                  -0.01722433734163737,
+                  0.8913041372288479,
+                  0.0367967405484327,
+                  -2.0025390794249445,
+                  -0.012577475985754248,
+                  3.0263861526940476,
+                  0.5858093086351663
+                ],
+                "dtype": "float64",
+                "shape": [
+                  7
+                ]
+              }
+            },
+            "joint_velocities": {
+              "primary": {
+                "$array_inline": [
+                  1.6583465853898084e-05,
+                  0.04238003237137782,
+                  -4.285371539213853e-05,
+                  -1.7337186121186178e-06,
+                  -7.254211441890242e-05,
+                  -1.4122131499279588e-05,
+                  9.070539261825989e-05
+                ],
+                "dtype": "float64",
+                "shape": [
+                  7
+                ]
+              }
+            },
+            "timestamp_s": 7.050000000000001
+          },
+          "task_context": {
+            "$type": "TaskContext",
+            "family": "robosuite",
+            "language": "Pick up the red cube and stack it on the green cube.",
+            "metadata": {
+              "task_ref": "cube_stack:0"
+            },
+            "suite": "cube_stack",
+            "task_id": 0,
+            "task_name": "cube_stack"
+          },
+          "timestamp_s": 7.050000000000001
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 52,
+        "terminated": false,
+        "truncated": false
+      },
+      {
+        "$type": "ExecutionResult",
+        "diagnostics": {
+          "joint_target_converged": true,
+          "orientation_error_rad": 0.009714163170458862,
+          "position_error_m": 0.0033769886901557668,
+          "trajectory_executed": true
+        },
+        "error": null,
+        "final_errors": {
+          "primary": 0.0033769886901557668
+        },
+        "final_observation": {
+          "$type": "Observation",
+          "cameras": {
+            "agentview": {
+              "$type": "CameraObservation",
+              "camera_pose": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    1.06,
+                    0.0,
+                    0.43800000000000006
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.2710406591485372,
+                    -0.6530979720442611,
+                    -0.6530979720442611,
+                    0.2710406591485372
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              },
+              "depth_shape": [
+                512,
+                800
+              ],
+              "frame": "camera/agentview",
+              "intrinsics": [
+                [
+                  618.0386719675123,
+                  0.0,
+                  400.0
+                ],
+                [
+                  0.0,
+                  618.0386719675123,
+                  256.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "rgb_shape": [
+                512,
+                800,
+                3
+              ],
+              "timestamp_s": 11.65
+            },
+            "robot0_eye_in_hand": {
+              "$type": "CameraObservation",
+              "camera_pose": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    0.6176116234880714,
+                    0.0240482733206284,
+                    0.1977793899657837
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.046442800544557204,
+                    -0.7778061696217172,
+                    0.6257427966049129,
+                    -0.036146663373449
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              },
+              "depth_shape": [
+                512,
+                800
+              ],
+              "frame": "camera/robot0_eye_in_hand",
+              "intrinsics": [
+                [
+                  333.6256954473487,
+                  0.0,
+                  400.0
+                ],
+                [
+                  0.0,
+                  333.6256954473487,
+                  256.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "rgb_shape": [
+                512,
+                800,
+                3
+              ],
+              "timestamp_s": 11.65
+            }
+          },
+          "robot_state": {
+            "$type": "RobotState",
+            "base_frame": "robot0_base",
+            "embodiment": "robosuite",
+            "end_effector_poses": {
+              "primary": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    0.5802010489977836,
+                    0.01603933806190519,
+                    0.09557711077237163
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.036146663373449,
+                    0.6257427966049129,
+                    0.7778061696217172,
+                    0.046442800544557204
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              }
+            },
+            "gripper_positions": {
+              "primary": 0.5604260488319376
+            },
+            "joint_names": {
+              "primary": [
+                "panda_joint1",
+                "panda_joint2",
+                "panda_joint3",
+                "panda_joint4",
+                "panda_joint5",
+                "panda_joint6",
+                "panda_joint7"
+              ]
+            },
+            "joint_positions": {
+              "primary": {
+                "$array_inline": [
+                  -0.0352958847099238,
+                  0.4455856132880965,
+                  0.05833712246366125,
+                  -2.1877463524366596,
+                  0.00014447647506397301,
+                  2.747804156463866,
+                  0.5858250765919784
+                ],
+                "dtype": "float64",
+                "shape": [
+                  7
+                ]
+              }
+            },
+            "joint_velocities": {
+              "primary": {
+                "$array_inline": [
+                  -1.5646869405275957e-05,
+                  -0.038087828347175626,
+                  -2.946950141199393e-05,
+                  -6.684522627143155e-06,
+                  6.141826819922214e-05,
+                  8.071401394466635e-06,
+                  -4.863989543747381e-05
+                ],
+                "dtype": "float64",
+                "shape": [
+                  7
+                ]
+              }
+            },
+            "timestamp_s": 11.65
+          },
+          "task_context": {
+            "$type": "TaskContext",
+            "family": "robosuite",
+            "language": "Pick up the red cube and stack it on the green cube.",
+            "metadata": {
+              "task_ref": "cube_stack:0"
+            },
+            "suite": "cube_stack",
+            "task_id": 0,
+            "task_name": "cube_stack"
+          },
+          "timestamp_s": 11.65
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 62,
+        "terminated": false,
+        "truncated": false
+      },
+      {
+        "$type": "ExecutionResult",
+        "diagnostics": {
+          "joint_target_converged": true,
+          "orientation_error_rad": 0.006257496356816008,
+          "position_error_m": 0.006711179569619679,
+          "trajectory_executed": true
+        },
+        "error": null,
+        "final_errors": {
+          "primary": 0.006711179569619679
+        },
+        "final_observation": {
+          "$type": "Observation",
+          "cameras": {
+            "agentview": {
+              "$type": "CameraObservation",
+              "camera_pose": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    1.06,
+                    0.0,
+                    0.43800000000000006
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.2710406591485372,
+                    -0.6530979720442611,
+                    -0.6530979720442611,
+                    0.2710406591485372
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              },
+              "depth_shape": [
+                512,
+                800
+              ],
+              "frame": "camera/agentview",
+              "intrinsics": [
+                [
+                  618.0386719675123,
+                  0.0,
+                  400.0
+                ],
+                [
+                  0.0,
+                  618.0386719675123,
+                  256.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "rgb_shape": [
+                512,
+                800,
+                3
+              ],
+              "timestamp_s": 13.25
+            },
+            "robot0_eye_in_hand": {
+              "$type": "CameraObservation",
+              "camera_pose": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    0.5552751178567527,
+                    0.008794991284189653,
+                    0.20575880277771386
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.051190726067400244,
+                    -0.777007051379708,
+                    0.6259664438383725,
+                    -0.042491915222143115
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              },
+              "depth_shape": [
+                512,
+                800
+              ],
+              "frame": "camera/robot0_eye_in_hand",
+              "intrinsics": [
+                [
+                  333.6256954473487,
+                  0.0,
+                  400.0
+                ],
+                [
+                  0.0,
+                  333.6256954473487,
+                  256.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "rgb_shape": [
+                512,
+                800,
+                3
+              ],
+              "timestamp_s": 13.25
+            }
+          },
+          "robot_state": {
+            "$type": "RobotState",
+            "base_frame": "robot0_base",
+            "embodiment": "robosuite",
+            "end_effector_poses": {
+              "primary": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    0.5194762807116056,
+                    0.0007967853677755751,
+                    0.10298005029854684
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.042491915222143115,
+                    0.6259664438383725,
+                    0.777007051379708,
+                    0.051190726067400244
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              }
+            },
+            "gripper_positions": {
+              "primary": 0.52347110369581
+            },
+            "joint_names": {
+              "primary": [
+                "panda_joint1",
+                "panda_joint2",
+                "panda_joint3",
+                "panda_joint4",
+                "panda_joint5",
+                "panda_joint6",
+                "panda_joint7"
+              ]
+            },
+            "joint_positions": {
+              "primary": {
+                "$array_inline": [
+                  -0.07401246854454817,
+                  0.30457633241092935,
+                  0.07050865377884222,
+                  -2.415931101916646,
+                  0.021856664774156064,
+                  2.8499491823991088,
+                  0.5427601961886782
+                ],
+                "dtype": "float64",
+                "shape": [
+                  7
+                ]
+              }
+            },
+            "joint_velocities": {
+              "primary": {
+                "$array_inline": [
+                  -0.00012774268033489438,
+                  -0.0017016043810047187,
+                  4.167098247423964e-05,
+                  -0.04793612678563146,
+                  7.340385887906023e-05,
+                  5.335445353940537e-05,
+                  -0.00012523264330806526
+                ],
+                "dtype": "float64",
+                "shape": [
+                  7
+                ]
+              }
+            },
+            "timestamp_s": 13.25
+          },
+          "task_context": {
+            "$type": "TaskContext",
+            "family": "robosuite",
+            "language": "Pick up the red cube and stack it on the green cube.",
+            "metadata": {
+              "task_ref": "cube_stack:0"
+            },
+            "suite": "cube_stack",
+            "task_id": 0,
+            "task_name": "cube_stack"
+          },
+          "timestamp_s": 13.25
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 32,
+        "terminated": false,
+        "truncated": false
+      },
+      {
+        "$type": "ExecutionResult",
+        "diagnostics": {
+          "joint_target_converged": true,
+          "orientation_error_rad": 0.004061429919645496,
+          "position_error_m": 0.006926817712736428,
+          "trajectory_executed": true
+        },
+        "error": null,
+        "final_errors": {
+          "primary": 0.006926817712736428
+        },
+        "final_observation": {
+          "$type": "Observation",
+          "cameras": {
+            "agentview": {
+              "$type": "CameraObservation",
+              "camera_pose": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    1.06,
+                    0.0,
+                    0.43800000000000006
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.2710406591485372,
+                    -0.6530979720442611,
+                    -0.6530979720442611,
+                    0.2710406591485372
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              },
+              "depth_shape": [
+                512,
+                800
+              ],
+              "frame": "camera/agentview",
+              "intrinsics": [
+                [
+                  618.0386719675123,
+                  0.0,
+                  400.0
+                ],
+                [
+                  0.0,
+                  618.0386719675123,
+                  256.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "rgb_shape": [
+                512,
+                800,
+                3
+              ],
+              "timestamp_s": 14.9
+            },
+            "robot0_eye_in_hand": {
+              "$type": "CameraObservation",
+              "camera_pose": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    0.5526445744890638,
+                    0.009165512123565612,
+                    0.11938845071677984
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.05072546960736862,
+                    -0.7778598357812253,
+                    0.6250261762878202,
+                    -0.04127083191000178
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              },
+              "depth_shape": [
+                512,
+                800
+              ],
+              "frame": "camera/robot0_eye_in_hand",
+              "intrinsics": [
+                [
+                  333.6256954473487,
+                  0.0,
+                  400.0
+                ],
+                [
+                  0.0,
+                  333.6256954473487,
+                  256.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "rgb_shape": [
+                512,
+                800,
+                3
+              ],
+              "timestamp_s": 14.9
+            }
+          },
+          "robot_state": {
+            "$type": "RobotState",
+            "base_frame": "robot0_base",
+            "embodiment": "robosuite",
+            "end_effector_poses": {
+              "primary": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    0.5166143345926011,
+                    0.0011390108631225719,
+                    0.016692797982501895
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.04127083191000178,
+                    0.6250261762878203,
+                    0.7778598357812254,
+                    0.05072546960736862
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              }
+            },
+            "gripper_positions": {
+              "primary": 0.49434873430907805
+            },
+            "joint_names": {
+              "primary": [
+                "panda_joint1",
+                "panda_joint2",
+                "panda_joint3",
+                "panda_joint4",
+                "panda_joint5",
+                "panda_joint6",
+                "panda_joint7"
+              ]
+            },
+            "joint_positions": {
+              "primary": {
+                "$array_inline": [
+                  -0.06254747457111147,
+                  0.5419367935006553,
+                  0.055854452173683525,
+                  -2.3647672635698753,
+                  0.005913072479175237,
+                  3.0334840281925963,
+                  0.5465049323818685
+                ],
+                "dtype": "float64",
+                "shape": [
+                  7
+                ]
+              }
+            },
+            "joint_velocities": {
+              "primary": {
+                "$array_inline": [
+                  3.9866665330287535e-05,
+                  0.04446204855389967,
+                  -9.17144278098292e-05,
+                  4.927480935151211e-05,
+                  -7.681593986457422e-05,
+                  0.006982555604035087,
+                  0.00011612445712291377
+                ],
+                "dtype": "float64",
+                "shape": [
+                  7
+                ]
+              }
+            },
+            "timestamp_s": 14.9
+          },
+          "task_context": {
+            "$type": "TaskContext",
+            "family": "robosuite",
+            "language": "Pick up the red cube and stack it on the green cube.",
+            "metadata": {
+              "task_ref": "cube_stack:0"
+            },
+            "suite": "cube_stack",
+            "task_id": 0,
+            "task_name": "cube_stack"
+          },
+          "timestamp_s": 14.9
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 33,
+        "terminated": false,
+        "truncated": false
+      },
+      {
+        "$type": "ExecutionResult",
+        "diagnostics": {
+          "joint_target_converged": true,
+          "orientation_error_rad": 0.002559015062376682,
+          "position_error_m": 0.006812422967321512,
+          "trajectory_executed": true
+        },
+        "error": null,
+        "final_errors": {
+          "primary": 0.006812422967321512
+        },
+        "final_observation": {
+          "$type": "Observation",
+          "cameras": {
+            "agentview": {
+              "$type": "CameraObservation",
+              "camera_pose": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    1.06,
+                    0.0,
+                    0.43800000000000006
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.2710406591485372,
+                    -0.6530979720442611,
+                    -0.6530979720442611,
+                    0.2710406591485372
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              },
+              "depth_shape": [
+                512,
+                800
+              ],
+              "frame": "camera/agentview",
+              "intrinsics": [
+                [
+                  618.0386719675123,
+                  0.0,
+                  400.0
+                ],
+                [
+                  0.0,
+                  618.0386719675123,
+                  256.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "rgb_shape": [
+                512,
+                800,
+                3
+              ],
+              "timestamp_s": 15.8
+            },
+            "robot0_eye_in_hand": {
+              "$type": "CameraObservation",
+              "camera_pose": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    0.5525912659240942,
+                    0.009150178231378162,
+                    0.07925121866386742
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.0504285543362284,
+                    -0.7774946684287352,
+                    0.625538542468121,
+                    -0.04074964244393068
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              },
+              "depth_shape": [
+                512,
+                800
+              ],
+              "frame": "camera/robot0_eye_in_hand",
+              "intrinsics": [
+                [
+                  333.6256954473487,
+                  0.0,
+                  400.0
+                ],
+                [
+                  0.0,
+                  333.6256954473487,
+                  256.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "rgb_shape": [
+                512,
+                800,
+                3
+              ],
+              "timestamp_s": 15.8
+            }
+          },
+          "robot_state": {
+            "$type": "RobotState",
+            "base_frame": "robot0_base",
+            "embodiment": "robosuite",
+            "end_effector_poses": {
+              "primary": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    0.5164276333323919,
+                    0.0011955162292840238,
+                    -0.023403128687838892
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.040749642443930686,
+                    0.6255385424681211,
+                    0.777494668428735,
+                    0.05042855433622841
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              }
+            },
+            "gripper_positions": {
+              "primary": 0.4887266401255321
+            },
+            "joint_names": {
+              "primary": [
+                "panda_joint1",
+                "panda_joint2",
+                "panda_joint3",
+                "panda_joint4",
+                "panda_joint5",
+                "panda_joint6",
+                "panda_joint7"
+              ]
+            },
+            "joint_positions": {
+              "primary": {
+                "$array_inline": [
+                  -0.05594650486723094,
+                  0.6594392409338801,
+                  0.04854108657136029,
+                  -2.317068710715266,
+                  0.0041415018228522045,
+                  3.102163925207048,
+                  0.5465438254959385
+                ],
+                "dtype": "float64",
+                "shape": [
+                  7
+                ]
+              }
+            },
+            "joint_velocities": {
+              "primary": {
+                "$array_inline": [
+                  0.0007637036234227007,
+                  0.04608793932849356,
+                  -0.0008688632199613851,
+                  0.005499425302647755,
+                  -0.00024500514089196825,
+                  0.009450074651992766,
+                  4.436088080170346e-05
+                ],
+                "dtype": "float64",
+                "shape": [
+                  7
+                ]
+              }
+            },
+            "timestamp_s": 15.8
+          },
+          "task_context": {
+            "$type": "TaskContext",
+            "family": "robosuite",
+            "language": "Pick up the red cube and stack it on the green cube.",
+            "metadata": {
+              "task_ref": "cube_stack:0"
+            },
+            "suite": "cube_stack",
+            "task_id": 0,
+            "task_name": "cube_stack"
+          },
+          "timestamp_s": 15.8
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 18,
+        "terminated": false,
+        "truncated": false
+      },
+      {
+        "$type": "ExecutionResult",
+        "diagnostics": {
+          "joint_target_converged": true,
+          "orientation_error_rad": 0.0073285672145242745,
+          "position_error_m": 0.0022222797855403,
+          "trajectory_executed": true
+        },
+        "error": null,
+        "final_errors": {
+          "primary": 0.0022222797855403
+        },
+        "final_observation": {
+          "$type": "Observation",
+          "cameras": {
+            "agentview": {
+              "$type": "CameraObservation",
+              "camera_pose": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    1.06,
+                    0.0,
+                    0.43800000000000006
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.2710406591485372,
+                    -0.6530979720442611,
+                    -0.6530979720442611,
+                    0.2710406591485372
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              },
+              "depth_shape": [
+                512,
+                800
+              ],
+              "frame": "camera/agentview",
+              "intrinsics": [
+                [
+                  618.0386719675123,
+                  0.0,
+                  400.0
+                ],
+                [
+                  0.0,
+                  618.0386719675123,
+                  256.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "rgb_shape": [
+                512,
+                800,
+                3
+              ],
+              "timestamp_s": 19.6
+            },
+            "robot0_eye_in_hand": {
+              "$type": "CameraObservation",
+              "camera_pose": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    0.550869802964349,
+                    0.008938684117711117,
+                    0.19148037197534318
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.047177899256741165,
+                    -0.7773376509724172,
+                    0.6262138737982833,
+                    -0.03710264768117011
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              },
+              "depth_shape": [
+                512,
+                800
+              ],
+              "frame": "camera/robot0_eye_in_hand",
+              "intrinsics": [
+                [
+                  333.6256954473487,
+                  0.0,
+                  400.0
+                ],
+                [
+                  0.0,
+                  333.6256954473487,
+                  256.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  1.0
+                ]
+              ],
+              "rgb_shape": [
+                512,
+                800,
+                3
+              ],
+              "timestamp_s": 19.6
+            }
+          },
+          "robot_state": {
+            "$type": "RobotState",
+            "base_frame": "robot0_base",
+            "embodiment": "robosuite",
+            "end_effector_poses": {
+              "primary": {
+                "$type": "Pose",
+                "frame": "robot0_base",
+                "position": {
+                  "$array_inline": [
+                    0.5136935228639715,
+                    0.0009828002520536096,
+                    0.08918849492826564
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    3
+                  ]
+                },
+                "quaternion_wxyz": {
+                  "$array_inline": [
+                    0.03710264768117011,
+                    0.6262138737982833,
+                    0.7773376509724172,
+                    0.047177899256741165
+                  ],
+                  "dtype": "float64",
+                  "shape": [
+                    4
+                  ]
+                }
+              }
+            },
+            "gripper_positions": {
+              "primary": 0.9984542466015086
+            },
+            "joint_names": {
+              "primary": [
+                "panda_joint1",
+                "panda_joint2",
+                "panda_joint3",
+                "panda_joint4",
+                "panda_joint5",
+                "panda_joint6",
+                "panda_joint7"
+              ]
+            },
+            "joint_positions": {
+              "primary": {
+                "$array_inline": [
+                  -0.07650130429198622,
+                  0.33152343598124334,
+                  0.07217496937788635,
+                  -2.422024989081366,
+                  0.016841956191864862,
+                  2.8696037238889787,
+                  0.5457950910300885
+                ],
+                "dtype": "float64",
+                "shape": [
+                  7
+                ]
+              }
+            },
+            "joint_velocities": {
+              "primary": {
+                "$array_inline": [
+                  -1.6722825562314505e-05,
+                  -0.04161678878043765,
+                  4.350669687030135e-05,
+                  -2.0818505442929633e-05,
+                  7.42674181105561e-05,
+                  -4.3747979035810586e-05,
+                  -0.00011300799843955287
+                ],
+                "dtype": "float64",
+                "shape": [
+                  7
+                ]
+              }
+            },
+            "timestamp_s": 19.6
+          },
+          "task_context": {
+            "$type": "TaskContext",
+            "family": "robosuite",
+            "language": "Pick up the red cube and stack it on the green cube.",
+            "metadata": {
+              "task_ref": "cube_stack:0"
+            },
+            "suite": "cube_stack",
+            "task_id": 0,
+            "task_name": "cube_stack"
+          },
+          "timestamp_s": 19.6
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 46,
+        "terminated": false,
+        "truncated": false
+      }
+    ]
+  },
+  "stdout": ""
+}

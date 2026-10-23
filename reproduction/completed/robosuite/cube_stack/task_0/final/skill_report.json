@@ -1,0 +1,157 @@
+{
+  "proposed_edits": [],
+  "suite": "cube_stack",
+  "skill_library_sha": "aad60a7cd5c26ab6",
+  "benchmark": "robosuite",
+  "task_id": 0,
+  "proposed_new": [
+    {
+      "trigger": "Empty parallel jaws approaching a top-down cube grasp after a runtime-derived yaw rotation. The first public move_to_pose times out with a partially reached free-space pose. Inputs position, downward and frame are the same existing perception-derived target pose and robot base frame; report is a dictionary with motions initialized to an empty list. Start at the current observed pose, target a stand-off0.15m above the cloud-derived grasp before descending. This wrapper reissues only typed timeout results, at most3 calls; use cap250 for pregrasp. No collision guarantee: do not retry a known obstructed contact. Each call can cost up to cap ticks, so worst-case3*250=750 ticks for pregrasp; observed selected whole policies409-533 ticks, with empty jaws during pregrasp and the cube only after closing. Preserve1000-tick whole-episode ceiling.",
+      "evidence": "v01 to v02 changed only this move helper; task success15/25 to25/25 on full development101-125. Flipped103,108,109,110,113,114,118,119,123,124 with no regression. Sources frozen and original public traces retained. Requires independent verifier before promotion.",
+      "title": "Bounded public pose convergence after a rotated pregrasp timeout",
+      "skill": "transport.md",
+      "code": "def move(position, cap=220):\n    for attempt in range(3):\n        motion = move_to_pose(Pose(position, downward, frame), tolerance=0.015, max_steps=cap)\n        report[\"motions\"].append(motion)\n        if motion.ok:\n            return\n        if motion.status != \"timeout\":\n            break\n    raise ValueError(\"motion failed after bounded convergence retries\")"
+    }
+  ],
+  "schema_version": 1,
+  "consulted": [
+    {
+      "skill": "task-exploration.md",
+      "verdict": "useful",
+      "evidence": "Applied to authoritative public seed101 scene and immutable pilot; v00 clean success on101, no isolated ablation. Selected v02 measured25/25 development and25/25 program success; this is whole-policy application evidence, not an isolated skill ablation.",
+      "section": "Initial Scene Analysis"
+    },
+    {
+      "skill": "task-exploration.md",
+      "verdict": "useful",
+      "evidence": "Applied to authoritative public seed101 scene and immutable pilot; v00 clean success on101, no isolated ablation. Selected v02 measured25/25 development and25/25 program success; this is whole-policy application evidence, not an isolated skill ablation.",
+      "section": "Triage from disk, not from a `run:` log line"
+    },
+    {
+      "skill": "task-exploration.md",
+      "verdict": "useful",
+      "evidence": "Applied to authoritative public seed101 scene and immutable pilot; v00 clean success on101, no isolated ablation. Selected v02 measured25/25 development and25/25 program success; this is whole-policy application evidence, not an isolated skill ablation.",
+      "section": "Sandbox constraints when writing probes"
+    },
+    {
+      "skill": "task-exploration.md",
+      "verdict": "not-applicable",
+      "evidence": "Single GPU controller owns all simulation launches and resource admission; worker never launched a simulator.",
+      "section": "Wrap every run in `timeout` \u2014 orphans starve the GPU"
+    },
+    {
+      "skill": "localize.md",
+      "verdict": "useful",
+      "evidence": "Public red cube and green cube localization before grasp, cloud guards and top quantiles used; seed101 pilot clean success, no isolated ablation. Selected v02 measured25/25 development and25/25 program success; this is whole-policy application evidence, not an isolated skill ablation.",
+      "section": "Standard Localization Helper"
+    },
+    {
+      "skill": "localize.md",
+      "verdict": "useful",
+      "evidence": "Public red cube and green cube localization before grasp, cloud guards and top quantiles used; seed101 pilot clean success, no isolated ablation. Selected v02 measured25/25 development and25/25 program success; this is whole-policy application evidence, not an isolated skill ablation.",
+      "section": "Key Signals"
+    },
+    {
+      "skill": "localize.md",
+      "verdict": "useful",
+      "evidence": "Public red cube and green cube localization before grasp, cloud guards and top quantiles used; seed101 pilot clean success, no isolated ablation. Selected v02 measured25/25 development and25/25 program success; this is whole-policy application evidence, not an isolated skill ablation.",
+      "section": "Prompting Strategy"
+    },
+    {
+      "skill": "localize.md",
+      "verdict": "useful",
+      "evidence": "Public red cube and green cube localization before grasp, cloud guards and top quantiles used; seed101 pilot clean success, no isolated ablation. Selected v02 measured25/25 development and25/25 program success; this is whole-policy application evidence, not an isolated skill ablation.",
+      "section": "Placement Z Notes"
+    },
+    {
+      "skill": "localize.md",
+      "verdict": "not-applicable",
+      "evidence": "Registry bottle/cabinet entries and same-shape candidate selector were unnecessary; distinct red/green prompts gave high confidence on public seed101.",
+      "section": "Prompt Registry"
+    },
+    {
+      "skill": "localize.md",
+      "verdict": "not-applicable",
+      "evidence": "Registry bottle/cabinet entries and same-shape candidate selector were unnecessary; distinct red/green prompts gave high confidence on public seed101.",
+      "section": "Disambiguation: Two Similar Objects in Scene"
+    },
+    {
+      "skill": "grasp.md",
+      "verdict": "useful",
+      "evidence": "Applied staged approach, width-relative grasp depth0.65, close_gripper and lift verification; v00 seed101 grasp verified and task succeeded in473 ticks; no isolated ablation. Selected v02 measured25/25 development and25/25 program success; this is whole-policy application evidence, not an isolated skill ablation.",
+      "section": "Standard Pick-and-Place Template"
+    },
+    {
+      "skill": "grasp.md",
+      "verdict": "useful",
+      "evidence": "Applied staged approach, width-relative grasp depth0.65, close_gripper and lift verification; v00 seed101 grasp verified and task succeeded in473 ticks; no isolated ablation. Selected v02 measured25/25 development and25/25 program success; this is whole-policy application evidence, not an isolated skill ablation.",
+      "section": "Key Conventions"
+    },
+    {
+      "skill": "grasp.md",
+      "verdict": "useful",
+      "evidence": "Applied staged approach, width-relative grasp depth0.65, close_gripper and lift verification; v00 seed101 grasp verified and task succeeded in473 ticks; no isolated ablation. Selected v02 measured25/25 development and25/25 program success; this is whole-policy application evidence, not an isolated skill ablation.",
+      "section": "Visible cube width-relative grasp depth"
+    },
+    {
+      "skill": "grasp.md",
+      "verdict": "useful",
+      "evidence": "Applied staged approach, width-relative grasp depth0.65, close_gripper and lift verification; v00 seed101 grasp verified and task succeeded in473 ticks; no isolated ablation. Selected v02 measured25/25 development and25/25 program success; this is whole-policy application evidence, not an isolated skill ablation.",
+      "section": "Object Geometry Utilities"
+    },
+    {
+      "skill": "grasp.md",
+      "verdict": "not-applicable",
+      "evidence": "Task objects are cubes, so cylindrical side or bottle-neck grasps were not used.",
+      "section": "Cylindrical Side Grasp (bottles, cans)"
+    },
+    {
+      "skill": "grasp.md",
+      "verdict": "not-applicable",
+      "evidence": "Task objects are cubes, so cylindrical side or bottle-neck grasps were not used.",
+      "section": "Downward Bottle Neck Grasp"
+    },
+    {
+      "skill": "transport.md",
+      "verdict": "not-applicable",
+      "evidence": "No low-Z IK failure, lateral trapping, cabinet, or container observed; cube-specific top-plane placement derived from runtime clouds, without target pre-probing.",
+      "section": "Waypoint Sequences"
+    },
+    {
+      "skill": "transport.md",
+      "verdict": "not-applicable",
+      "evidence": "No low-Z IK failure, lateral trapping, cabinet, or container observed; cube-specific top-plane placement derived from runtime clouds, without target pre-probing.",
+      "section": "Pre-Probe IK Conditioning"
+    },
+    {
+      "skill": "transport.md",
+      "verdict": "not-applicable",
+      "evidence": "No low-Z IK failure, lateral trapping, cabinet, or container observed; cube-specific top-plane placement derived from runtime clouds, without target pre-probing.",
+      "section": "Safe Transit (Lateral Escape Before Lift)"
+    },
+    {
+      "skill": "transport.md",
+      "verdict": "not-applicable",
+      "evidence": "No low-Z IK failure, lateral trapping, cabinet, or container observed; cube-specific top-plane placement derived from runtime clouds, without target pre-probing.",
+      "section": "Placement Approach"
+    },
+    {
+      "skill": "transport.md",
+      "verdict": "not-applicable",
+      "evidence": "No low-Z IK failure, lateral trapping, cabinet, or container observed; cube-specific top-plane placement derived from runtime clouds, without target pre-probing.",
+      "section": "Segmented Fixture Top Placement"
+    },
+    {
+      "skill": "transport.md",
+      "verdict": "not-applicable",
+      "evidence": "No low-Z IK failure, lateral trapping, cabinet, or container observed; cube-specific top-plane placement derived from runtime clouds, without target pre-probing.",
+      "section": "Basket / Container Placement"
+    },
+    {
+      "skill": "transport.md",
+      "verdict": "useful",
+      "evidence": "Used explicit measured joint holds with open normalized gripper for30 ticks after retreat; v00 seed101 stack succeeded; no isolated settling ablation. Constructor follows docs/api-reference.md with only mode,target,gripper_position. Selected v02 measured25/25 development and25/25 program success; this is whole-policy application evidence, not an isolated skill ablation.",
+      "section": "Physics Settling After Release"
+    }
+  ]
+}

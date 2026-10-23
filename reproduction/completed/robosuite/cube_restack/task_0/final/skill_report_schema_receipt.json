@@ -1,0 +1,12 @@
+{
+  "time": "2026-10-22T09:00:27.575157+00:00",
+  "official_schema_validation": "PASS",
+  "consulted_sections": 30,
+  "consultation_ledger_sha256": "7240c8dc57f8c133ad16943b5e4b6429c3f2ffb7ecf789cd3c076ec04bd06209",
+  "proposed_new": 0,
+  "proposed_edits": 0,
+  "promoted": 0,
+  "independent_verifier_required": false,
+  "causal_ablation": false,
+  "formal_closeout_pending": true
+}

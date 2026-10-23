@@ -1,0 +1,12 @@
+{
+  "gpu": 0,
+  "owner": "FREE",
+  "episode_running": false,
+  "stage": "task3 retry_02 complete",
+  "manifest_id": "a8a61a6a6c3b516a",
+  "source_sha256": "11fdfca995faf2c82c7eee9f1174ee2f31c6e9e696ac055ada4dc2fd41fff026",
+  "validation_pid": null,
+  "offload_session": null,
+  "rpc_session": null,
+  "finished_at": "2026-10-20T15:20:28.869419+00:00"
+}

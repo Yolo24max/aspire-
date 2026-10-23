@@ -1,0 +1,35 @@
+{
+  "benchmark": "robosuite",
+  "suite": "cube_stack",
+  "task_id": 0,
+  "init_mode": "saved",
+  "gpu": 0,
+  "max_steps": 1000,
+  "camera_width": 800,
+  "camera_height": 512,
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "max_unique_policy_versions": 2,
+  "passing_threshold": 4,
+  "execution_mode": "fresh_per_seed",
+  "workers": 1,
+  "model": "gpt-6.1-sol",
+  "native_codex_login": true,
+  "external_model_api": false,
+  "launch_state": "root_granted_after_formal100_full_backup_audit_PASS",
+  "proposal_file": "proposed_skills.md",
+  "reading_rules": "Shared skills, proposals, public API/benchmark docs and own verifier outputs only. No campaign tasks, other verifier directories, examples, proposer code or debugging evidence.",
+  "request_schema": {
+    "request_id": "unique-safe-id",
+    "stage": "scene OR v01 OR v02",
+    "program_relative": "code/your_immutable_program.py",
+    "seeds": "scene:[101], policy:[101,102,103,104,105]"
+  },
+  "request_instructions": "Write requests/<request_id>.json atomically; root controller executes immutable source through shared episode lock, same resource guard and verified backups, then writes responses/<request_id>.json. Never run simulations or infrastructure directly. Read only own returned artifacts. Wait for root execution grant before requests.",
+  "skill_library_sha": "aad60a7cd5c26ab6"
+}

@@ -1,0 +1,40 @@
+{
+  "phase": "artifacts_ready",
+  "request_hash": "389a065fd42a1f0c7c3ec4a83fc4550335e8cc5aacbd8aa48bd7daf37bb3e1a5",
+  "source_hash": "f1a61f5b25f549fdb5280db0925c6ef5c6629f4c6848eba9d3cd373cb6dd5de9",
+  "tag": "task4-389a065fd42a",
+  "program": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_4/retry_02/code/v07_quaternion_approach.py",
+  "seeds": [
+    51
+  ],
+  "failure_mode": "execution",
+  "observation_only": false,
+  "remote_result": {
+    "task_id": 4,
+    "tag": "task4-389a065fd42a",
+    "phase": "finished",
+    "seeds": [
+      51
+    ],
+    "started": 1792569729.4825318,
+    "pid": 377009,
+    "execution_mode": "fresh_per_seed",
+    "completed_seeds": [
+      51
+    ],
+    "activity": "packaging",
+    "exit_code": 1,
+    "finished": 1792569749.8639507,
+    "archive": "/mnt/aspire-work/job-task4-389a065fd42a-artifacts.tar.gz",
+    "archive_bytes": 1154
+  },
+  "output_root": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_02\\debug\\attempts\\v07_seed51",
+  "outcomes": [
+    {
+      "path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_02\\debug\\attempts\\v07_seed51\\0051\\run-20261021T080211.383726Z-b11f0172\\outcome.json",
+      "program_ok": false,
+      "task_success": false,
+      "seed": 51
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "benchmark": "libero-pro",
+  "suite": "libero_goal_swap",
+  "task_id": 2,
+  "skill_library_sha": "3fb0e9689e53d63b",
+  "consulted": [
+    {
+      "skill": "task-exploration.md",
+      "section": "Initial Scene Analysis",
+      "verdict": "useful",
+      "evidence": "The authoritative seed51 language and RGB keyframe identified the bottle and drawer cabinet; the initial grasp hypothesis was revised after pilot evidence."
+    },
+    {
+      "skill": "task-exploration.md",
+      "section": "Triage from disk, not from a run log line",
+      "verdict": "useful",
+      "evidence": "I scored the 15 development and 15 unseen outcomes from finalized outcome.json files, rather than parsing run lines."
+    },
+    {
+      "skill": "task-exploration.md",
+      "section": "Wrap every run in timeout — orphans starve the GPU",
+      "verdict": "not-applicable",
+      "evidence": "This worker submitted JSON requests; the coordinator alone ran all episodes on GPU0."
+    },
+    {
+      "skill": "task-exploration.md",
+      "section": "Sandbox constraints when writing probes",
+      "verdict": "useful",
+      "evidence": "The public probe and selected v04 used permitted builtins and no private identifiers; all 30 selected runs had program_ok=true."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Standard Localization Helper",
+      "verdict": "useful",
+      "evidence": "Public localize_object plus point-count guards found the wine bottle and black cabinet on all development seeds 51–65."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Prompt Registry",
+      "verdict": "not-applicable",
+      "evidence": "The registry had no bottle or cabinet entry when v00 was written; the working prompts were discovered from this task's own seed51 probe."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Disambiguation: Two Similar Objects in Scene",
+      "verdict": "not-applicable",
+      "evidence": "There was one intended bottle and one cabinet; the program selected the fixture top by cloud height rather than choosing among similar object masks."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Key Signals",
+      "verdict": "useful",
+      "evidence": "The seed51 prompt probe showed wine bottle scores above 0.92 and black cabinet about 0.46; projected clouds confirmed the intended objects."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Prompting Strategy",
+      "verdict": "useful",
+      "evidence": "Using get_task_context().language resolved the contradictory task name, and both objects were localized before the arm occluded the camera; 15/15 development success."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Placement Z Notes",
+      "verdict": "useful",
+      "evidence": "I treated the cabinet cloud as visible surfaces, extracted its top-plane Z and XY, and computed held-bottle clearance; the selected version passed 15/15 development."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Standard Pick-and-Place Template",
+      "verdict": "useful",
+      "evidence": "Staged pre-grasp, close, lift, transit, lower and release with guarded motions formed the selected program; all 15 development and 15 unseen seeds succeeded."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Cylindrical Side Grasp (bottles, cans)",
+      "verdict": "misleading",
+      "evidence": "The section suggested a side grasp for bottles. On seed51 v01, reorienting to the horizontal side-grasp wrist pose timed out after 159 ticks before contact; the observed downward tool grasp near 80% bottle height worked on v04 and all 15 development seeds."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Key Conventions",
+      "verdict": "useful",
+      "evidence": "close_gripper returned contact-aware success in all development runs, and guarded motion results exposed v01/v02 timeouts before false downstream conclusions."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Object Geometry Utilities",
+      "verdict": "useful",
+      "evidence": "Runtime bottle Z quantiles and fixture top-plane points supplied grasp and release heights; no seed-specific coordinates were encoded."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Waypoint Sequences",
+      "verdict": "not-applicable",
+      "evidence": "The section held a placeholder pointer; the task's lift, lateral transit and descent sequence was derived from its own seed51 scene and measured on v04."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Pre-Probe IK Conditioning",
+      "verdict": "not-applicable",
+      "evidence": "The cabinet top was raised and all selected placement motions converged without a pre-probe."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Safe Transit (Lateral Escape Before Lift)",
+      "verdict": "not-applicable",
+      "evidence": "The bottle lifted vertically above the rack; no lateral escape before lift was needed."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Placement Approach",
+      "verdict": "not-applicable",
+      "evidence": "The section contained no concrete recipe when consulted; the downward placement target was derived from the held-bottle clearance."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Physics Settling After Release",
+      "verdict": "not-applicable",
+      "evidence": "The environment terminated with task success during open_gripper in all development runs, so the guarded fallback settling loop was never entered."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Basket / Container Placement",
+      "verdict": "not-applicable",
+      "evidence": "The target was a flat cabinet top, not a basket or container."
+    },
+    {
+      "skill": "manipulation.md",
+      "section": "Knob / Switch Turning",
+      "verdict": "not-applicable",
+      "evidence": "This task involved no knob or switch."
+    },
+    {
+      "skill": "manipulation.md",
+      "section": "Hinged Door Opening / Closing",
+      "verdict": "not-applicable",
+      "evidence": "The drawer stayed closed; the instruction was to place on its top."
+    },
+    {
+      "skill": "manipulation.md",
+      "section": "Pushing / Sliding",
+      "verdict": "not-applicable",
+      "evidence": "The bottle was picked and carried, not pushed."
+    },
+    {
+      "skill": "manipulation.md",
+      "section": "General Notes",
+      "verdict": "not-applicable",
+      "evidence": "The articulated-object notes did not apply to this pick-and-place task."
+    }
+  ],
+  "proposed_edits": [
+    {
+      "skill": "localize.md",
+      "section": "Prompt Registry",
+      "change": "Add `wine bottle` for an upright dark bottle and `black cabinet` for the closed drawer cabinet; segment before grasp, then verify the bottle and cabinet clouds using public depth. The seed51 top mask scores were about 0.926 and 0.455 respectively.",
+      "why": "Both literal prompts localized the intended objects on seed51 and the complete selected policy passed 15/15 development and 15/15 unseen seeds."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Cylindrical Side Grasp (bottles, cans)",
+      "change": "Describe the downward-neck alternative when a side wrist pose times out: retain the measured initial downward end-effector quaternion and target 80% of the observed bottle Z span with a 0.12 m vertical stand-off. Point to the proposed Downward Bottle Neck Grasp snippet.",
+      "why": "On seed51 the horizontal side-grasp wrist move timed out after 159 ticks before contact; the downward alternative reached and carried the bottle, and v04 scored 15/15 development plus 15/15 unseen."
+    }
+  ],
+  "proposed_new": [
+    {
+      "skill": "grasp.md",
+      "title": "Downward Bottle Neck Grasp",
+      "trigger": "Use when an upright wine bottle is visible from agentview, a side wrist rotation is too costly or fails, and the current end-effector points downward. `quantile` is the helper in grasp.md Standard Pick-and-Place Template. The bottle is localized with the literal prompt in the snippet; pre-grasp is 0.12 m above the observed 80%-height neck target. Expect about 57+36+14 ticks for approach, contact and close on seed51; verify object retention after lift.",
+      "code": "state = get_robot_state()\nframe = state.base_frame\nbottle = localize_object(\"wine bottle\", camera_name=\"agentview\", target_frame=frame)\nif not bottle.ok or len(bottle.point_cloud.points) < 100:\n    raise ValueError(\"wine bottle not localized\")\npoints = bottle.point_cloud.points\nx = quantile((point[0] for point in points), 0.5)\ny = quantile((point[1] for point in points), 0.5)\nlow = quantile((point[2] for point in points), 0.05)\nhigh = quantile((point[2] for point in points), 0.95)\nz = low + 0.80 * (high - low)\ndownward = tuple(state.end_effector_poses[\"primary\"].quaternion_wxyz)\npre = Pose((x, y, z + 0.12), downward, frame)\ngrasp = Pose((x, y, z), downward, frame)\nopen_gripper()\nif not move_to_pose(pre, tolerance=0.025, max_steps=250).ok:\n    raise ValueError(\"pre-grasp failed\")\nif not move_to_pose(grasp, tolerance=0.025, max_steps=180).ok:\n    raise ValueError(\"grasp failed\")\nclose_gripper()",
+      "evidence": "v01 side reorientation timed out after 159 ticks on seed51; v04 downward neck grasp succeeded on seed51 and all development 51–65 (15/15) and unseen 66–80 (15/15)."
+    },
+    {
+      "skill": "transport.md",
+      "title": "Segmented Fixture Top Placement",
+      "trigger": "Use after grasping an upright bottle to place on a flat drawer cabinet top. `frame` is get_robot_state().base_frame; `quantile` is the standard grasp.md helper; `gx`, `gy`, `gz` are the measured grasp end-effector position, `bottle_bottom` is the bottle cloud's 5th Z percentile, and `grasp_pose` is the successful grasp pose. The snippet defines its own guarded `move_checked` wrapper and uses the public `Pose` constructor. Start from the 0.12 m vertical pre-grasp stand-off, close, then lift while holding the bottle; its lowest point is `grasp_clearance` below the end-effector. Seed51 lift, lateral transit and descent cost 112, 68 and 49 ticks.",
+      "code": "def move_checked(stage, pose, cap):\n    answer = move_to_pose(pose, tolerance=0.025, max_steps=cap)\n    if not answer.ok:\n        raise ValueError(stage + \" failed\")\ncabinet = localize_object(\"black cabinet\", camera_name=\"agentview\", target_frame=frame)\nif not cabinet.ok or len(cabinet.point_cloud.points) < 500:\n    raise ValueError(\"cabinet not localized\")\ncabinet_points = cabinet.point_cloud.points\nsurface_z = quantile((point[2] for point in cabinet_points), 0.90)\ntop_points = [point for point in cabinet_points if abs(float(point[2]) - surface_z) < 0.012]\nif len(top_points) < 100:\n    raise ValueError(\"cabinet top plane not found\")\ntarget_x = quantile((point[0] for point in top_points), 0.5)\ntarget_y = quantile((point[1] for point in top_points), 0.5)\ngrasp_clearance = gz - bottle_bottom\ntransit_z = max(gz + 0.30, surface_z + grasp_clearance + 0.15)\nmove_checked(\"lift\", Pose((gx, gy, transit_z), grasp_pose.quaternion_wxyz, frame), 200)\nmove_checked(\"transport\", Pose((target_x, target_y, transit_z), grasp_pose.quaternion_wxyz, frame), 260)\nrelease_z = surface_z + grasp_clearance + 0.012\nmove_checked(\"lower\", Pose((target_x, target_y, release_z), grasp_pose.quaternion_wxyz, frame), 200)",
+      "evidence": "The complete frozen v04 sequence placed the bottle on the cabinet in development 51–65 (15/15) and exact-once unseen 66–80 (15/15); no isolated top-plane ablation was performed."
+    }
+  ]
+}

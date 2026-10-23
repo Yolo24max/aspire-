@@ -1,0 +1,30 @@
+{
+  "canonical_skill_library_sha": "eb66214c23cc9d5a",
+  "canonical_sha_provenance": "Coordinator-provided, official report validator confirmed",
+  "files": [
+    {
+      "filename": "grasp.md",
+      "sha256": "f431bc91ff88e780c8b0f328646a316f53f6cd5ebb2a0eb7ff10ea8e0cb2bc97"
+    },
+    {
+      "filename": "localize.md",
+      "sha256": "dde211c39e173eda80299d5768977f401d29438bd5c356216494df440706ea72"
+    },
+    {
+      "filename": "manipulation.md",
+      "sha256": "8702f69acc758aafc8592726ae58be681607bbeb5c02cd69de7932e36831e836"
+    },
+    {
+      "filename": "README.md",
+      "sha256": "a3188000bad237de00757053c4acad1da80197be0c7e06b99aa8141b3bd2c7b8"
+    },
+    {
+      "filename": "task-exploration.md",
+      "sha256": "e70f250064ba1cd7d546cb05b7f65bbfaf907edd9645b20ba9177b6e8059591c"
+    },
+    {
+      "filename": "transport.md",
+      "sha256": "8ada797288b238944ab89d3842db4490bcf96d46cbe057cc2ed9a8d01d141e95"
+    }
+  ]
+}

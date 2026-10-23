@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "benchmark": "libero-pro",
+  "suite": "libero_goal_swap",
+  "task_id": 0,
+  "seeds": [
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "init_mode": "seeded",
+  "gpu": 0,
+  "max_steps": 1000,
+  "workers": 4,
+  "program": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/code/frozen_candidate.py",
+  "output_root": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout",
+  "purpose": "EXACTLY ONCE unseen66-80 measurement of already-frozen v08; no tuning or repeats after results. Development15/15; source SHA256=f887cdf810fc31953ed69dd918806bbdc82189e7faa1495332516e1ec89c7e23",
+  "command": "cd /mnt/aspire-work/ASPIRE && timeout 600 env CUDA_VISIBLE_DEVICES=0 LIBERO_CONFIG_PATH=/mnt/aspire-work/ASPIRE/.libero MUJOCO_GL=egl PYOPENGL_PLATFORM=egl EGL_PLATFORM=device TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD=1 MUJOCO_EGL_DEVICE_ID=0 /mnt/aspire-work/ASPIRE/.venv-libero/bin/cap-harness run-batch --benchmark libero-pro --suite libero_goal_swap --task-id 0 --seeds 66-80 --program /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/code/frozen_candidate.py --output-root /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout --flat-run-dir --init-mode seeded --workers 4 --log-dir /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/logs/holdout --results-jsonl /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_0/debug/holdout/results.jsonl",
+  "coordinator_request_id": "launch-v03"
+}

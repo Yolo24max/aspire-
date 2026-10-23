@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "benchmark": "libero-pro",
+  "suite": "libero_goal_swap",
+  "task_id": 4,
+  "attempt_name": "retry_02",
+  "seeds": [51],
+  "init_mode": "seeded",
+  "gpu": 0,
+  "max_steps": 1000,
+  "workers": 1,
+  "failure_mode": "execution",
+  "program": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_4/retry_02/code/v07_quaternion_approach.py",
+  "output_root": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_4/retry_02/debug/attempts/v07_seed51",
+  "purpose": "stage1 pilot seed 51 for retry_02 final execution directional CGN approach",
+  "command": "CUDA_VISIBLE_DEVICES=0 MUJOCO_EGL_DEVICE_ID=0 /mnt/aspire-work/guarded-cap-harness run-batch --benchmark libero-pro --suite libero_goal_swap --task-id 4 --seeds 51 --program /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_4/retry_02/code/v07_quaternion_approach.py --output-root /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_4/retry_02/debug/attempts/v07_seed51 --flat-run-dir --init-mode seeded --workers 1 --max-steps 1000 --log-dir /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_4/retry_02/debug/logs/v07_seed51 --results-jsonl /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_4/retry_02/debug/attempts/v07_seed51/results.jsonl"
+}

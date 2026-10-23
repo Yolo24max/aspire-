@@ -1,0 +1,12 @@
+{
+  "source_sha256": "7fc56577e5ba890f62f109f65e544664d73fc8448ee9403e1673df040cb518db",
+  "request_id": "5fd1cb1295d6a8903f845318ef08c00fb66f954404b0b64c3b6dec8143a75e4d",
+  "program": "code/v02_bounded_convergence.py",
+  "seeds": [
+    126,
+    127,
+    128,
+    129,
+    130
+  ]
+}

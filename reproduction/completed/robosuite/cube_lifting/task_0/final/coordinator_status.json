@@ -1,0 +1,90 @@
+{
+  "benchmark": "robosuite",
+  "suite": "cube_lifting",
+  "task_id": 0,
+  "init_mode": "saved",
+  "max_steps": 1000,
+  "camera_width": 800,
+  "camera_height": 512,
+  "workers": 1,
+  "gpu": 0,
+  "seeds": [
+    126,
+    127,
+    128,
+    129,
+    130
+  ],
+  "failure_mode": "grasp_retention",
+  "program": "code/v01_deeper_grasp.py",
+  "source_sha256": "8db784f33c140d5a5fb718c3a351d1b2e7f8ffc263b60ef4a46ff40feba68912",
+  "observation_only": false,
+  "execution_mode": "fresh_per_seed",
+  "run_root": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite",
+  "stage": "unseen",
+  "output_root": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_lifting/task_0/debug/holdout",
+  "request_id": "90f5ce009d0c04e0116adbb50bc352011c1c0fec2dc0ce65e271a4a29db8a4ba",
+  "phase": "artifacts_ready",
+  "worker_request": {
+    "schema_version": 1,
+    "benchmark": "robosuite",
+    "suite": "cube_lifting",
+    "task_id": 0,
+    "seeds": [
+      126,
+      127,
+      128,
+      129,
+      130
+    ],
+    "init_mode": "saved",
+    "gpu": 0,
+    "max_steps": 1000,
+    "camera_width": 800,
+    "camera_height": 512,
+    "workers": 1,
+    "program": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_lifting/task_0/code/v01_deeper_grasp.py",
+    "output_root": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_lifting/task_0/debug/holdout",
+    "failure_mode": "grasp_retention",
+    "purpose": "Exactly-once unseen126-130 measurement of frozen selected v01, byte-identical fix_code.py; full dev25/25 clean, nonprivilegedAPI/provenanceauditPASS. No unseen tuning or rerun."
+  },
+  "reserved_at": 1792588827.5500557,
+  "outcomes": [
+    {
+      "seed": 126,
+      "program_ok": true,
+      "task_success": true,
+      "exit_code": 0,
+      "relative_run": "debug/holdout/0126/run-20261021T141923.959528Z-7106b1bb"
+    },
+    {
+      "seed": 127,
+      "program_ok": true,
+      "task_success": true,
+      "exit_code": 0,
+      "relative_run": "debug/holdout/0127/run-20261021T142420.621425Z-c669a184"
+    },
+    {
+      "seed": 128,
+      "program_ok": true,
+      "task_success": true,
+      "exit_code": 0,
+      "relative_run": "debug/holdout/0128/run-20261021T143635.418068Z-d8793b60"
+    },
+    {
+      "seed": 129,
+      "program_ok": true,
+      "task_success": true,
+      "exit_code": 0,
+      "relative_run": "debug/holdout/0129/run-20261021T143649.918715Z-b4bed07b"
+    },
+    {
+      "seed": 130,
+      "program_ok": true,
+      "task_success": true,
+      "exit_code": 0,
+      "relative_run": "debug/holdout/0130/run-20261021T143704.527664Z-0b85c818"
+    }
+  ],
+  "deduplicated": true
+}

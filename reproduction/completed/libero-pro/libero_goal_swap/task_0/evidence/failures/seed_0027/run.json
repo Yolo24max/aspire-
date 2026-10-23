@@ -1,0 +1,39 @@
+{
+  "benchmark": "libero-pro",
+  "capture": {
+    "camera_height": 512,
+    "camera_width": 800,
+    "max_steps": 1000,
+    "profile": "balanced_evidence",
+    "videos": true
+  },
+  "environment_sha256": null,
+  "finished_at": "2026-10-19T10:25:01.117778Z",
+  "init_mode": "seeded",
+  "providers": {
+    "grasping": [
+      "contact-graspnet"
+    ],
+    "ik": [
+      "pyroki",
+      "curobo"
+    ],
+    "pose_planning": [
+      "composed",
+      "curobo-integrated"
+    ],
+    "segmentation": "sam3",
+    "trajectory_planning": [
+      "interpolation",
+      "curobo"
+    ]
+  },
+  "run_id": "run-20261019T102422.139730Z-3b30f9a9",
+  "schema_version": "1.0",
+  "seed": 27,
+  "started_at": "2026-10-19T10:24:22.140064Z",
+  "status": "finalized",
+  "suite": "libero_goal_swap",
+  "task_id": 0,
+  "task_name": "open_the_middle_drawer_of_the_cabinet"
+}

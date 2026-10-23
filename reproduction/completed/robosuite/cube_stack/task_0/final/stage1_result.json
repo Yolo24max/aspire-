@@ -1,0 +1,116 @@
+{
+  "skill_library_sha": "aad60a7cd5c26ab6",
+  "settings": {
+    "camera_height": 512,
+    "workers": 1,
+    "execution_mode": "fresh_per_seed",
+    "init_mode": "saved",
+    "max_steps": 1000,
+    "camera_width": 800,
+    "gpu": 0
+  },
+  "versions": [
+    {
+      "program_ok": 23,
+      "task_success": 22,
+      "total": 25,
+      "version": "v00"
+    },
+    {
+      "program_ok": 15,
+      "task_success": 15,
+      "total": 25,
+      "version": "v01"
+    },
+    {
+      "program_ok": 25,
+      "task_success": 25,
+      "total": 25,
+      "version": "v02"
+    }
+  ],
+  "development": {
+    "total": 25,
+    "program_ok": 25,
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125
+    ],
+    "task_success": 25
+  },
+  "api_audit": "PASS",
+  "stage": "stage1",
+  "stage2_owner": "root",
+  "failure_modes_fixed": [
+    "adjacent-cube interference",
+    "rotated pregrasp convergence"
+  ],
+  "status": "complete",
+  "selected_program": "code/v02_bounded_convergence.py",
+  "blocked_modes": [],
+  "skill_report_validated": true,
+  "heldout_run": false,
+  "unique_policy_versions": 3,
+  "failure_mode_versions": {
+    "adjacent-cube interference": 3
+  },
+  "benchmark": "robosuite",
+  "initial": {
+    "program": "code/v00_initial.py",
+    "program_ok": 23,
+    "total": 25,
+    "task_success": 22
+  },
+  "skill_report": {
+    "not_applicable": 11,
+    "proposed_new": 1,
+    "misleading": 0,
+    "proposed_edits": 0,
+    "useful": 12,
+    "wrong": 0,
+    "consulted": 23
+  },
+  "suite": "cube_stack",
+  "schema_version": 1,
+  "task_id": 0,
+  "unseen": {
+    "seeds": [
+      126,
+      127,
+      128,
+      129,
+      130
+    ],
+    "total": 5,
+    "task_success": 5,
+    "frozen_before_run": true,
+    "program_ok": 5,
+    "exact_once": true
+  },
+  "sha256": "7fc56577e5ba890f62f109f65e544664d73fc8448ee9403e1673df040cb518db",
+  "fix_code": "fix_code.py",
+  "gpu": 0
+}

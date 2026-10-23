@@ -1,0 +1,13 @@
+{
+  "status": "original_task3_development_protocol_invalid_no_fix_selected",
+  "completed_seed51_requests": 24,
+  "budget_rule": "3 versions per mode, 8 in total",
+  "budget_violation": "v00-v07 already consumed the eight-version total; v08-v23 exceed that budget. The handle-grasp mode was explicitly marked blocked after v04-v06, but later iterations revisited it.",
+  "officially_excluded_due_to_budget": ["v08", "v09", "v10", "v11", "v12", "v13", "v14", "v15", "v16", "v17", "v18", "v19", "v20", "v21", "v22", "v23"],
+  "excluded_attempts": ["v16", "v17", "v18", "v19", "v20", "v21", "v22"],
+  "reason": "Example/baseline source was inspected before v16 and informed these strategies, contrary to the worker contract. These attempts are retained, excluded from official evidence, and must not be promoted or used to produce fix_code.py.",
+  "mutable_source_warning": "v08 through v22 used the same mutable code/v08_inset_rotated_handle.py path. Each immutable run source/program.py and coordinator source hash, rather than the current code file, identifies the executed source.",
+  "recovery": "v23 was an additional public-cloud diagnostic and is also excluded by the version budget. Original v00-v07 sources remain in immutable run artifacts. An isolated retry would need a new worker without this conversation or example-derived history, the canonical shared library and the original public scene only, a separate labeled retry directory and a fresh enforced budget. It must be reported as an independent retry, not as repaired first-attempt evidence.",
+  "latest_diagnostic": {"version": "v23", "program_ok": true, "task_success": false, "handle_motion_verified": false, "failure": "outside_high motion timeout; grasp not reached"},
+  "unseen_or_heldout_used": false
+}

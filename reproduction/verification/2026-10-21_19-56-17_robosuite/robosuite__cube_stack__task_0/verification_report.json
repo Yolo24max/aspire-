@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "benchmark": "robosuite",
+  "suite": "cube_stack",
+  "task_id": 0,
+  "seeds": [101,102,103,104,105],
+  "attempts_used": 1,
+  "trials": 5,
+  "passes": 4,
+  "verdict": "verified",
+  "skills_applied": ["localize.md#Standard Localization Helper", "localize.md#Prompting Strategy", "grasp.md#Visible cube width-relative grasp depth", "grasp.md#Standard Pick-and-Place Template", "transport.md#Physics Settling After Release", "proposed:transport.md#Bounded public pose convergence after a rotated pregrasp timeout"],
+  "proposals": [{"title":"Bounded public pose convergence after a rotated pregrasp timeout","disposition":"sound","note":"Snippet copied verbatim with tolerance0.015; rotated pregrasp uses cap250 and 0.15m stand-off. Seed102 exercised its intended branch: pregrasp timeout after144 ticks at0.219044m error, repeated identical public pose succeeded after29 ticks at0.003508m. Other four pregrasps succeeded directly. Whole policy passed4/5; seed102 later exhausted three descent timeouts, outside the proposal's free-space pregrasp guarantee. No repair was made."}],
+  "gaps": ["The proposal supplies a bounded convergence wrapper, not a complete runtime yaw estimator or cube-stack placement recipe; the verifier derived yaw from the live top-cloud minimum bounding rectangle and placement from target surface and cube width.", "Seed102 later failed at descent with three typed timeouts (126/120/120 ticks; final positional errors0.014757/0.014545/0.014422m). Reissuing a contact-stage pose does not establish successful convergence; the free-space pregrasp claim should remain narrowly scoped."],
+  "notes": "One immutable policy, no v02 because4/5 threshold reached. Successful seeds101/103/104/105 used475/423/477/444 ticks, verified public post-lift retention, and final images show red cube stacked on green. Seed102 used569 ticks and stopped before close. This verifies same-task transmission, not causal ablation or cross-task generalization.",
+  "reading_rules": "RESPECTED"
+}

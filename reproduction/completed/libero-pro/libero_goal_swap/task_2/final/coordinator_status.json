@@ -1,0 +1,164 @@
+{
+  "phase": "artifacts_ready",
+  "request_hash": "4967742afb75b05bc84f06add1dfc389cdbc5172ca7d8c8b0145d0fd7f1f38bb",
+  "source_hash": "3629cae5274b16d6dbc704540d35c014084e29decb8fcc9eb5410fb5d190e78f",
+  "tag": "task2-4967742afb75",
+  "program": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_2/code/v04_terminal_release.py",
+  "seeds": [
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "remote_result": {
+    "task_id": 2,
+    "tag": "task2-4967742afb75",
+    "phase": "finished",
+    "seeds": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "started": 1792474353.1366723,
+    "pid": 43856,
+    "execution_mode": "fresh_per_seed",
+    "completed_seeds": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "activity": "packaging",
+    "exit_code": 0,
+    "finished": 1792474748.1365137,
+    "archive": "/mnt/aspire-work/job-task2-4967742afb75-artifacts.tar.gz",
+    "archive_bytes": 3543
+  },
+  "output_root": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\debug\\holdout",
+  "outcomes": [
+    {
+      "path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\debug\\holdout\\0066\\run-20261020T053234.860012Z-01c25fdf\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "seed": 66
+    },
+    {
+      "path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\debug\\holdout\\0067\\run-20261020T053301.597142Z-cfc58c8f\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "seed": 67
+    },
+    {
+      "path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\debug\\holdout\\0068\\run-20261020T053328.006000Z-10ca1bf7\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "seed": 68
+    },
+    {
+      "path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\debug\\holdout\\0069\\run-20261020T053354.006755Z-f874d164\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "seed": 69
+    },
+    {
+      "path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\debug\\holdout\\0070\\run-20261020T053420.523731Z-0c854a4e\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "seed": 70
+    },
+    {
+      "path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\debug\\holdout\\0071\\run-20261020T053447.233329Z-d3661e61\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "seed": 71
+    },
+    {
+      "path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\debug\\holdout\\0072\\run-20261020T053512.750439Z-e172f361\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "seed": 72
+    },
+    {
+      "path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\debug\\holdout\\0073\\run-20261020T053539.171311Z-8b214810\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "seed": 73
+    },
+    {
+      "path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\debug\\holdout\\0074\\run-20261020T053605.099712Z-0d782219\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "seed": 74
+    },
+    {
+      "path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\debug\\holdout\\0075\\run-20261020T053631.285190Z-08bd5af0\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "seed": 75
+    },
+    {
+      "path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\debug\\holdout\\0076\\run-20261020T053657.655722Z-92320a51\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "seed": 76
+    },
+    {
+      "path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\debug\\holdout\\0077\\run-20261020T053723.679130Z-977b098c\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "seed": 77
+    },
+    {
+      "path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\debug\\holdout\\0078\\run-20261020T053749.946666Z-f0ea0996\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "seed": 78
+    },
+    {
+      "path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\debug\\holdout\\0079\\run-20261020T053816.352752Z-d56bbc45\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "seed": 79
+    },
+    {
+      "path": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_2\\debug\\holdout\\0080\\run-20261020T053842.913564Z-30bfccb7\\outcome.json",
+      "program_ok": true,
+      "task_success": true,
+      "seed": 80
+    }
+  ]
+}

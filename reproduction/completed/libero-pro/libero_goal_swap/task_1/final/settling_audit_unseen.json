@@ -1,0 +1,145 @@
+{
+  "policy": "frozen v08",
+  "requested_calls": 225,
+  "accepted_calls": 0,
+  "invalid_request_calls": 225,
+  "dedicated_settling_ticks": 0,
+  "source_change_after_unseen": false,
+  "rows": [
+    {
+      "seed": 66,
+      "calls": 15,
+      "ok": 0,
+      "invalid_request": 15,
+      "step_span_times": [
+        36.25
+      ]
+    },
+    {
+      "seed": 67,
+      "calls": 15,
+      "ok": 0,
+      "invalid_request": 15,
+      "step_span_times": [
+        34.6
+      ]
+    },
+    {
+      "seed": 68,
+      "calls": 15,
+      "ok": 0,
+      "invalid_request": 15,
+      "step_span_times": [
+        35.45
+      ]
+    },
+    {
+      "seed": 69,
+      "calls": 15,
+      "ok": 0,
+      "invalid_request": 15,
+      "step_span_times": [
+        36.15
+      ]
+    },
+    {
+      "seed": 70,
+      "calls": 15,
+      "ok": 0,
+      "invalid_request": 15,
+      "step_span_times": [
+        34.8
+      ]
+    },
+    {
+      "seed": 71,
+      "calls": 15,
+      "ok": 0,
+      "invalid_request": 15,
+      "step_span_times": [
+        35.65
+      ]
+    },
+    {
+      "seed": 72,
+      "calls": 15,
+      "ok": 0,
+      "invalid_request": 15,
+      "step_span_times": [
+        35.15
+      ]
+    },
+    {
+      "seed": 73,
+      "calls": 15,
+      "ok": 0,
+      "invalid_request": 15,
+      "step_span_times": [
+        35.05
+      ]
+    },
+    {
+      "seed": 74,
+      "calls": 15,
+      "ok": 0,
+      "invalid_request": 15,
+      "step_span_times": [
+        35.0
+      ]
+    },
+    {
+      "seed": 75,
+      "calls": 15,
+      "ok": 0,
+      "invalid_request": 15,
+      "step_span_times": [
+        35.05
+      ]
+    },
+    {
+      "seed": 76,
+      "calls": 15,
+      "ok": 0,
+      "invalid_request": 15,
+      "step_span_times": [
+        35.9
+      ]
+    },
+    {
+      "seed": 77,
+      "calls": 15,
+      "ok": 0,
+      "invalid_request": 15,
+      "step_span_times": [
+        35.05
+      ]
+    },
+    {
+      "seed": 78,
+      "calls": 15,
+      "ok": 0,
+      "invalid_request": 15,
+      "step_span_times": [
+        35.6
+      ]
+    },
+    {
+      "seed": 79,
+      "calls": 15,
+      "ok": 0,
+      "invalid_request": 15,
+      "step_span_times": [
+        35.35
+      ]
+    },
+    {
+      "seed": 80,
+      "calls": 15,
+      "ok": 0,
+      "invalid_request": 15,
+      "step_span_times": [
+        35.35
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "classification": "evidence-only application records from user-authorized independent retry_02",
+  "task_id": 3,
+  "frozen_library_sha": "eb66214c23cc9d5a",
+  "current_library_sha": "c050e38ea9eff52c",
+  "source_sha256": "11fdfca995faf2c82c7eee9f1174ee2f31c6e9e696ac055ada4dc2fd41fff026",
+  "useful_sections": [
+    {
+      "skill": "README.md",
+      "section": "How an entry gets here",
+      "verdict": "useful",
+      "evidence": "Used frozen shared library as sole sanctioned cross-task channel; no parent/sibling task evidence read, no promotion attempted."
+    },
+    {
+      "skill": "task-exploration.md",
+      "section": "Initial Scene Analysis",
+      "verdict": "useful",
+      "evidence": "Copied public seed51 task language established top-drawer-plus-bowl goal; subsequent v05 completed seed51 with both clean gate conditions."
+    },
+    {
+      "skill": "task-exploration.md",
+      "section": "Triage from disk, not from a run: log line",
+      "verdict": "useful",
+      "evidence": "All v00-v05 decisions use finalized outcome, typed source results, public spans and keyframes; found v00 AST rejection and distinguished success termination from motion report error in v05."
+    },
+    {
+      "skill": "task-exploration.md",
+      "section": "Sandbox constraints when writing probes",
+      "verdict": "useful",
+      "evidence": "Only math import and allowlisted builtins used; no private names/reflection. v00 Global rejection exposes an additional undocumented statement restriction; v01 explicit arguments fixed it."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Standard Localization Helper",
+      "verdict": "useful",
+      "evidence": "Prompt fallback and public cloud-size guard localized cabinet and bowl on seed51; v05 clean task success."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Prompt Registry",
+      "verdict": "useful",
+      "evidence": "black cabinet prompt localized intended cabinet in public seed51 cloud, used in all action versions; no bottle manipulation performed."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Disambiguation: Two Similar Objects in Scene",
+      "verdict": "useful",
+      "evidence": "Projected all high-score drawer-handle candidates and selected highest plausible cloud height; v04/v05 opened correct top drawer on51."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Key Signals",
+      "verdict": "useful",
+      "evidence": "Typed CGN result had candidates but top_down selection returnedNone in v04; overlay confirmed intended bowl mask before v05 fallback."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Prompting Strategy",
+      "verdict": "useful",
+      "evidence": "Read authoritative language and localized cabinet/bowl before manipulation using black cabinet and grey bowl; v05 success51."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Placement Z Notes",
+      "verdict": "useful",
+      "evidence": "Used public quantiles and measured held bowl-to-EEF relation instead of raw centroid as true support height; v05 reached successful placement predicate on51."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Standard Pick-and-Place Template",
+      "verdict": "useful",
+      "evidence": "Applied staged pregrasp/contact/lift, quantiles and post-lift verification; top_down CGN returnedNone, so v05 added observed rim fallback and succeeded51."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Key Conventions",
+      "verdict": "useful",
+      "evidence": "close_gripper retained handle during v04 pull and bowl during v05 lift/transport. Motion-result guards exposed timeouts rather than silently proceeding; no home while holding."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Object Geometry Utilities",
+      "verdict": "useful",
+      "evidence": "Public point-cloud quantiles/covariance determine handle axis, stroke fraction, bowl rim and held-offset target; v05 success51."
+    },
+    {
+      "skill": "manipulation.md",
+      "section": "General Notes",
+      "verdict": "useful",
+      "evidence": "Guarded public results and distinguished slow servo progression in v01/v02 from final drawer end-stop in v03; v04 drawer stage passed51."
+    }
+  ],
+  "applied_records_per_file": {
+    "grasp.md": 3,
+    "localize.md": 6,
+    "manipulation.md": 1,
+    "README.md": 1,
+    "task-exploration.md": 3
+  },
+  "development": "15/15, seeds51-65",
+  "unseen": "15/15, seeds66-80, exactly once",
+  "new_recipes_promoted": 0,
+  "edits_promoted": 0,
+  "wrong_or_misleading_sections": 0,
+  "lint": "PASS: zero rejections/undefined names/unhandled empty searches/dangling references/advisories",
+  "limits": "Application evidence only; no isolated causal claim, no post-release/settling efficacy claim",
+  "original_attempt": "protocol-invalid, preserved separately",
+  "frozen_input_integrity": "PASS",
+  "server_sync": "PASS: live library c050e38ea9eff52c, archived frozen snapshot eb66214c23cc9d5a, selected policy unchanged; remote canonical hashes checked"
+}

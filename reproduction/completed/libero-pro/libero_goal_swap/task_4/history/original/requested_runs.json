@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "benchmark": "libero-pro",
+  "suite": "libero_goal_swap",
+  "task_id": 4,
+  "seeds": [51],
+  "init_mode": "seeded",
+  "gpu": 0,
+  "max_steps": 1000,
+  "workers": 1,
+  "failure_mode": "live-pose horizontal side grasp with post-lift public re-localization after top-down retention failures",
+  "program": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_4/code/v08_live_side_verify.py",
+  "output_root": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_4/debug/attempts/v08_seed51",
+  "purpose": "Stage 1 pilot: test a side orientation derived from the live end-effector pose with post-lift grasp verification on development seed 51.",
+  "command": "CUDA_VISIBLE_DEVICES=0 MUJOCO_EGL_DEVICE_ID=0 /mnt/aspire-work/ASPIRE/.venv-libero/bin/cap-harness run-batch --benchmark libero-pro --suite libero_goal_swap --task-id 4 --seeds 51 --program /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_4/code/v08_live_side_verify.py --output-root /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_4/debug/attempts/v08_seed51 --flat-run-dir --init-mode seeded --workers 1 --max-steps 1000 --log-dir /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_4/debug/logs/v08_seed51 --results-jsonl /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_4/debug/attempts/v08_seed51/results.jsonl"
+}

@@ -1,0 +1,60 @@
+{
+  "cumulative_reward": 0.0,
+  "environment_terminated": false,
+  "environment_truncated": false,
+  "error": {
+    "$type": "ApiError",
+    "code": "execution_failed",
+    "details": {
+      "exception_type": "ValueError"
+    },
+    "message": "program execution failed: ValueError: need three distinct observed handle heights to identify middle drawer",
+    "recoverable": true
+  },
+  "finalization_errors": [],
+  "program_ok": false,
+  "protocol_success": null,
+  "schema_version": "1.0",
+  "simulator_duration_s": 0.0,
+  "steps_executed": 0,
+  "success_observed_step": null,
+  "task_success": false,
+  "termination_description": "The generated program was rejected or raised an exception.",
+  "termination_reason": "program_error",
+  "timing": {
+    "attributed_s": 16.589623,
+    "buckets": {
+      "finalize": {
+        "calls": 1,
+        "seconds": 0.002456
+      },
+      "overlay": {
+        "calls": 4,
+        "seconds": 5.910627
+      },
+      "provider.sam3": {
+        "calls": 4,
+        "seconds": 2.389176
+      },
+      "reset": {
+        "calls": 1,
+        "seconds": 8.095902
+      },
+      "setup": {
+        "calls": 1,
+        "seconds": 7.4e-05
+      },
+      "trace_write": {
+        "calls": 112,
+        "seconds": 0.020717
+      },
+      "video_encode": {
+        "calls": 2,
+        "seconds": 0.170671
+      }
+    },
+    "unattributed_s": 0.735153,
+    "wall_s": 17.324776
+  },
+  "wall_duration_s": 17.324776387074962
+}

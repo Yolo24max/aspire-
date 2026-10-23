@@ -1,0 +1,51 @@
+{
+  "request_hash": "1e7b2c86f033dd60e553ac5ce0b8749183f309b4b31b1eaa2bb128aab26cf77f",
+  "source_sha256": "dfadce9b5748002ad7dfc1e5c8166f1628d1659a983f3be7a39ae54ff67f2e4f",
+  "copied_seeds": {
+    "51": {
+      "relative": "debug/v01/0051",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task2-1e7b2c86f033-seed0051.tar.gz",
+      "bytes": 14633493,
+      "sha256": "777f7be4538f398c85dc20c73101b658217034f8a0ca096da25c3cb7f64e00fc",
+      "verified_bytes": 17838745,
+      "verified_files": 142,
+      "removed_payload_bytes": 17799096
+    },
+    "52": {
+      "relative": "debug/v01/0052",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task2-1e7b2c86f033-seed0052.tar.gz",
+      "bytes": 14597613,
+      "sha256": "30e2ed62612b5e641f1a4484ad25b2d6ae8939c75c40caaba3de4190c24b8341",
+      "verified_bytes": 17803294,
+      "verified_files": 142,
+      "removed_payload_bytes": 17763678
+    },
+    "53": {
+      "relative": "debug/v01/0053",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task2-1e7b2c86f033-seed0053.tar.gz",
+      "bytes": 14609263,
+      "sha256": "1b2bd9505361859939011653515157477b10642b808f0d3f28e366aeb6aa050c",
+      "verified_bytes": 17823203,
+      "verified_files": 142,
+      "removed_payload_bytes": 17783570
+    },
+    "54": {
+      "relative": "debug/v01/0054",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task2-1e7b2c86f033-seed0054.tar.gz",
+      "bytes": 14628925,
+      "sha256": "697c830283fc47ee353f23d946cf00e31faaa1b404df7dc91498b8a4d368911f",
+      "verified_bytes": 17854538,
+      "verified_files": 143,
+      "removed_payload_bytes": 17814914
+    },
+    "55": {
+      "relative": "debug/v01/0055",
+      "archive": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\tmp\\task2-1e7b2c86f033-seed0055.tar.gz",
+      "bytes": 14574646,
+      "sha256": "e1c36f64c657bcd098bd424939fd861b9794ae0ebe1c5c7b86810b068f90fb7e",
+      "verified_bytes": 17767403,
+      "verified_files": 143,
+      "removed_payload_bytes": 17727771
+    }
+  }
+}

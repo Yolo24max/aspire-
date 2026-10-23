@@ -1,0 +1,68 @@
+{
+  "cumulative_reward": 0.0,
+  "environment_terminated": false,
+  "environment_truncated": false,
+  "error": null,
+  "finalization_errors": [],
+  "program_ok": true,
+  "protocol_success": null,
+  "schema_version": "1.0",
+  "simulator_duration_s": 18.05,
+  "steps_executed": 361,
+  "success_observed_step": null,
+  "task_success": false,
+  "termination_description": "The generated Python program returned normally.",
+  "termination_reason": "program_completed",
+  "timing": {
+    "attributed_s": 25.050657,
+    "buckets": {
+      "adapter_step": {
+        "calls": 361,
+        "seconds": 9.656679
+      },
+      "finalize": {
+        "calls": 1,
+        "seconds": 0.003159
+      },
+      "keyframe": {
+        "calls": 16,
+        "seconds": 1.027953
+      },
+      "overlay": {
+        "calls": 3,
+        "seconds": 4.227201
+      },
+      "provider.pyroki": {
+        "calls": 6,
+        "seconds": 0.036732
+      },
+      "provider.sam3": {
+        "calls": 3,
+        "seconds": 1.802893
+      },
+      "record_step": {
+        "calls": 361,
+        "seconds": 0.157807
+      },
+      "reset": {
+        "calls": 1,
+        "seconds": 7.022142
+      },
+      "setup": {
+        "calls": 1,
+        "seconds": 7.2e-05
+      },
+      "trace_write": {
+        "calls": 168,
+        "seconds": 0.047135
+      },
+      "video_encode": {
+        "calls": 363,
+        "seconds": 1.068883
+      }
+    },
+    "unattributed_s": 0.854692,
+    "wall_s": 25.905348
+  },
+  "wall_duration_s": 25.905348354950547
+}

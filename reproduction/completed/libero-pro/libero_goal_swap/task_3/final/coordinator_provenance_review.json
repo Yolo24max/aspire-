@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "classification": "user-authorized isolated independent retry_02; original first attempt remains protocol-invalid",
+  "task_id": 3,
+  "source_sha256": "11fdfca995faf2c82c7eee9f1174ee2f31c6e9e696ac055ada4dc2fd41fff026",
+  "skill_library_sha": "eb66214c23cc9d5a",
+  "reviewed": [
+    "fix_code.py and worker provenance/findings reports",
+    "isolation_receipt.json: original public scene and frozen shared library identical",
+    "all eight numbered sources counted; per-mode limits respected",
+    "full development51-65 and exact-once unseen66-80 checked by coordinator_handoff_audit.json",
+    "no post-freeze policy request or edits; fix_code byte-identical to frozen source",
+    "math-only import; allowed public API and constructors; no native simulator, assets, reflection, filesystem/network, reward/task-success queries or seed-specific executable branches",
+    "task-dependent choices and geometry derived at runtime; tuned constants are relative offsets, fractions, quantiles, confidence/count guards or execution budgets",
+    "official final skill-report validator OK; no proposed promotions"
+  ],
+  "limits": [
+    "v07 contains two changes and is only a whole-policy comparison",
+    "all measured successes terminate during lowering before release/settling; no independent post-release landed-pose claim",
+    "settling tail supplies an extra embodiment keyword to ArmCommand, which is not in its documented signature; tail was not exercised in measured successes. Frozen code remains unchanged and Stage2 measures any resulting failures honestly."
+  ],
+  "heldout_status": "complete: 49/50 task_success, 50/50 program_ok; source remained frozen; see coordinator_validation_audit.json"
+}

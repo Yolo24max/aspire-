@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "source_sha256": "6c869cea3ba5bf7de27faa32cac7387dd53da2041d3349733581c907db8f7226",
+  "time": 1792416445.6208203,
+  "records_reviewed": [
+    "constant_audit_v08.md",
+    "api_audit_v08.json",
+    "provenance_ledger.md"
+  ],
+  "preliminary_findings": [
+    "Recorded target choices follow task language; grasp and placement XYZ come from runtime public point clouds and robot state.",
+    "Tuned constants represent quantiles, relative offsets, clearances, tolerances and bounded control loops; no native assets/state, hidden success/reward, fixed world positions or seed branches reported.",
+    "Worker identified own adaptation omitted embodiment on settling calls; public typed invalid_request advances zero ticks. Frozen version remains unchanged. Skill itself explicitly documented the missing argument correctly.",
+    "Final review still requires exact fix_code bytes, actual selected-source dev15/unseen15 coverage, all camera videos, and final provenance/skill report."
+  ],
+  "frozen_source_review": {
+    "status": "PASS",
+    "source": "code/v08_geometry_rim_only.py",
+    "sha256": "6c869cea3ba5bf7de27faa32cac7387dd53da2041d3349733581c907db8f7226",
+    "scope": "Read complete frozen source for public API access, constants/geometry provenance and bounded control; no policy diagnosis from raw traces or policy edits.",
+    "public_calls": [
+      "get_task_context",
+      "get_robot_state",
+      "localize_object",
+      "solve_ik",
+      "move_to_joints",
+      "open_gripper",
+      "close_gripper",
+      "step",
+      "Pose",
+      "RobotAction",
+      "ArmCommand"
+    ],
+    "notes": [
+      "Only math import; no filesystem/network/native simulator/evaluator/reward/success/seed access.",
+      "Grasp/placement/held offsets and radii computed from runtime public geometry and robot state; scalar constants are relative offsets/quantiles/tolerances/clearances/loop limits.",
+      "Known settling embodiment defect preserved; returned errors do not prove commanded settling occurred.",
+      "Lowering catches all exceptions then accepts XY within25mm, independent of a verified contact measurement; flag name is a heuristic. Vertical25mm is release offset, not a measured-contact guarantee."
+    ],
+    "archived_first_dev_source_byte_identical": true
+  },
+  "final_review_time": 1792417920.98367,
+  "final_coverage": "15 development +15 exact-once unseen,60 camera videos, exact source bytes and settings, artifact audit PASS",
+  "skill_report_validation": "PASS24sections:9useful1misleading14notapplicable; one proposed edit requires independent verification before promotion",
+  "limitations_preserved": [
+    "Rejected dedicated settling calls due own missing embodiment; zero ticks; program_ok not command acceptance",
+    "Lower exception release gate checks XY only, no contact confirmation"
+  ]
+}

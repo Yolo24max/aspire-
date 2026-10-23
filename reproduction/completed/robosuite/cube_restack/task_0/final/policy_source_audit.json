@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "sha256": "eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742",
+  "issues": [],
+  "checked_at": 1792659201.0556014,
+  "benchmark": "robosuite",
+  "suite": "cube_restack",
+  "task_id": 0,
+  "root_review": "Independent selected-source AST and public provenance review; runtime perception-derived roles/geometry/held clearance, generic offsets/tolerances only; no individual debugging read"
+}

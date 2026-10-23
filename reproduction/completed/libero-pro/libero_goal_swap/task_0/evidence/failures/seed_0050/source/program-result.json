@@ -1,0 +1,1150 @@
+{
+  "$type": "ProgramExecutionResult",
+  "calls": [
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.00022536399774253368,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 0,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "type": "TaskContext"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "TaskContext",
+      "tool": "get_task_context"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.0007353469263762236,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 1,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "type": "RobotState"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "RobotState",
+      "tool": "get_robot_state"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 2.2073789939749986,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 2,
+      "inputs_summary": {
+        "keywords": {
+          "camera_name": {
+            "length": 9,
+            "type": "str"
+          },
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "length": 7,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "camera_name",
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "ok": true,
+        "type": "LocalizationResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "LocalizationResult",
+      "tool": "localize_object"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 2.177629604935646,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "camera/agentview",
+      "index": 3,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "length": 9,
+            "type": "str"
+          },
+          {
+            "length": 13,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "count": 5,
+        "frame": "camera/agentview",
+        "ok": true,
+        "type": "SegmentationSet"
+      },
+      "positional_count": 2,
+      "provider": "sam3",
+      "result_type": "SegmentationSet",
+      "tool": "segment_text"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.010573190986178815,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 4,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 460,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.008524787030182779,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 5,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 401,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.0082130340160802,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 6,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 321,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.008410481968894601,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 7,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 3464,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.008246056968346238,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 8,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 236,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.008114904980175197,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 9,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {},
+        "ok": true,
+        "status": "success",
+        "steps_executed": 0,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "open_gripper"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 6.92266305105295,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": "timeout",
+      "frame": null,
+      "index": 10,
+      "inputs_summary": {
+        "keywords": {
+          "max_steps": {
+            "type": "int",
+            "value": 140
+          },
+          "strategy": {
+            "ik_solver": "pyroki",
+            "pose_planner": "curobo-integrated",
+            "trajectory_planner": "interpolation",
+            "type": "MotionStrategy"
+          },
+          "tolerance": {
+            "type": "float",
+            "value": 0.012
+          }
+        },
+        "positional": [
+          {
+            "frame": "robot_base",
+            "type": "Pose"
+          }
+        ]
+      },
+      "keyword_names": [
+        "max_steps",
+        "strategy",
+        "tolerance"
+      ],
+      "ok": false,
+      "outputs_summary": {
+        "final_errors": {},
+        "ok": false,
+        "status": "timeout",
+        "steps_executed": 171,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "move_to_pose"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.0006332739721983671,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 11,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "type": "RobotState"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "RobotState",
+      "tool": "get_robot_state"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 1.2014573289779946,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 12,
+      "inputs_summary": {
+        "keywords": {
+          "max_steps": {
+            "type": "int",
+            "value": 140
+          },
+          "strategy": {
+            "ik_solver": "pyroki",
+            "pose_planner": "composed",
+            "trajectory_planner": "interpolation",
+            "type": "MotionStrategy"
+          },
+          "tolerance": {
+            "type": "float",
+            "value": 0.012
+          }
+        },
+        "positional": [
+          {
+            "frame": "robot_base",
+            "type": "Pose"
+          }
+        ]
+      },
+      "keyword_names": [
+        "max_steps",
+        "strategy",
+        "tolerance"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {
+          "primary": 0.005826897477813141
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 38,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "move_to_pose"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.9042060379870236,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 13,
+      "inputs_summary": {
+        "keywords": {
+          "max_steps": {
+            "type": "int",
+            "value": 140
+          },
+          "strategy": {
+            "ik_solver": "pyroki",
+            "pose_planner": "composed",
+            "trajectory_planner": "interpolation",
+            "type": "MotionStrategy"
+          },
+          "tolerance": {
+            "type": "float",
+            "value": 0.012
+          }
+        },
+        "positional": [
+          {
+            "frame": "robot_base",
+            "type": "Pose"
+          }
+        ]
+      },
+      "keyword_names": [
+        "max_steps",
+        "strategy",
+        "tolerance"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {
+          "primary": 0.004336542885595733
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 26,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "move_to_pose"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.6931648050667718,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 14,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {},
+        "ok": true,
+        "status": "success",
+        "steps_executed": 20,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "close_gripper"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 4.000632057897747,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": "timeout",
+      "frame": null,
+      "index": 15,
+      "inputs_summary": {
+        "keywords": {
+          "max_steps": {
+            "type": "int",
+            "value": 100
+          },
+          "strategy": {
+            "ik_solver": "pyroki",
+            "pose_planner": "composed",
+            "trajectory_planner": "interpolation",
+            "type": "MotionStrategy"
+          },
+          "tolerance": {
+            "type": "float",
+            "value": 0.012
+          }
+        },
+        "positional": [
+          {
+            "frame": "robot_base",
+            "type": "Pose"
+          }
+        ]
+      },
+      "keyword_names": [
+        "max_steps",
+        "strategy",
+        "tolerance"
+      ],
+      "ok": false,
+      "outputs_summary": {
+        "final_errors": {},
+        "ok": false,
+        "status": "timeout",
+        "steps_executed": 122,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "move_to_pose"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.0004415949806571007,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 16,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "type": "RobotState"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "RobotState",
+      "tool": "get_robot_state"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 2.1486767299938947,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "camera/agentview",
+      "index": 17,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": [
+          {
+            "length": 9,
+            "type": "str"
+          },
+          {
+            "length": 13,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "count": 5,
+        "frame": "camera/agentview",
+        "ok": true,
+        "type": "SegmentationSet"
+      },
+      "positional_count": 2,
+      "provider": "sam3",
+      "result_type": "SegmentationSet",
+      "tool": "segment_text"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.015084290062077343,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": "robot_base",
+      "index": 18,
+      "inputs_summary": {
+        "keywords": {
+          "target_frame": {
+            "length": 10,
+            "type": "str"
+          }
+        },
+        "positional": [
+          {
+            "frame": "camera/agentview",
+            "type": "Segmentation"
+          },
+          {
+            "length": 9,
+            "type": "str"
+          }
+        ]
+      },
+      "keyword_names": [
+        "target_frame"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "frame": "robot_base",
+        "point_count": 469,
+        "type": "PointCloud"
+      },
+      "positional_count": 2,
+      "provider": null,
+      "result_type": "PointCloud",
+      "tool": "mask_to_point_cloud"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 3.937448367010802,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": "timeout",
+      "frame": null,
+      "index": 19,
+      "inputs_summary": {
+        "keywords": {
+          "max_steps": {
+            "type": "int",
+            "value": 100
+          },
+          "strategy": {
+            "ik_solver": "pyroki",
+            "pose_planner": "composed",
+            "trajectory_planner": "interpolation",
+            "type": "MotionStrategy"
+          },
+          "tolerance": {
+            "type": "float",
+            "value": 0.012
+          }
+        },
+        "positional": [
+          {
+            "frame": "robot_base",
+            "type": "Pose"
+          }
+        ]
+      },
+      "keyword_names": [
+        "max_steps",
+        "strategy",
+        "tolerance"
+      ],
+      "ok": false,
+      "outputs_summary": {
+        "final_errors": {},
+        "ok": false,
+        "status": "timeout",
+        "steps_executed": 122,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "move_to_pose"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.0004331980599090457,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 20,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "type": "RobotState"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "RobotState",
+      "tool": "get_robot_state"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.00031848892103880644,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 21,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "type": "RobotState"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "RobotState",
+      "tool": "get_robot_state"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 4.21963377809152,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": "timeout",
+      "frame": null,
+      "index": 22,
+      "inputs_summary": {
+        "keywords": {
+          "max_steps": {
+            "type": "int",
+            "value": 140
+          },
+          "strategy": {
+            "ik_solver": "pyroki",
+            "pose_planner": "composed",
+            "trajectory_planner": "interpolation",
+            "type": "MotionStrategy"
+          },
+          "tolerance": {
+            "type": "float",
+            "value": 0.012
+          }
+        },
+        "positional": [
+          {
+            "frame": "robot_base",
+            "type": "Pose"
+          }
+        ]
+      },
+      "keyword_names": [
+        "max_steps",
+        "strategy",
+        "tolerance"
+      ],
+      "ok": false,
+      "outputs_summary": {
+        "final_errors": {},
+        "ok": false,
+        "status": "timeout",
+        "steps_executed": 128,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "move_to_pose"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.00044978398364037275,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 23,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "type": "RobotState"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "RobotState",
+      "tool": "get_robot_state"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.5058717009378597,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 24,
+      "inputs_summary": {
+        "keywords": {
+          "max_steps": {
+            "type": "int",
+            "value": 100
+          },
+          "strategy": {
+            "ik_solver": "pyroki",
+            "pose_planner": "composed",
+            "trajectory_planner": "interpolation",
+            "type": "MotionStrategy"
+          },
+          "tolerance": {
+            "type": "float",
+            "value": 0.012
+          }
+        },
+        "positional": [
+          {
+            "frame": "robot_base",
+            "type": "Pose"
+          }
+        ]
+      },
+      "keyword_names": [
+        "max_steps",
+        "strategy",
+        "tolerance"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {
+          "primary": 0.002200311202020228
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 15,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "move_to_pose"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.5430238950066268,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 25,
+      "inputs_summary": {
+        "keywords": {
+          "max_steps": {
+            "type": "int",
+            "value": 100
+          },
+          "strategy": {
+            "ik_solver": "pyroki",
+            "pose_planner": "composed",
+            "trajectory_planner": "interpolation",
+            "type": "MotionStrategy"
+          },
+          "tolerance": {
+            "type": "float",
+            "value": 0.012
+          }
+        },
+        "positional": [
+          {
+            "frame": "robot_base",
+            "type": "Pose"
+          }
+        ]
+      },
+      "keyword_names": [
+        "max_steps",
+        "strategy",
+        "tolerance"
+      ],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {
+          "primary": 0.0015942369307342702
+        },
+        "ok": true,
+        "status": "success",
+        "steps_executed": 16,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 1,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "move_to_pose"
+    },
+    {
+      "$type": "CallTrace",
+      "duration_s": 0.5423626380506903,
+      "error_message": null,
+      "error_type": null,
+      "failure_code": null,
+      "frame": null,
+      "index": 26,
+      "inputs_summary": {
+        "keywords": {},
+        "positional": []
+      },
+      "keyword_names": [],
+      "ok": true,
+      "outputs_summary": {
+        "final_errors": {},
+        "ok": true,
+        "status": "success",
+        "steps_executed": 17,
+        "terminated": false,
+        "truncated": false,
+        "type": "ExecutionResult"
+      },
+      "positional_count": 0,
+      "provider": null,
+      "result_type": "ExecutionResult",
+      "tool": "open_gripper"
+    }
+  ],
+  "error": null,
+  "ok": true,
+  "result": {
+    "cabinet_prompt": "cabinet",
+    "current_orientation": [
+      0.49997130203638196,
+      0.8659756974533783,
+      0.009278546229606634,
+      0.005356971163351777
+    ],
+    "grip": {
+      "ok": true,
+      "status": "ExecutionStatus.SUCCESS",
+      "steps": 20
+    },
+    "handle_center": [
+      0.4296407545582248,
+      -0.15778108202694427,
+      0.1099356119370496
+    ],
+    "handle_probes": [
+      {
+        "candidates": [
+          {
+            "center": [
+              0.4230973544718597,
+              -0.15886004977817164,
+              0.1829271453745438
+            ],
+            "points": 460,
+            "score": 0.63671875
+          },
+          {
+            "center": [
+              0.4296407545582248,
+              -0.15778108202694427,
+              0.1099356119370496
+            ],
+            "points": 401,
+            "score": 0.59375
+          },
+          {
+            "center": [
+              0.40727435503306586,
+              -0.15668523528517167,
+              0.04227208104092861
+            ],
+            "points": 321,
+            "score": 0.578125
+          }
+        ],
+        "prompt": "drawer handle"
+      }
+    ],
+    "handle_prompt": "drawer handle",
+    "motions": [
+      {
+        "accepted_measured_pose": true,
+        "attempt": 0,
+        "ok": false,
+        "phase": "raised_standoff",
+        "status": "ExecutionStatus.TIMEOUT",
+        "steps": 171
+      },
+      {
+        "attempt": 0,
+        "ok": true,
+        "phase": "handle_standoff",
+        "status": "ExecutionStatus.SUCCESS",
+        "steps": 38
+      },
+      {
+        "attempt": 0,
+        "ok": true,
+        "phase": "contact",
+        "status": "ExecutionStatus.SUCCESS",
+        "steps": 26
+      },
+      {
+        "accepted_measured_pose": true,
+        "attempt": 0,
+        "ok": false,
+        "phase": "pull_1",
+        "status": "ExecutionStatus.TIMEOUT",
+        "steps": 122
+      },
+      {
+        "accepted_measured_pose": true,
+        "attempt": 0,
+        "ok": false,
+        "phase": "pull_2",
+        "status": "ExecutionStatus.TIMEOUT",
+        "steps": 122
+      },
+      {
+        "accepted_measured_pose": true,
+        "attempt": 0,
+        "ok": false,
+        "phase": "late_tilt_clearance",
+        "status": "ExecutionStatus.TIMEOUT",
+        "steps": 128
+      },
+      {
+        "attempt": 0,
+        "ok": true,
+        "phase": "pull_3",
+        "status": "ExecutionStatus.SUCCESS",
+        "steps": 15
+      },
+      {
+        "attempt": 0,
+        "ok": true,
+        "phase": "pull_4",
+        "status": "ExecutionStatus.SUCCESS",
+        "steps": 16
+      }
+    ],
+    "orientation": [
+      0.7070661961371865,
+      0.7070661961371864,
+      0.00757590127245366,
+      0.00757590127245366
+    ],
+    "outward_normal": [
+      -0.021426654780098715,
+      0.9997704228796401,
+      0.0
+    ],
+    "phase": "complete_unverified",
+    "post_pull_handle": null,
+    "stroke": 0.22364273520262906,
+    "task": "Open the middle layer of the drawer"
+  },
+  "stdout": ""
+}

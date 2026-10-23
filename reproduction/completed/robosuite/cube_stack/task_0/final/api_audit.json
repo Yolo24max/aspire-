@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "source_sha256": "7fc56577e5ba890f62f109f65e544664d73fc8448ee9403e1673df040cb518db",
+  "imports": [
+    "math"
+  ],
+  "named_calls": [
+    "ArmCommand",
+    "Pose",
+    "RobotAction",
+    "ValueError",
+    "center_top",
+    "close_gripper",
+    "float",
+    "get_robot_state",
+    "get_task_context",
+    "int",
+    "len",
+    "localize_object",
+    "locate",
+    "max",
+    "min",
+    "move",
+    "move_to_pose",
+    "open_gripper",
+    "quantile",
+    "range",
+    "sorted",
+    "step",
+    "tuple"
+  ],
+  "private_attributes": [],
+  "selected_source_exact_copy": true
+}

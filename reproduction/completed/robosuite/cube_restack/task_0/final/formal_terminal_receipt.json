@@ -1,0 +1,15 @@
+{
+  "checked_at": 1792664608.2480252,
+  "suite": "cube_restack",
+  "run_id": "4ebe635cc1756480",
+  "state_phase": "finished",
+  "exit_code": 0,
+  "trials": 100,
+  "passes": 100,
+  "manifest_status": "complete",
+  "original_pid_absent": true,
+  "pid_namespace": "pid:[4026536494]",
+  "pid1_start": "116618285",
+  "formal_exact_once_audit": "PASS",
+  "backup_audit": "PENDING"
+}

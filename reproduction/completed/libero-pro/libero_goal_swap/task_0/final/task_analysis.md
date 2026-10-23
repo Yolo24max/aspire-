@@ -1,0 +1,11 @@
+# Initial Task Analysis
+
+- Actual task language: **Open the middle layer of the drawer** (public seed-51 task context).
+- Manipulated object: middle of three cabinet drawer handles, visible to the left of the scene. Candidate prompts: `drawer handle`, `black drawer handle`, `cabinet handle`, `middle drawer handle`.
+- Goal: pull the middle drawer outward; this is articulated manipulation, not pick/place. Height ordering of independently segmented handles is the proposed selector; a combined three-handle mask can instead be clustered by observed Z.
+- Visible obstacles: cabinet carcass/front, dish rack immediately in front-left, bottle/bowl/plate on the adjacent tabletop. Approach from the handle's outward normal, with a raised stand-off then a short straight contact approach. No world coordinates or observed dimensions are embedded.
+- Geometry hypothesis: each handle is horizontally elongated. Estimate its XY principal axis from public projected points; the perpendicular pointing away from the observed cabinet center is the pull direction. Close fingers vertically around the bar using a horizontal tool approach.
+- Uncertainties: SAM3 candidate identity/coverage, whether handle masks separate all three layers, principal-axis stability with partial visibility, cabinet-center normal sign, attainable wrist orientation, handle depth/contact offset, and sufficient drawer stroke. All remain unmeasured until the coordinator executes the initial program.
+- Initial snapshot: `debug/explore/0051/run-20261019T090511.801657Z-49dcb145`. Snapshot is observation-only and did not solve the task.
+- Library consulted: task-exploration (initial analysis, artifact triage, timeout and sandbox constraints); localize (all sections); grasp (all sections); transport (all sections); manipulation (all sections). These have no task-specific validated drawer recipe. Final grades will require actual execution evidence; pick/place, cylindrical, placement, and knob/hinge content is provisionally not applicable.
+- Provenance: only public task context, RGB keyframe, public contracts/API documentation and shared skill library were used. No native simulator assets, baseline programs, other task directories, real-robot instructions, or held-out seeds were accessed.

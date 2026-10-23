@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "QUARANTINED",
+  "source": "code/v00_initial.py",
+  "sha256": "a64f5b7d9e07a3a6f6511150ea12ec938541cc8c3fc1de74d866e929c452e750",
+  "public_calls": [
+    "Pose",
+    "close_gripper",
+    "get_observation",
+    "get_robot_state",
+    "get_task_context",
+    "localize_object",
+    "move_to_pose",
+    "open_gripper"
+  ],
+  "issues": [
+    "unapproved call min"
+  ],
+  "manual_provenance_review": {
+    "object_identity": "red cube prompt from official public initial image and runtime task language",
+    "coordinates": "all XYZ from runtime public cloud quantiles; end-effector orientation from public robot state",
+    "dimensions": "robust runtime horizontal span; no asset or snapshot dimensions",
+    "generic_strategy_constants": "quantiles 0.1/0.5/0.9; relative depth0.4; stand-off0.15m; lift0.18m; tolerance0.015m; verification-rise0.03m; public point guard20; caps250/220/250",
+    "hidden_state": "none",
+    "seed_branches": "none",
+    "example_or_sibling_programs": "not accessed"
+  },
+  "skill_library_sha": "c050e38ea9eff52c",
+  "development_status": "not selected until full development artifacts finalized"
+}

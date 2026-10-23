@@ -1,0 +1,23 @@
+{
+  "status": "promoted",
+  "promoted_at": 1792638091.8744998,
+  "title": "Visible cube width-relative grasp depth",
+  "target": "grasp.md#Visible cube width-relative grasp depth",
+  "verification_report_sha256": "12990e03cb872a56cbe25f3338f2e9fddbfa20b4ecc7815edb7cec390bf16101",
+  "verifier_source_sha256": "08c0a1f2a54fdc43f9560c294db41e2304d09775032b3089c7d57a26e66ab609",
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "passes": 5,
+  "library_file_before_sha256": "9f93f346608ff0cda1d2d9cd486c3dafc6c509a3e02d12e4ef44c7730caa2b00",
+  "library_file_after_sha256": "f5d5f7908e29b6dd75df69115963d0ac01e44c4822c7d6899d04731efdc07c4c",
+  "reading_rules": "RESPECTED",
+  "causal_ablation": false,
+  "cross_task_generalization": false,
+  "library_lint": "PASS:0 sandbox/undefined/empty-case/reference/advisory issues",
+  "library_sha_after": "aad60a7cd5c26ab6"
+}

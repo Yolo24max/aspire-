@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checked_at": 1792667923.9265556,
+  "benchmark": "robosuite",
+  "suite": "cube_restack",
+  "task_id": 0,
+  "run_id": "4ebe635cc1756480",
+  "source_sha256": "eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742",
+  "trials": 100,
+  "task_success": 100,
+  "program_ok": 100,
+  "cases_verified": 100,
+  "videos": 200,
+  "verified_files": 42534,
+  "verified_bytes": 6013174126,
+  "all_file_size_sha256": "PASS",
+  "actual_camera_coverage": "PASS",
+  "manifest_identity": "PASS",
+  "completed_pre_restart_results_preserved": "receipt_available_separately",
+  "skill_promotion": "pending_independent_verification"
+}

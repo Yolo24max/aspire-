@@ -1,0 +1,88 @@
+{
+  "benchmark": "robosuite",
+  "suite": "cube_restack",
+  "task_id": 0,
+  "init_mode": "saved",
+  "max_steps": 1000,
+  "camera_width": 800,
+  "camera_height": 512,
+  "workers": 1,
+  "gpu": 0,
+  "seeds": [
+    126,
+    127,
+    128,
+    129,
+    130
+  ],
+  "failure_mode": "placement_clearance",
+  "program": "code/v01_held_clearance.py",
+  "source_sha256": "eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742",
+  "observation_only": false,
+  "execution_mode": "fresh_per_seed",
+  "run_root": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite",
+  "stage": "unseen",
+  "output_root": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-21_19-56-17_robosuite/robosuite/cube_restack/task_0/debug/holdout",
+  "request_id": "926072f7cdd243281ce05c538043b63d5e9562db7eb7c2e115b41421c74acc42",
+  "phase": "artifacts_ready",
+  "worker_request": {
+    "benchmark": "robosuite",
+    "suite": "cube_restack",
+    "task_id": 0,
+    "gpu": 0,
+    "init_mode": "saved",
+    "max_steps": 1000,
+    "camera_width": 800,
+    "camera_height": 512,
+    "workers": 1,
+    "seeds": [
+      126,
+      127,
+      128,
+      129,
+      130
+    ],
+    "failure_mode": "placement_clearance",
+    "program": "code/v01_held_clearance.py",
+    "output_root": "debug/holdout"
+  },
+  "reserved_at": 1792658102.6668882,
+  "outcomes": [
+    {
+      "seed": 126,
+      "program_ok": true,
+      "task_success": true,
+      "exit_code": 0,
+      "relative_run": "debug/holdout/0126/run-20261022T083504.618530Z-73f00fbf"
+    },
+    {
+      "seed": 127,
+      "program_ok": true,
+      "task_success": true,
+      "exit_code": 0,
+      "relative_run": "debug/holdout/0127/run-20261022T083547.417428Z-9b896b88"
+    },
+    {
+      "seed": 128,
+      "program_ok": true,
+      "task_success": true,
+      "exit_code": 0,
+      "relative_run": "debug/holdout/0128/run-20261022T083630.418284Z-7c0b266f"
+    },
+    {
+      "seed": 129,
+      "program_ok": true,
+      "task_success": true,
+      "exit_code": 0,
+      "relative_run": "debug/holdout/0129/run-20261022T083712.993992Z-8234ff8f"
+    },
+    {
+      "seed": 130,
+      "program_ok": true,
+      "task_success": true,
+      "exit_code": 0,
+      "relative_run": "debug/holdout/0130/run-20261022T083754.619276Z-5574f420"
+    }
+  ],
+  "deduplicated": true
+}

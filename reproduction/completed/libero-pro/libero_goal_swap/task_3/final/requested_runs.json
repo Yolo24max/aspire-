@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "benchmark": "libero-pro",
+  "suite": "libero_goal_swap",
+  "task_id": 3,
+  "seeds": [
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "init_mode": "seeded",
+  "gpu": 0,
+  "max_steps": 1000,
+  "workers": 1,
+  "program": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_3/retry_02/code/v07_staged_lift_confidence.py",
+  "output_root": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_3/retry_02/debug/holdout",
+  "purpose": "Exactly-once unseen measurement after immutable v07 freeze; no subsequent tuning",
+  "failure_mode": "bowl-grasp",
+  "command": "CUDA_VISIBLE_DEVICES=0 MUJOCO_EGL_DEVICE_ID=0 /mnt/aspire-work/ASPIRE/.venv-libero/bin/cap-harness run-batch --benchmark libero-pro --suite libero_goal_swap --task-id 3 --seeds 66-80 --program /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_3/retry_02/code/v07_staged_lift_confidence.py --output-root /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_3/retry_02/debug/holdout --flat-run-dir --init-mode seeded --gpu 0 --max-steps 1000 --workers 1 --log-dir /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_3/retry_02/debug/logs/holdout --results-jsonl /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_3/retry_02/debug/holdout/results.jsonl"
+}

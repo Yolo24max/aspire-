@@ -1,0 +1,12 @@
+{
+  "api_policy": "public documented APIs only",
+  "seeds": "51-65",
+  "source": "code/v01_terminal_release.py",
+  "frozen_at": "2026-10-21T08:39:30.7942516Z",
+  "stage": "stage1_dev_frozen",
+  "unseen_started": false,
+  "heldout_started": false,
+  "attempt": "retry_03",
+  "basis": "v01 clean seed51: task_success=true, program_ok=true, termination_reason=task_succeeded",
+  "source_sha256": "f60e9cd008601cf483bd4998f9786106f178f9a11c3ef3889c48642c3970cec1"
+}

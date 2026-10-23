@@ -1,0 +1,135 @@
+{
+  "task_id": 0,
+  "source_sha256": "eac7ad8656fe85fafc83b286026c537eab1a6b4c2db856d1ebdc815842619742",
+  "failure_modes_fixed": [
+    "placement_clearance: all development seeds101-125"
+  ],
+  "blocked_modes": [],
+  "budget": {
+    "max_per_mode": 3,
+    "used_unique_policies": 2,
+    "max_unique_policies": 8,
+    "failure_mode_counts": {
+      "placement_clearance": 1,
+      "initial_restack": 1
+    }
+  },
+  "suite": "cube_restack",
+  "promoted": 0,
+  "development": {
+    "program_ok": 25,
+    "success": 25,
+    "seeds": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125
+    ],
+    "total": 25,
+    "step_range": [
+      728,
+      792
+    ]
+  },
+  "selected_program": "code/v01_held_clearance.py",
+  "protocol": {
+    "pilot_reuse": true,
+    "all_scientific_sources_preserved": true,
+    "one_scene101": true,
+    "fresh_per_seed": true,
+    "no_post_unseen_tuning": true,
+    "root_gate_repair": "same v00 failed pilot reused unchanged; only remaining102-125 executed",
+    "heldout1_to100_accessed": false
+  },
+  "schema_version": 1,
+  "proposed_new": 0,
+  "api_audit": "PASS",
+  "status": "complete",
+  "benchmark": "robosuite",
+  "initial_development": {
+    "total": 25,
+    "success": 0
+  },
+  "consulted_sections": 30,
+  "unseen": {
+    "seeds": [
+      126,
+      127,
+      128,
+      129,
+      130
+    ],
+    "success": 5,
+    "exact_once": true,
+    "total": 5,
+    "program_ok": 5,
+    "outcomes": [
+      {
+        "seed": 126,
+        "success": true,
+        "ok": true,
+        "steps": 797
+      },
+      {
+        "seed": 127,
+        "success": true,
+        "ok": true,
+        "steps": 779
+      },
+      {
+        "seed": 128,
+        "success": true,
+        "ok": true,
+        "steps": 759
+      },
+      {
+        "seed": 129,
+        "success": true,
+        "ok": true,
+        "steps": 760
+      },
+      {
+        "seed": 130,
+        "success": true,
+        "ok": true,
+        "steps": 796
+      }
+    ]
+  },
+  "fix_code": "fix_code.py",
+  "gpu": 0,
+  "proposed_edits": 0,
+  "required_reports": [
+    "task_analysis.md",
+    "findings.md",
+    "skill_report.json",
+    "api_audit.json",
+    "freeze_manifest.json",
+    "stage1_worker_checkpoint.json"
+  ],
+  "skill_grades": {
+    "useful": 16,
+    "not-applicable": 14
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "phase": "artifacts_ready",
+  "outcomes": [
+    {
+      "seed": 101,
+      "program_ok": true,
+      "task_success": false,
+      "exit_code": 0,
+      "relative_run": "debug/scene/0101/run-20261022T025716.640522Z-467998de"
+    }
+  ],
+  "request_id": "7702fedf019af4057303197470230626d47a19dffbd1d2ed97b667f5afd36ce7",
+  "source_sha256": "6a651936ca19b36a939761a5b0bb9ffff5e1306a9d7c4045785f979ae0f8ab80",
+  "local_task": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-21_19-56-17_robosuite\\verification\\robosuite__cube_lifting__task_0\\robosuite\\cube_lifting\\task_0",
+  "stage": "scene",
+  "worker_request_id": "scene_cube",
+  "artifacts_root": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-21_19-56-17_robosuite\\verification\\robosuite__cube_lifting__task_0\\robosuite\\cube_lifting\\task_0\\debug\\scene",
+  "independent_verification": true
+}

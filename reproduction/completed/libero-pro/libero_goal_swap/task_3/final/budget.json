@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "max_versions": 8,
+  "max_per_failure_mode": 3,
+  "versions": [
+    {
+      "version": "v00",
+      "source": "code/v00_independent_initial.py",
+      "failure_mode": "initial-policy",
+      "attempt_count": 1,
+      "status": "failed-program-global"
+    },
+    {
+      "version": "v01",
+      "source": "code/v01_explicit_scope.py",
+      "failure_mode": "program-scope",
+      "attempt_count": 1,
+      "status": "failed-handle-standoff"
+    },
+    {
+      "version": "v02",
+      "source": "code/v02_staged_transit.py",
+      "failure_mode": "transit-collision",
+      "attempt_count": 1,
+      "status": "failed-high-approach-slow-servo"
+    },
+    {
+      "version": "v03",
+      "source": "code/v03_joint_servo_budget.py",
+      "failure_mode": "execution-rate-budget",
+      "attempt_count": 1,
+      "status": "failed-overpull"
+    },
+    {
+      "version": "v04",
+      "source": "code/v04_bounded_drawer_pull.py",
+      "failure_mode": "pull-endstop",
+      "attempt_count": 1,
+      "status": "drawer-open-no-topdown-grasp"
+    },
+    {
+      "version": "v05",
+      "source": "code/v05_observed_rim_grasp.py",
+      "failure_mode": "bowl-grasp",
+      "attempt_count": 1,
+      "status": "dev11of15"
+    },
+    {
+      "version": "v06",
+      "source": "code/v06_deeper_rim_contact.py",
+      "failure_mode": "bowl-grasp",
+      "attempt_count": 2,
+      "status": "dev12of15"
+    },
+    {
+      "version": "v07",
+      "source": "code/v07_staged_lift_confidence.py",
+      "failure_mode": "bowl-grasp",
+      "affected_modes": [
+        "bowl-grasp",
+        "handle-reobservation"
+      ],
+      "attempt_count": 3,
+      "status": "selected-dev15of15-unseen15of15"
+    }
+  ],
+  "affected_mode_version_counts": {
+    "initial-policy": 1,
+    "program-scope": 1,
+    "transit-collision": 1,
+    "execution-rate-budget": 1,
+    "pull-endstop": 1,
+    "bowl-grasp": 3,
+    "handle-reobservation": 1
+  },
+  "selected_version": "v07",
+  "selected_sha256": "11fdfca995faf2c82c7eee9f1174ee2f31c6e9e696ac055ada4dc2fd41fff026",
+  "completed": true,
+  "unseen_measurements": 1,
+  "unseen_task_success": 15
+}

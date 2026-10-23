@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "benchmark": "libero-pro",
+  "suite": "libero_goal_swap",
+  "task_id": 0,
+  "skill_library_sha": "91d636a706623f4e",
+  "consulted": [
+    {
+      "skill": "task-exploration.md",
+      "section": "Initial Scene Analysis",
+      "verdict": "useful",
+      "evidence": "Used authoritative seed51 snapshot language and keyframes; supported correct middle-handle selection for v06 across51-65, including10 task successes."
+    },
+    {
+      "skill": "task-exploration.md",
+      "section": "Triage from disk, not from a run log line",
+      "verdict": "useful",
+      "evidence": "Scored all15 v06 outcomes from immutable directories; identified failure group53,55,59,60,63 without rerunning missing log matches."
+    },
+    {
+      "skill": "task-exploration.md",
+      "section": "Wrap every run in timeout",
+      "verdict": "not-applicable",
+      "evidence": "Worker never launches episodes; root coordinator owns the timeout and GPU process lifecycle."
+    },
+    {
+      "skill": "task-exploration.md",
+      "section": "Sandbox constraints when writing probes",
+      "verdict": "useful",
+      "evidence": "Used allowed math/public builtins only; v06 all15 passed syntax/runtime construction, with no sandbox rejection."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Standard Localization Helper",
+      "verdict": "useful",
+      "evidence": "Applied runtime prompt fallback and point-count guards for cabinet; v06 cabinet/handle localization worked on all development51-65."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Prompt Registry",
+      "verdict": "not-applicable",
+      "evidence": "Registry contained no object entries; did not infer prior validated drawer prompts."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Disambiguation: Two Similar Objects in Scene",
+      "verdict": "useful",
+      "evidence": "Projected candidates and sorted three distinct handle heights rather than top SAM score; v06 correctly grasped middle drawer on all15 development scenes."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Key Signals",
+      "verdict": "useful",
+      "evidence": "Rejected weak post-pull masks below0.30 after v04 score0.097; v06 did not count occluded masks as verified handle movement."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Prompting Strategy",
+      "verdict": "useful",
+      "evidence": "Read task language and localized before grasp; drawer handle prompt selected valid handles throughout v06 development51-65."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Placement Z Notes",
+      "verdict": "not-applicable",
+      "evidence": "Articulated drawer opening has no placement target or release-height goal."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Standard Pick-and-Place Template",
+      "verdict": "not-applicable",
+      "evidence": "Drawer is constrained articulated body; no lift/transport/place skeleton used."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Cylindrical Side Grasp",
+      "verdict": "not-applicable",
+      "evidence": "Did not apply bottle/can side-grasp recipe; v03 accidentally held bottle and that evidence was rejected."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Key Conventions",
+      "verdict": "useful",
+      "evidence": "Used close_gripper and guarded public motion; checked keyframes rather than trusting close.ok. This exposed wrong-bottle grasp on seed51 and v04 corrected roll."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Object Geometry Utilities",
+      "verdict": "useful",
+      "evidence": "Used public point-cloud quantiles and runtime covariance; v06 achieved10/15 development with no fixed world poses or dimensions."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Waypoint Sequences",
+      "verdict": "not-applicable",
+      "evidence": "Only structural placeholders/pointers; no validated drawer-specific waypoint recipe was present."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Pre-Probe IK Conditioning",
+      "verdict": "not-applicable",
+      "evidence": "No low-Z placement target; did not previsit a placement or reset home while holding drawer."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Safe Transit (Lateral Escape Before Lift)",
+      "verdict": "not-applicable",
+      "evidence": "Placeholder had no executable recipe and drawer cannot be lifted."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Placement Approach",
+      "verdict": "not-applicable",
+      "evidence": "No pick/place release goal."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Physics Settling After Release",
+      "verdict": "not-applicable",
+      "evidence": "Success is articulated opening during closed-gripper motion; no object-settling wait used."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Basket / Container Placement",
+      "verdict": "not-applicable",
+      "evidence": "No basket/container placement and no home motion while grasping."
+    },
+    {
+      "skill": "manipulation.md",
+      "section": "Knob / Switch Turning",
+      "verdict": "not-applicable",
+      "evidence": "Task requires linear drawer pull, not wrist rotation on a knob."
+    },
+    {
+      "skill": "manipulation.md",
+      "section": "Hinged Door Opening / Closing",
+      "verdict": "not-applicable",
+      "evidence": "Task is prismatic drawer; no inferred hinge or arc pull used."
+    },
+    {
+      "skill": "manipulation.md",
+      "section": "Pushing / Sliding",
+      "verdict": "not-applicable",
+      "evidence": "Section was an empty pattern placeholder, not a working drawer-opening recipe."
+    },
+    {
+      "skill": "manipulation.md",
+      "section": "General Notes",
+      "verdict": "useful",
+      "evidence": "Guarded public motions exposed seed51 transit/contact defects and53,55,59,60,63 pull stalls. v08 staged wrist-clearance repair flipped those5 and retained all10 previous successes (15/15development)."
+    }
+  ],
+  "proposed_edits": [],
+  "proposed_new": [
+    {
+      "skill": "manipulation.md",
+      "title": "Stop normally on public episode termination during an articulated motion",
+      "trigger": "Inside an existing motion helper, motion is the documented ExecutionResult and result is the mutable report mapping. The helper returns a continuation boolean; its caller must check False and return immediately, including within a pull loop. A terminated flag is an episode boundary, not proof of success. The excerpt replaces an exception on every non-ok motion.",
+      "code": "if motion.terminated or motion.truncated:\n    result[\"phase\"] = \"environment_ended\"\n    result[\"environment_terminated\"] = bool(motion.terminated)\n    result[\"environment_truncated\"] = bool(motion.truncated)\n    return False",
+      "evidence": "On seed51 v05 had task_success=True but program_ok=False because it raised on TERMINATED. v06 changed only public terminal control flow and passed both fields. v08 uses the same block and completed all development51-65 with15/15 program_ok and15/15 task_success; root owns task grading, policy never reads success."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "benchmark": "libero-pro",
+  "suite": "libero_goal_swap",
+  "task_id": 0,
+  "seeds": [51, 52, 53, 54, 55],
+  "attempts_used": 2,
+  "trials": 5,
+  "passes": 0,
+  "verdict": "refuted",
+  "skills_applied": [
+    "task-exploration.md#Initial Scene Analysis",
+    "localize.md#Disambiguation: Two Similar Objects in Scene",
+    "localize.md#Prompting Strategy",
+    "grasp.md#Key Conventions",
+    "grasp.md#Object Geometry Utilities",
+    "manipulation.md#General Notes",
+    "proposed:manipulation.md#Stop normally on public episode termination during an articulated motion"
+  ],
+  "proposals": [
+    {
+      "title": "Stop normally on public episode termination during an articulated motion",
+      "disposition": "untested",
+      "note": "The exact snippet was installed in continuation-boolean helpers, and all callers including pull loops checked False. Across 10 measured episodes there were zero public terminated/truncated flags, so its trigger never occurred. Both attempts scored 0/5 task_success and 5/5 program_ok; these scores do not establish or refute this terminal-control-flow mechanism. Do not promote it from this verification."
+    }
+  ],
+  "gaps": [
+    "The library plus proposal does not transmit a complete drawer recipe: handle-relative frontal orientation, clearance around adjacent upper handles, insertion depth, and a viable contact-pull continuation rule remain unspecified. A reconstructed top-down approach stalled in all five v01 seeds; a reconstructed frontal approach reached contact in all five v02 seeds but still did not complete the task.",
+    "A public move_to_pose Cartesian tolerance does not eliminate inner trajectory joint convergence failures. Final v02 pulls were within 6.14–6.35 mm of the requested XYZ, but returned timeout with joint error 0.01007–0.01073 rad against a reported 0.01 rad tolerance. All five stopped after two failed calls, before any terminal flag. A validated, public-observation-based contact-motion recovery or continuation rule is missing; no repair was tested beyond the two-attempt budget."
+  ],
+  "attempts": [
+    {"attempt": 1, "program": "code/v01_from_skills.py", "passes": 0, "program_ok": 5, "terminal_flags": 0, "phases": ["approach_after_stage_failed", "approach_after_stage_failed", "approach_after_stage_failed", "approach_after_stage_failed", "approach_after_stage_failed"]},
+    {"attempt": 2, "program": "code/v02_frontal_handle.py", "passes": 0, "program_ok": 5, "terminal_flags": 0, "phases": ["pull_1_failed", "pull_1_failed", "pull_2_failed", "pull_1_failed", "pull_2_failed"], "steps_executed": [478, 477, 600, 479, 601]}
+  ],
+  "reading_rules": "RESPECTED",
+  "reading_rule_detail": "Read only the assigned prompt, shared skill library, staged proposal, permitted API/run-artifact/LIBERO benchmark docs, and this verifier's own public scene and measured artifacts. No proposer program/history, examples, other task or verifier directories, native assets, real-robot files, credentials, controller implementation, or root RPC sessions were accessed. All writes were inside this verifier directory. All episodes were root-owned fresh-process executions. The initial prompt-read command used an absolute path but omitted explicit workdir; subsequent shell commands set the required repository workdir.",
+  "notes": "The attempt is refuted at 0/5 on both versions, but the sole proposal is untested because its public terminal trigger occurred in 0/10 episodes. Preserve that distinction; no third attempt, held-out run, or tuning after the budget was performed."
+}

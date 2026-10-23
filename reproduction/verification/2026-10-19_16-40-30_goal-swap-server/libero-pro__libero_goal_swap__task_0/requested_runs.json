@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "benchmark": "libero-pro",
+  "suite": "libero_goal_swap",
+  "task_id": 0,
+  "seeds": [
+    51,
+    52,
+    53,
+    54,
+    55
+  ],
+  "init_mode": "seeded",
+  "gpu": 0,
+  "max_steps": 1000,
+  "workers": 1,
+  "program": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/verification/libero-pro__libero_goal_swap__task_0/code/v02_frontal_handle.py",
+  "output_root": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/verification/libero-pro__libero_goal_swap__task_0/debug/v02",
+  "purpose": "Independent verifier final attempt: frontal observed-handle grasp after all-five top-down approach stalls; retain exact proposed termination block",
+  "command": "CUDA_VISIBLE_DEVICES=0 MUJOCO_EGL_DEVICE_ID=0 /mnt/aspire-work/ASPIRE/.venv-libero/bin/cap-harness run-batch --benchmark libero-pro --suite libero_goal_swap --task-id 0 --seeds 51-55 --program /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/verification/libero-pro__libero_goal_swap__task_0/code/v02_frontal_handle.py --output-root /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/verification/libero-pro__libero_goal_swap__task_0/debug/v02 --flat-run-dir --init-mode seeded --max-steps 1000 --workers 1 --log-dir /mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/verification/libero-pro__libero_goal_swap__task_0/debug/logs/v02"
+}

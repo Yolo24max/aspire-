@@ -1,0 +1,19 @@
+{
+  "benchmark": "libero-pro",
+  "suite": "libero_goal_swap",
+  "task_id": 4,
+  "gpu": 0,
+  "run_root": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server",
+  "task_dir": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_4/retry_01",
+  "server_task_dir": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_4/retry_01",
+  "stage": "stage0_probe",
+  "attempt": "retry_01",
+  "source": "code/probe_objects.py",
+  "seed": 51,
+  "output_root": "debug/explore",
+  "init_mode": "seeded",
+  "max_steps": 1000,
+  "workers": 1,
+  "fresh_process": true,
+  "run_kind": "observation_probe"
+}

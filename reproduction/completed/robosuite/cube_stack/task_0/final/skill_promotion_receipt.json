@@ -1,0 +1,26 @@
+{
+  "status": "promoted",
+  "promoted_at": 1792653906.9181545,
+  "title": "Bounded public pose convergence after a rotated pregrasp timeout",
+  "target": "transport.md#Bounded public pose convergence after a rotated pregrasp timeout",
+  "verification_report_sha256": "9e8bd3a725fe8e08fda5f2766fd6113a5aa82a4ed4b669254566c5904a6fd9b3",
+  "verification_audit_sha256": "8ef40ee70c1ac341f51e454f441c70701bf546efd030611a25f6bc955c804bb7",
+  "verifier_source_sha256": "459a147dce38fdf45f68d0f77ab7be7b187e4848d5dbadf1810daf5525efa948",
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105
+  ],
+  "passes": 4,
+  "trials": 5,
+  "reading_rules": "RESPECTED",
+  "causal_ablation": false,
+  "cross_task_generalization": false,
+  "library_file_before_sha256": "8ada797288b238944ab89d3842db4490bcf96d46cbe057cc2ed9a8d01d141e95",
+  "library_file_after_sha256": "f6e3818195835f9c12f2c6b3f2d0e5fcc04769fdd8809b233c76ffcda5faee91",
+  "proposal_snippet": "EXACT_AST_MATCH",
+  "library_lint": "PASS:0 sandbox/undefined/empty-case/reference/advisory issues",
+  "library_sha_after": "139b0f21899063b4"
+}

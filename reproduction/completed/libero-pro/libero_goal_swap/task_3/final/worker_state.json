@@ -1,0 +1,104 @@
+{
+  "scope": "retry_02 only; no parent/sibling/native/controller source reads; no direct episodes",
+  "canonical_skill_sha": "eb66214c23cc9d5a",
+  "initial_success": {
+    "version": "v05",
+    "seed": 51,
+    "program_ok": true,
+    "task_success": true,
+    "steps": 822,
+    "run": "debug/attempts/v05/0051/run-20261020T131825.855322Z-37181fca",
+    "reported_to_root": true
+  },
+  "policy_versions_committed": 8,
+  "remaining_version_slots": 0,
+  "modes": {
+    "initial-policy": 1,
+    "program-scope": 1,
+    "transit-collision": 1,
+    "execution-rate-budget": 1,
+    "pull-endstop": 1,
+    "bowl-grasp": 3,
+    "handle-reobservation": 1
+  },
+  "full_development": {
+    "v05": {
+      "task_success": 11,
+      "program_ok": 15,
+      "total": 15,
+      "failures": {
+        "bowl-grasp": [
+          52,
+          62,
+          63
+        ],
+        "handle-reobservation": [
+          65
+        ]
+      }
+    },
+    "v06": {
+      "task_success": 12,
+      "program_ok": 15,
+      "total": 15,
+      "flipped": [
+        63
+      ],
+      "regressed": [],
+      "failures": {
+        "bowl-grasp": [
+          52,
+          62
+        ],
+        "handle-reobservation": [
+          65
+        ]
+      }
+    },
+    "v07": {
+      "task_success": 15,
+      "program_ok": 15,
+      "total": 15,
+      "flipped": [
+        52,
+        62,
+        65
+      ],
+      "regressed": [],
+      "whole_policy_comparison": true
+    }
+  },
+  "current_request": "Completed exact-once unseen; Stage1 complete",
+  "next": "Return factual handoff; root alone owns heldout1-50",
+  "unseen": {
+    "seeds": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+    ],
+    "root": "C:/Users/24683/Documents/ChatGPT/RSI/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_3/retry_02/debug/holdout",
+    "server_root": "/mnt/aspire-work/ASPIRE/outputs/runs/2026-10-19_16-40-30_goal-swap-server/libero-pro/libero_goal_swap/task_3/retry_02/debug/holdout",
+    "task_success": 15,
+    "program_ok": 15,
+    "count": 15,
+    "measurements": 1,
+    "residual_regimes": "none observed in measured development/unseen scenes"
+  },
+  "heldout": "1-50 root-only, never read/request",
+  "fix_code": "Written as exact frozen-source byte copy after measured coverage and audit",
+  "draft_reports": "provenance_audit.md, policy_source_audit.json, source_hashes.json, artifact_index.md, skill_report.draft.json (official validator OK; 27 consulted sections, proposals empty so far)",
+  "helpers": "submit_request.ps1; summarize_sweep.ps1; audit_policy_sources.py (offline, not action policy)",
+  "runtime_notes": "Only math import. Global forbidden (v00). Slow elbow required solve_ik+move_to_joints cap260 instead of move_to_pose fixed120 final trajectory wait. Drawer stroke0.85 observed cabinet depth works. v05 bowl fallback gp=(bcx-.85rx,bcy,top-.012), jawX topdown; v06 only changes depth to top-.022. Successful environment terminates during lowering so policy report error/completedfalse accompanies program_ok/task_successtrue; use outcome authority."
+}

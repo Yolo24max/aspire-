@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "benchmark": "libero-pro",
+  "suite": "libero_goal_swap",
+  "task_id": 4,
+  "skill_library_sha": "c050e38ea9eff52c",
+  "consulted": [
+    {
+      "skill": "task-exploration.md",
+      "section": "Triage, run isolation, and sandbox constraints",
+      "verdict": "useful",
+      "evidence": "Artifact-first triage identified the v00 program error, v01-v07 outcomes, and keyframes without running episodes locally; the clean-task-slate constraints were followed throughout."
+    },
+    {
+      "skill": "localize.md",
+      "section": "Standard Localization Helper, Prompt Registry, Disambiguation, Key Signals, Prompting Strategy, Placement Z Notes",
+      "verdict": "useful",
+      "evidence": "The literal fallback prompts grey bowl, metal bowl, bowl and black cabinet, drawer cabinet, cabinet consistently localized both objects on seed 51 and supplied runtime point clouds for all geometry."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Standard Pick-and-Place Template",
+      "verdict": "misleading",
+      "evidence": "Following the downward top-down template reached and closed on the bowl in v01, v05, and v07, but keyframes showed the bowl remained on the tabletop during lift and task_success stayed false on seed 51; this cost three measured attempts."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Cylindrical Side Grasp",
+      "verdict": "not-applicable",
+      "evidence": "The picked object was a shallow bowl rather than a bottle or can, so the cylindrical side-grasp recipe was not applied."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Key Conventions",
+      "verdict": "useful",
+      "evidence": "The programs used close_gripper rather than set_gripper, checked typed motion results, and treated close success as insufficient; v05 and v07 keyframe review confirmed the need for retention verification."
+    },
+    {
+      "skill": "grasp.md",
+      "section": "Object Geometry Utilities",
+      "verdict": "useful",
+      "evidence": "Quantiles over the public bowl and cabinet point clouds produced stable runtime-derived grasp height, bowl clearance, cabinet surface, and placement coordinates on seed 51."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Waypoint Sequences and Placement Approach",
+      "verdict": "useful",
+      "evidence": "The staged lift, transit, carry, place sequence completed all motion calls in v05 and v07 without program errors; it was not the limiting failure because the bowl was never retained."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Pre-Probe IK Conditioning and Safe Transit",
+      "verdict": "not-applicable",
+      "evidence": "No retained-object transit was available to evaluate these sections independently; the measured failures occurred before a verified carry."
+    },
+    {
+      "skill": "transport.md",
+      "section": "Basket / Container Placement",
+      "verdict": "not-applicable",
+      "evidence": "The target was a cabinet top plane rather than a basket or container interior."
+    },
+    {
+      "skill": "manipulation.md",
+      "section": "Knob / Switch Turning, Hinged Door Opening / Closing, Pushing / Sliding, General Notes",
+      "verdict": "not-applicable",
+      "evidence": "Task 4 is a bowl pick-and-place with no knob, hinged door, or push interaction."
+    }
+  ],
+  "proposed_edits": [],
+  "proposed_new": []
+}

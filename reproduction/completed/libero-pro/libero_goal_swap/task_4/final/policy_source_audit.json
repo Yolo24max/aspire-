@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "scope": "retry_03 frozen v01 offline provenance audit; no simulator internals",
+  "source": "ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_4\\retry_03\\code\\v01_terminal_release.py",
+  "sha256": "f60e9cd008601cf483bd4998f9786106f178f9a11c3ef3889c48642c3970cec1",
+  "imports": [
+    "import math"
+  ],
+  "private_names": [],
+  "private_attributes": [],
+  "forbidden_calls": [],
+  "source_immutable": true,
+  "provenance_static_pass": true
+}

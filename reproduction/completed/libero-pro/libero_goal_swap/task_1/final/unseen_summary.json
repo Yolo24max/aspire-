@@ -1,0 +1,1272 @@
+{
+  "program": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\code\\v08_geometry_rim_only.py",
+  "source_hash": "6c869cea3ba5bf7de27faa32cac7387dd53da2041d3349733581c907db8f7226",
+  "output_root": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen",
+  "seeds": [
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "successes": 13,
+  "program_ok": 15,
+  "total": 15,
+  "rows": [
+    {
+      "seed": 66,
+      "program_ok": true,
+      "task_success": false,
+      "steps": 725,
+      "reason": "program_completed",
+      "error": null,
+      "result": {
+        "grasp": [
+          0.5138939968006376,
+          -0.06818027753304373,
+          0.025975485322398028
+        ],
+        "held_camera": "robot0_eye_in_hand",
+        "held_center": [
+          0.46131188486788804,
+          -0.05063255160866099,
+          0.28412021423531064
+        ],
+        "landed_center": [
+          0.5895640231043695,
+          -0.2625976328675664,
+          0.05248926033755097
+        ],
+        "lift_observed": true,
+        "moves": [
+          {
+            "label": "pregrasp",
+            "ok": true,
+            "position_error": 0.007914270280051056
+          },
+          {
+            "label": "grasp",
+            "ok": true,
+            "position_error": 0.015025544007773395
+          },
+          {
+            "label": "lift",
+            "ok": true,
+            "position_error": 0.0030660839173088637
+          },
+          {
+            "label": "transport",
+            "ok": true,
+            "position_error": 0.00482846371960662
+          },
+          {
+            "label": "lower",
+            "ok": true,
+            "position_error": 0.015095806333405463
+          },
+          {
+            "label": "retract",
+            "ok": true,
+            "position_error": 0.001963622843293895
+          }
+        ],
+        "object": {
+          "center": [
+            0.47391464035422576,
+            -0.06818027753304373
+          ],
+          "high": 0.03797548532239803,
+          "low": -0.00394082449539257
+        },
+        "release_pose": [
+          0.6575189425772545,
+          -0.2607359230878215,
+          0.09979680319388748
+        ],
+        "target": [
+          0.602198902150086,
+          -0.24314193472590828,
+          0.019562228683218885
+        ],
+        "task": "Put the bowl on the stove"
+      },
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0066\\run-20261019T124917.048088Z-e42473ce",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0066\\run-20261019T124917.048088Z-e42473ce\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0066\\run-20261019T124917.048088Z-e42473ce\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 67,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 692,
+      "reason": "task_succeeded",
+      "error": null,
+      "result": {
+        "grasp": [
+          0.5041341521679525,
+          -0.05208410284549882,
+          0.025935194776408054
+        ],
+        "held_camera": "agentview",
+        "held_center": [
+          0.4699947634883636,
+          -0.05239565712768378,
+          0.2836931354806023
+        ],
+        "landed_center": [
+          0.5915888730370353,
+          -0.22897700222583706,
+          0.04977256852786682
+        ],
+        "lift_observed": true,
+        "moves": [
+          {
+            "label": "pregrasp",
+            "ok": true,
+            "position_error": 0.006329452938224994
+          },
+          {
+            "label": "grasp",
+            "ok": true,
+            "position_error": 0.013474450190631487
+          },
+          {
+            "label": "lift",
+            "ok": true,
+            "position_error": 0.003326282295424858
+          },
+          {
+            "label": "transport",
+            "ok": true,
+            "position_error": 0.009966655920757343
+          },
+          {
+            "label": "lower",
+            "ok": true,
+            "position_error": 0.016065685664832827
+          },
+          {
+            "label": "retract",
+            "ok": true,
+            "position_error": 0.006032370055911767
+          }
+        ],
+        "object": {
+          "center": [
+            0.46483211563550697,
+            -0.05208410284549882
+          ],
+          "high": 0.037935194776408054,
+          "low": -0.0037190505580095845
+        },
+        "release_pose": [
+          0.6462981279532578,
+          -0.2262033553927742,
+          0.10026204312715495
+        ],
+        "target": [
+          0.6091724468490454,
+          -0.22659090081254915,
+          0.01955696065637902
+        ],
+        "task": "Put the bowl on the stove"
+      },
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0067\\run-20261019T125018.711377Z-82c7cca8",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0067\\run-20261019T125018.711377Z-82c7cca8\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0067\\run-20261019T125018.711377Z-82c7cca8\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 68,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 709,
+      "reason": "task_succeeded",
+      "error": null,
+      "result": {
+        "grasp": [
+          0.48546720003254284,
+          -0.06346473102238055,
+          0.02599050941162585
+        ],
+        "held_camera": "agentview",
+        "held_center": [
+          0.45117856070681556,
+          -0.06494156409825891,
+          0.2886838707389632
+        ],
+        "landed_center": [
+          0.5767490760279393,
+          -0.23839812141019595,
+          0.049541486501122334
+        ],
+        "lift_observed": true,
+        "moves": [
+          {
+            "label": "pregrasp",
+            "ok": true,
+            "position_error": 0.0071295780332403125
+          },
+          {
+            "label": "grasp",
+            "ok": true,
+            "position_error": 0.013282319485803813
+          },
+          {
+            "label": "lift",
+            "ok": true,
+            "position_error": 0.003778232720545355
+          },
+          {
+            "label": "transport",
+            "ok": true,
+            "position_error": 0.004688225636717813
+          },
+          {
+            "label": "lower",
+            "ok": true,
+            "position_error": 0.015516841698065238
+          },
+          {
+            "label": "retract",
+            "ok": true,
+            "position_error": 0.006424870954586104
+          }
+        ],
+        "object": {
+          "center": [
+            0.44786241625191314,
+            -0.06346473102238055
+          ],
+          "high": 0.03799050941162585,
+          "low": -0.0036549264771538192
+        },
+        "release_pose": [
+          0.6482273425333005,
+          -0.23387984433164694,
+          0.09551220310804406
+        ],
+        "target": [
+          0.6105391681074559,
+          -0.23537387739182378,
+          0.019556956612334697
+        ],
+        "task": "Put the bowl on the stove"
+      },
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0068\\run-20261019T125120.678434Z-bc462a7d",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0068\\run-20261019T125120.678434Z-bc462a7d\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0068\\run-20261019T125120.678434Z-bc462a7d\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 69,
+      "program_ok": true,
+      "task_success": false,
+      "steps": 723,
+      "reason": "program_completed",
+      "error": null,
+      "result": {
+        "grasp": [
+          0.5055721506582347,
+          -0.06912768266945071,
+          0.026052554629140034
+        ],
+        "held_camera": "agentview",
+        "held_center": [
+          0.4641850761280564,
+          -0.06802976704748004,
+          0.27873197257331206
+        ],
+        "landed_center": [
+          0.5955340336147662,
+          -0.2410273197134678,
+          0.052010531604744115
+        ],
+        "lift_observed": true,
+        "moves": [
+          {
+            "label": "pregrasp",
+            "ok": true,
+            "position_error": 0.008267954862601713
+          },
+          {
+            "label": "grasp",
+            "ok": true,
+            "position_error": 0.013137222208607687
+          },
+          {
+            "label": "lift",
+            "ok": true,
+            "position_error": 0.003276257399771785
+          },
+          {
+            "label": "transport",
+            "ok": true,
+            "position_error": 0.004557325665957398
+          },
+          {
+            "label": "lower",
+            "ok": true,
+            "position_error": 0.01464343173219385
+          },
+          {
+            "label": "retract",
+            "ok": true,
+            "position_error": 0.0026012197541491876
+          }
+        ],
+        "object": {
+          "center": [
+            0.4656825835752734,
+            -0.06912768266945071
+          ],
+          "high": 0.038052554629140034,
+          "low": -0.003874315262754724
+        },
+        "release_pose": [
+          0.6527505154551365,
+          -0.23845709478512667,
+          0.10532432022917812
+        ],
+        "target": [
+          0.6084241918188305,
+          -0.23731996621392148,
+          0.019556969502726007
+        ],
+        "task": "Put the bowl on the stove"
+      },
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0069\\run-20261019T125223.011367Z-ae20c8c5",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0069\\run-20261019T125223.011367Z-ae20c8c5\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0069\\run-20261019T125223.011367Z-ae20c8c5\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 70,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 696,
+      "reason": "task_succeeded",
+      "error": null,
+      "result": {
+        "grasp": [
+          0.5057146842477448,
+          -0.04991500409638099,
+          0.02588670686499551
+        ],
+        "held_camera": "agentview",
+        "held_center": [
+          0.4638279631944375,
+          -0.04868141200748341,
+          0.2819521092197447
+        ],
+        "landed_center": [
+          0.5779591146617101,
+          -0.2342280078736577,
+          0.049845787650507845
+        ],
+        "lift_observed": true,
+        "moves": [
+          {
+            "label": "pregrasp",
+            "ok": true,
+            "position_error": 0.006841650979144174
+          },
+          {
+            "label": "grasp",
+            "ok": true,
+            "position_error": 0.013322802262871691
+          },
+          {
+            "label": "lift",
+            "ok": true,
+            "position_error": 0.0032845819051828804
+          },
+          {
+            "label": "transport",
+            "ok": true,
+            "position_error": 0.008436307063046298
+          },
+          {
+            "label": "lower",
+            "ok": true,
+            "position_error": 0.015620463533340205
+          },
+          {
+            "label": "retract",
+            "ok": true,
+            "position_error": 0.006459359717069114
+          }
+        ],
+        "object": {
+          "center": [
+            0.48938603308961964,
+            -0.04991500409638099
+          ],
+          "high": 0.03788670686499551,
+          "low": -0.003886640842715283
+        },
+        "release_pose": [
+          0.6397932735287819,
+          -0.23119146684280797,
+          0.10194712600781417
+        ],
+        "target": [
+          0.594958872011302,
+          -0.23005968102925975,
+          0.019567089448153774
+        ],
+        "task": "Put the bowl on the stove"
+      },
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0070\\run-20261019T125317.450104Z-5edfd6c9",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0070\\run-20261019T125317.450104Z-5edfd6c9\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0070\\run-20261019T125317.450104Z-5edfd6c9\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 71,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 713,
+      "reason": "task_succeeded",
+      "error": null,
+      "result": {
+        "grasp": [
+          0.48796188352948644,
+          -0.04580809618041491,
+          0.02628440297428215
+        ],
+        "held_camera": "robot0_eye_in_hand",
+        "held_center": [
+          0.4361286623152347,
+          -0.029360872209783503,
+          0.2836302096881609
+        ],
+        "landed_center": [
+          0.5876591899740147,
+          -0.2597358783676858,
+          0.049787055288880944
+        ],
+        "lift_observed": true,
+        "moves": [
+          {
+            "label": "pregrasp",
+            "ok": true,
+            "position_error": 0.0071720357195554085
+          },
+          {
+            "label": "grasp",
+            "ok": true,
+            "position_error": 0.014423955906013614
+          },
+          {
+            "label": "lift",
+            "ok": true,
+            "position_error": 0.0035066811254647777
+          },
+          {
+            "label": "transport",
+            "ok": true,
+            "position_error": 0.005060481502690161
+          },
+          {
+            "label": "lower",
+            "ok": true,
+            "position_error": 0.01512050017362313
+          },
+          {
+            "label": "retract",
+            "ok": true,
+            "position_error": 0.006265762594286422
+          }
+        ],
+        "object": {
+          "center": [
+            0.4846279522984194,
+            -0.04580809618041491
+          ],
+          "high": 0.03828440297428215,
+          "low": -0.003718257044527107
+        },
+        "release_pose": [
+          0.6562983204348942,
+          -0.25512565437474916,
+          0.10075088445814637
+        ],
+        "target": [
+          0.601315432585994,
+          -0.2388262107714881,
+          0.01956222919162509
+        ],
+        "task": "Put the bowl on the stove"
+      },
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0071\\run-20261019T125416.672957Z-bac17021",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0071\\run-20261019T125416.672957Z-bac17021\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0071\\run-20261019T125416.672957Z-bac17021\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 72,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 703,
+      "reason": "task_succeeded",
+      "error": null,
+      "result": {
+        "grasp": [
+          0.48645300515584566,
+          -0.05332365402446224,
+          0.02616291685702511
+        ],
+        "held_camera": "agentview",
+        "held_center": [
+          0.45205399112702377,
+          -0.05445699048891182,
+          0.2910391980200729
+        ],
+        "landed_center": [
+          0.5727608101060561,
+          -0.23452395772096227,
+          0.04981017859402859
+        ],
+        "lift_observed": true,
+        "moves": [
+          {
+            "label": "pregrasp",
+            "ok": true,
+            "position_error": 0.0069887562198574105
+          },
+          {
+            "label": "grasp",
+            "ok": true,
+            "position_error": 0.013187110072785597
+          },
+          {
+            "label": "lift",
+            "ok": true,
+            "position_error": 0.0034516852797898388
+          },
+          {
+            "label": "transport",
+            "ok": true,
+            "position_error": 0.004946430352115589
+          },
+          {
+            "label": "lower",
+            "ok": true,
+            "position_error": 0.016770636289736976
+          },
+          {
+            "label": "retract",
+            "ok": true,
+            "position_error": 0.006347187629275036
+          }
+        ],
+        "object": {
+          "center": [
+            0.48580158882549695,
+            -0.05332365402446224
+          ],
+          "high": 0.03816291685702511,
+          "low": -0.0036938985526917545
+        },
+        "release_pose": [
+          0.6399602471089998,
+          -0.23126448306710848,
+          0.09374546106665829
+        ],
+        "target": [
+          0.6027931131814842,
+          -0.23249791014554835,
+          0.01956222156553089
+        ],
+        "task": "Put the bowl on the stove"
+      },
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0072\\run-20261019T125518.344270Z-49cd4610",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0072\\run-20261019T125518.344270Z-49cd4610\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0072\\run-20261019T125518.344270Z-49cd4610\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 73,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 701,
+      "reason": "task_succeeded",
+      "error": null,
+      "result": {
+        "grasp": [
+          0.4968282420802934,
+          -0.054015240843671486,
+          0.026016439098279786
+        ],
+        "held_camera": "agentview",
+        "held_center": [
+          0.46261250494838213,
+          -0.05446257102710381,
+          0.28909562908563263
+        ],
+        "landed_center": [
+          0.5784992611543955,
+          -0.2480468450173227,
+          0.049766953997974595
+        ],
+        "lift_observed": true,
+        "moves": [
+          {
+            "label": "pregrasp",
+            "ok": true,
+            "position_error": 0.006762442591830753
+          },
+          {
+            "label": "grasp",
+            "ok": true,
+            "position_error": 0.012866616412048969
+          },
+          {
+            "label": "lift",
+            "ok": true,
+            "position_error": 0.003631285780561106
+          },
+          {
+            "label": "transport",
+            "ok": true,
+            "position_error": 0.004654441251960341
+          },
+          {
+            "label": "lower",
+            "ok": true,
+            "position_error": 0.015647460412675705
+          },
+          {
+            "label": "retract",
+            "ok": true,
+            "position_error": 0.006532708421294395
+          }
+        ],
+        "object": {
+          "center": [
+            0.45714106015991834,
+            -0.054015240843671486
+          ],
+          "high": 0.038016439098279786,
+          "low": -0.00374266991239669
+        },
+        "release_pose": [
+          0.6430468306915952,
+          -0.24445900672211654,
+          0.09506136537365564
+        ],
+        "target": [
+          0.6055619295238196,
+          -0.24497609805818937,
+          0.01956133520273473
+        ],
+        "task": "Put the bowl on the stove"
+      },
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0073\\run-20261019T125617.786164Z-762a9b85",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0073\\run-20261019T125617.786164Z-762a9b85\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0073\\run-20261019T125617.786164Z-762a9b85\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 74,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 700,
+      "reason": "task_succeeded",
+      "error": null,
+      "result": {
+        "grasp": [
+          0.5000528854201396,
+          -0.04876867365582857,
+          0.025951152195936477
+        ],
+        "held_camera": "agentview",
+        "held_center": [
+          0.46603113710056054,
+          -0.04905382180583869,
+          0.28928295125949927
+        ],
+        "landed_center": [
+          0.5767583660588342,
+          -0.24424622248260763,
+          0.0496401385993781
+        ],
+        "lift_observed": true,
+        "moves": [
+          {
+            "label": "pregrasp",
+            "ok": true,
+            "position_error": 0.008121390088875836
+          },
+          {
+            "label": "grasp",
+            "ok": true,
+            "position_error": 0.013744470932450452
+          },
+          {
+            "label": "lift",
+            "ok": true,
+            "position_error": 0.0034527533202406775
+          },
+          {
+            "label": "transport",
+            "ok": true,
+            "position_error": 0.004684904034651994
+          },
+          {
+            "label": "lower",
+            "ok": true,
+            "position_error": 0.015633628038228424
+          },
+          {
+            "label": "retract",
+            "ok": true,
+            "position_error": 0.006516686736191251
+          }
+        ],
+        "object": {
+          "center": [
+            0.46079306441878004,
+            -0.04876867365582857
+          ],
+          "high": 0.03795115219593648,
+          "low": -0.003824628198419888
+        },
+        "release_pose": [
+          0.648346639217438,
+          -0.23858454178138574,
+          0.09473406614559679
+        ],
+        "target": [
+          0.6112230495996189,
+          -0.23897058136715116,
+          0.01955262135268554
+        ],
+        "task": "Put the bowl on the stove"
+      },
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0074\\run-20261019T125717.586730Z-cbc7e6dd",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0074\\run-20261019T125717.586730Z-cbc7e6dd\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0074\\run-20261019T125717.586730Z-cbc7e6dd\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 75,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 701,
+      "reason": "task_succeeded",
+      "error": null,
+      "result": {
+        "grasp": [
+          0.4947379679788977,
+          -0.04676004085127776,
+          0.02648085426238579
+        ],
+        "held_camera": "agentview",
+        "held_center": [
+          0.46131025950713084,
+          -0.04827833419387142,
+          0.2870734363132526
+        ],
+        "landed_center": [
+          0.5761437129848043,
+          -0.23414142114327163,
+          0.04903026418837708
+        ],
+        "lift_observed": true,
+        "moves": [
+          {
+            "label": "pregrasp",
+            "ok": true,
+            "position_error": 0.00747954066316014
+          },
+          {
+            "label": "grasp",
+            "ok": true,
+            "position_error": 0.012984027645192745
+          },
+          {
+            "label": "lift",
+            "ok": true,
+            "position_error": 0.0036325002292271237
+          },
+          {
+            "label": "transport",
+            "ok": true,
+            "position_error": 0.005296728525797388
+          },
+          {
+            "label": "lower",
+            "ok": true,
+            "position_error": 0.016250067498772405
+          },
+          {
+            "label": "retract",
+            "ok": true,
+            "position_error": 0.006534725150962844
+          }
+        ],
+        "object": {
+          "center": [
+            0.4838104352936196,
+            -0.04676004085127776
+          ],
+          "high": 0.03848085426238579,
+          "low": -0.003906778086074536
+        },
+        "release_pose": [
+          0.6507940199627376,
+          -0.22830800172254254,
+          0.09753744986600646
+        ],
+        "target": [
+          0.6140968616209953,
+          -0.2299533337395102,
+          0.019552180010556808
+        ],
+        "task": "Put the bowl on the stove"
+      },
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0075\\run-20261019T125815.971799Z-02c5d268",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0075\\run-20261019T125815.971799Z-02c5d268\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0075\\run-20261019T125815.971799Z-02c5d268\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 76,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 718,
+      "reason": "task_succeeded",
+      "error": null,
+      "result": {
+        "grasp": [
+          0.48770283891742483,
+          -0.053736487515087486,
+          0.025955697582326753
+        ],
+        "held_camera": "robot0_eye_in_hand",
+        "held_center": [
+          0.4360267566969661,
+          -0.03525193833574886,
+          0.2855898640858461
+        ],
+        "landed_center": [
+          0.5971954749714388,
+          -0.24790124584876105,
+          0.05034434161842882
+        ],
+        "lift_observed": true,
+        "moves": [
+          {
+            "label": "pregrasp",
+            "ok": true,
+            "position_error": 0.007612054052331229
+          },
+          {
+            "label": "grasp",
+            "ok": true,
+            "position_error": 0.014429891216921828
+          },
+          {
+            "label": "lift",
+            "ok": true,
+            "position_error": 0.0036960000637796878
+          },
+          {
+            "label": "transport",
+            "ok": true,
+            "position_error": 0.004097295028424283
+          },
+          {
+            "label": "lower",
+            "ok": true,
+            "position_error": 0.0153296209310455
+          },
+          {
+            "label": "retract",
+            "ok": true,
+            "position_error": 0.006123108690621646
+          }
+        ],
+        "object": {
+          "center": [
+            0.4477298309483044,
+            -0.053736487515087486
+          ],
+          "high": 0.03795569758232675,
+          "low": -0.0038491088858206846
+        },
+        "release_pose": [
+          0.6661620009091836,
+          -0.24661390495772367,
+          0.09853422989245739
+        ],
+        "target": [
+          0.6111611447463645,
+          -0.2282194676000052,
+          0.01955651098960809
+        ],
+        "task": "Put the bowl on the stove"
+      },
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0076\\run-20261019T125915.074125Z-c5857482",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0076\\run-20261019T125915.074125Z-c5857482\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0076\\run-20261019T125915.074125Z-c5857482\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 77,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 701,
+      "reason": "task_succeeded",
+      "error": null,
+      "result": {
+        "grasp": [
+          0.4972069675424313,
+          -0.04893992629072421,
+          0.026425728519866697
+        ],
+        "held_camera": "agentview",
+        "held_center": [
+          0.4635905069487495,
+          -0.0501314935743406,
+          0.28568609388625016
+        ],
+        "landed_center": [
+          0.5795391731206969,
+          -0.2466116377586894,
+          0.04962103992017042
+        ],
+        "lift_observed": true,
+        "moves": [
+          {
+            "label": "pregrasp",
+            "ok": true,
+            "position_error": 0.006715202866104484
+          },
+          {
+            "label": "grasp",
+            "ok": true,
+            "position_error": 0.012822878136290242
+          },
+          {
+            "label": "lift",
+            "ok": true,
+            "position_error": 0.003582620468165184
+          },
+          {
+            "label": "transport",
+            "ok": true,
+            "position_error": 0.004278123696518058
+          },
+          {
+            "label": "lower",
+            "ok": true,
+            "position_error": 0.015822490385797205
+          },
+          {
+            "label": "retract",
+            "ok": true,
+            "position_error": 0.0061279654955910855
+          }
+        ],
+        "object": {
+          "center": [
+            0.48559010772585454,
+            -0.04893992629072421
+          ],
+          "high": 0.0384257285198667,
+          "low": -0.0037932378399598843
+        },
+        "release_pose": [
+          0.6465281581004593,
+          -0.2431002935630192,
+          0.09885692250396064
+        ],
+        "target": [
+          0.6096885942408001,
+          -0.24439583263415274,
+          0.019556530162317953
+        ],
+        "task": "Put the bowl on the stove"
+      },
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0077\\run-20261019T130017.583904Z-1dac0af4",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0077\\run-20261019T130017.583904Z-1dac0af4\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0077\\run-20261019T130017.583904Z-1dac0af4\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 78,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 712,
+      "reason": "task_succeeded",
+      "error": null,
+      "result": {
+        "grasp": [
+          0.4858658700851708,
+          -0.05983963978407765,
+          0.02615642846788614
+        ],
+        "held_camera": "robot0_eye_in_hand",
+        "held_center": [
+          0.4343066160349361,
+          -0.04350484969990104,
+          0.28336810348032465
+        ],
+        "landed_center": [
+          0.5842562003126051,
+          -0.2620978623104052,
+          0.049862517217922564
+        ],
+        "lift_observed": true,
+        "moves": [
+          {
+            "label": "pregrasp",
+            "ok": true,
+            "position_error": 0.0072934134259450304
+          },
+          {
+            "label": "grasp",
+            "ok": true,
+            "position_error": 0.01458183547258725
+          },
+          {
+            "label": "lift",
+            "ok": true,
+            "position_error": 0.0037174913059089196
+          },
+          {
+            "label": "transport",
+            "ok": true,
+            "position_error": 0.004862413194643689
+          },
+          {
+            "label": "lower",
+            "ok": true,
+            "position_error": 0.015198708763332127
+          },
+          {
+            "label": "retract",
+            "ok": true,
+            "position_error": 0.006189887419234568
+          }
+        ],
+        "object": {
+          "center": [
+            0.4897650632251142,
+            -0.05983963978407765
+          ],
+          "high": 0.03815642846788614,
+          "low": -0.0037040930308527287
+        },
+        "release_pose": [
+          0.653016900670446,
+          -0.25643364976104693,
+          0.10097789835459117
+        ],
+        "target": [
+          0.5981156013272317,
+          -0.24014573903176237,
+          0.019562220548718257
+        ],
+        "task": "Put the bowl on the stove"
+      },
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0078\\run-20261019T130116.851006Z-8f068148",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0078\\run-20261019T130116.851006Z-8f068148\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0078\\run-20261019T130116.851006Z-8f068148\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 79,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 707,
+      "reason": "task_succeeded",
+      "error": null,
+      "result": {
+        "grasp": [
+          0.4883301564787037,
+          -0.060136219323982144,
+          0.02635139880183047
+        ],
+        "held_camera": "robot0_eye_in_hand",
+        "held_center": [
+          0.43632356921806453,
+          -0.04368259508959726,
+          0.2831976088702942
+        ],
+        "landed_center": [
+          0.5803701571536443,
+          -0.2499316905190076,
+          0.04976377748385363
+        ],
+        "lift_observed": true,
+        "moves": [
+          {
+            "label": "pregrasp",
+            "ok": true,
+            "position_error": 0.006385789909467725
+          },
+          {
+            "label": "grasp",
+            "ok": true,
+            "position_error": 0.014394023116085593
+          },
+          {
+            "label": "lift",
+            "ok": true,
+            "position_error": 0.0032530151604208235
+          },
+          {
+            "label": "transport",
+            "ok": true,
+            "position_error": 0.005518053258410193
+          },
+          {
+            "label": "lower",
+            "ok": true,
+            "position_error": 0.015258467697445094
+          },
+          {
+            "label": "retract",
+            "ok": true,
+            "position_error": 0.006060741007723959
+          }
+        ],
+        "object": {
+          "center": [
+            0.45181939792159864,
+            -0.060136219323982144
+          ],
+          "high": 0.03835139880183047,
+          "low": -0.0037876195789487976
+        },
+        "release_pose": [
+          0.6502816789101666,
+          -0.2439112423821771,
+          0.10118976548794387
+        ],
+        "target": [
+          0.595375160533465,
+          -0.2275011290076261,
+          0.01956267519290511
+        ],
+        "task": "Put the bowl on the stove"
+      },
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0079\\run-20261019T130218.460538Z-a90783e2",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0079\\run-20261019T130218.460538Z-a90783e2\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0079\\run-20261019T130218.460538Z-a90783e2\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    },
+    {
+      "seed": 80,
+      "program_ok": true,
+      "task_success": true,
+      "steps": 707,
+      "reason": "task_succeeded",
+      "error": null,
+      "result": {
+        "grasp": [
+          0.5109229326788808,
+          -0.049352188307377295,
+          0.026116443922996734
+        ],
+        "held_camera": "robot0_eye_in_hand",
+        "held_center": [
+          0.4587470666407858,
+          -0.03323560485720631,
+          0.2845986976099079
+        ],
+        "landed_center": [
+          0.5896061628130397,
+          -0.25551323644840984,
+          0.04972495138623445
+        ],
+        "lift_observed": true,
+        "moves": [
+          {
+            "label": "pregrasp",
+            "ok": true,
+            "position_error": 0.008075383922286034
+          },
+          {
+            "label": "grasp",
+            "ok": true,
+            "position_error": 0.012773500101798592
+          },
+          {
+            "label": "lift",
+            "ok": true,
+            "position_error": 0.003181465173417802
+          },
+          {
+            "label": "transport",
+            "ok": true,
+            "position_error": 0.0045636189095769625
+          },
+          {
+            "label": "lower",
+            "ok": true,
+            "position_error": 0.015384377764765051
+          },
+          {
+            "label": "retract",
+            "ok": true,
+            "position_error": 0.00610280813178621
+          }
+        ],
+        "object": {
+          "center": [
+            0.47357661506088167,
+            -0.049352188307377295
+          ],
+          "high": 0.038116443922996734,
+          "low": -0.0037643364467969676
+        },
+        "release_pose": [
+          0.6584870058112549,
+          -0.25150787351319837,
+          0.09947880186257177
+        ],
+        "target": [
+          0.6034568081340769,
+          -0.2354656046974895,
+          0.019557848907927666
+        ],
+        "task": "Put the bowl on the stove"
+      },
+      "run_dir": "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0080\\run-20261019T130320.595092Z-ff97546d",
+      "videos": [
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0080\\run-20261019T130320.595092Z-ff97546d\\media\\videos\\agentview.mp4",
+        "C:\\Users\\24683\\Documents\\ChatGPT\\RSI\\ASPIRE\\outputs\\runs\\2026-10-19_16-40-30_goal-swap-server\\libero-pro\\libero_goal_swap\\task_1\\debug\\holdout\\v08_unseen\\0080\\run-20261019T130320.595092Z-ff97546d\\media\\videos\\robot0_eye_in_hand.mp4"
+      ]
+    }
+  ]
+}

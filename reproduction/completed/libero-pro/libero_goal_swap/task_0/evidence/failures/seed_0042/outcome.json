@@ -1,0 +1,80 @@
+{
+  "cumulative_reward": 0.0,
+  "environment_terminated": false,
+  "environment_truncated": false,
+  "error": {
+    "$type": "ApiError",
+    "code": "execution_failed",
+    "details": {
+      "exception_type": "ValueError"
+    },
+    "message": "program execution failed: ValueError: motion failed: pull_2",
+    "recoverable": true
+  },
+  "finalization_errors": [],
+  "program_ok": false,
+  "protocol_success": null,
+  "schema_version": "1.0",
+  "simulator_duration_s": 38.9,
+  "steps_executed": 778,
+  "success_observed_step": null,
+  "task_success": false,
+  "termination_description": "The generated program was rejected or raised an exception.",
+  "termination_reason": "program_error",
+  "timing": {
+    "attributed_s": 42.176068,
+    "buckets": {
+      "adapter_step": {
+        "calls": 778,
+        "seconds": 22.020767
+      },
+      "finalize": {
+        "calls": 1,
+        "seconds": 0.003327
+      },
+      "keyframe": {
+        "calls": 20,
+        "seconds": 1.260045
+      },
+      "overlay": {
+        "calls": 3,
+        "seconds": 4.429524
+      },
+      "provider.curobo": {
+        "calls": 2,
+        "seconds": 3.056794
+      },
+      "provider.pyroki": {
+        "calls": 6,
+        "seconds": 0.029614
+      },
+      "provider.sam3": {
+        "calls": 3,
+        "seconds": 1.845755
+      },
+      "record_step": {
+        "calls": 778,
+        "seconds": 0.254508
+      },
+      "reset": {
+        "calls": 1,
+        "seconds": 7.029137
+      },
+      "setup": {
+        "calls": 1,
+        "seconds": 7.3e-05
+      },
+      "trace_write": {
+        "calls": 224,
+        "seconds": 0.060724
+      },
+      "video_encode": {
+        "calls": 780,
+        "seconds": 2.185801
+      }
+    },
+    "unattributed_s": 2.357764,
+    "wall_s": 44.533832
+  },
+  "wall_duration_s": 44.53383192594629
+}
